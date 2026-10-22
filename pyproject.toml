@@ -1,0 +1,11 @@
+[project]
+name = "tarot-choose"
+version = "0.1.0"
+description = "每天一张牌：密码学安全随机抽取、固定牌义与邮件投递"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.tarot-choose]
+tested-python = "3.12.10"
+timezone = "Asia/Shanghai"
+daily-send-time = "08:00"
