@@ -10,6 +10,9 @@ import sys
 import time
 
 from .deck import load_deck, make_snapshot
+from .formatting import render_html
+from .handoff import GmailConfig, prepare_gmail
+from .ledger import read_ledger, write_ledger
 from .mail import ConfigError, DeliveryError, MailConfig, make_message, recipient_key, send
 from .state import StateError, Store
 
@@ -32,6 +35,7 @@ def export_preview(directory, snapshot):
     directory = Path(directory) / "previews"
     directory.mkdir(parents=True, exist_ok=True)
     for suffix, content in (("txt", snapshot["body"].encode("utf-8")),
+                            ("html", (snapshot.get("body_html") or render_html(snapshot["body"])).encode("utf-8")),
                             ("eml", make_message(snapshot).as_bytes())):
         target = directory / f"{snapshot['date']}.{suffix}"
         # 相同日期的并发导出可产生同样的内容；各自使用唯一临时文件。
@@ -67,11 +71,24 @@ def deliver(store, snapshot, config):
 def parser():
     result = argparse.ArgumentParser(description="每天一张牌：固定牌义、私有记录与 TLS 邮件")
     result.add_argument("--state-dir", type=Path, default=Path(os.environ.get("TAROT_STATE_DIR", ROOT / ".local")))
+    result.add_argument("--require-existing-state", action="store_true",
+                        help="状态库缺失或未恢复时停止，不创建新库")
     commands = result.add_subparsers(dest="command", required=True)
     commands.add_parser("validate", help="验证 78 张牌和正逆位资料")
     commands.add_parser("preview", help="临时抽取一个示例，不保存正式当天记录，也不发送")
     run = commands.add_parser("run", help="获取当天唯一牌面；默认仅导出预览")
-    run.add_argument("--delivery", choices=("file", "stdout", "smtp"), default="file")
+    run.add_argument("--delivery", choices=("file", "stdout", "smtp", "gmail"), default="file",
+                     help="gmail 仅领取一次发送交接，实际发信由已授权插件完成")
+    ack = commands.add_parser("ack-gmail", help="按 Gmail 工具的真实结果记录本次发送回执，不发送邮件")
+    ack.add_argument("--date", required=True, type=date_argument)
+    ack.add_argument("--attempt-id", required=True)
+    ack.add_argument("--result", required=True, choices=("accepted", "failed", "uncertain"))
+    ack.add_argument("--message-id", help="仅 accepted 时填写 Gmail 返回的邮件 ID")
+    export = commands.add_parser("export-state", help="导出私有 JSON 账本，不发送邮件")
+    export.add_argument("--output", type=Path, required=True)
+    restore = commands.add_parser("import-state", help="把持久账本恢复到空状态目录，不覆盖已有记录")
+    restore.add_argument("--input", type=Path, required=True)
+    restore.add_argument("--expected-ledger-id", required=True)
     status = commands.add_parser("status", help="查看指定日期的最小状态摘要")
     status.add_argument("--date", type=date_argument, default=today())
     resolve = commands.add_parser("resolve", help="人工核对后恢复异常发送记录，不重抽")
@@ -96,7 +113,23 @@ def main(argv=None):
             return 0
         # 真实发送的配置先校验；配置不全不创建正式抽牌。
         config = MailConfig.from_environment() if args.command == "run" and args.delivery == "smtp" else None
-        store = Store(args.state_dir)
+        gmail_config = GmailConfig.from_environment() if args.command == "run" and args.delivery == "gmail" else None
+        store = Store(args.state_dir, require_existing=args.require_existing_state)
+        if args.command == "export-state":
+            ledger = store.export_ledger()
+            write_ledger(args.output, ledger, store.path)
+            print(json.dumps({"ledger_id": ledger["ledger_id"], "records": len(ledger["draws"])}))
+            return 0
+        if args.command == "import-state":
+            ledger = read_ledger(args.input)
+            store.import_ledger(ledger, args.expected_ledger_id)
+            print(json.dumps({"ledger_id": ledger["ledger_id"], "records": len(ledger["draws"])}))
+            return 0
+        if args.command == "ack-gmail":
+            changed = store.finish_gmail(args.date, args.attempt_id, args.result, args.message_id)
+            print(json.dumps({"date": args.date, "status": args.result,
+                              "receipt_recorded": changed}))
+            return 0
         if args.command == "resolve":
             store.resolve(args.date, args.confirmed_sent)
             print("人工核对结果已记录；牌面未改变。")
@@ -113,6 +146,9 @@ def main(argv=None):
             return 0
         snapshot = store.get_or_create(deck, today())
         export_preview(store.directory, snapshot)
+        if gmail_config:
+            print(json.dumps(prepare_gmail(store, snapshot, gmail_config), ensure_ascii=False))
+            return 0
         status = deliver(store, snapshot, config) if config else "preview_saved"
         if args.delivery == "stdout":
             # 将原样正文交给云端任务作为最终回复；本程序不声称通知邮件已发送。

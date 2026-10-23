@@ -5,6 +5,8 @@ import json
 from pathlib import Path
 import secrets
 
+from .formatting import render_html
+
 DECK_PATH = Path(__file__).parent / "data" / "cards.json"
 
 
@@ -61,5 +63,5 @@ def make_snapshot(deck, local_date, outcome=None):
         "card_name": card["name"], "orientation": orientation,
         "deck_version": deck["version"], "deck_sha256": deck["sha256"],
         "algorithm": "python.secrets.randbelow(156)",
-        "subject": subject, "body": body,
+        "subject": subject, "body": body, "body_html": render_html(body),
     }

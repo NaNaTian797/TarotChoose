@@ -9,6 +9,8 @@ import os
 import smtplib
 import ssl
 
+from .formatting import render_html
+
 
 class ConfigError(ValueError):
     pass
@@ -80,6 +82,9 @@ def make_message(snapshot, sender="preview@example.invalid", recipient="preview@
     identity = f"{snapshot['date']}|{snapshot['outcome']}|{recipient_key(recipient)}"
     message["Message-ID"] = f"<{hashlib.sha256(identity.encode()).hexdigest()}@tarotchoose.local>"
     message.set_content(snapshot["body"])
+    message.add_alternative(snapshot.get("body_html") or render_html(snapshot["body"]), subtype="html")
+    # 邮件快照重跑时保持字节一致，不使用自动生成的随机 MIME 分隔符。
+    message.set_boundary("tarotchoose-" + hashlib.sha256(identity.encode()).hexdigest())
     return message
 
 
