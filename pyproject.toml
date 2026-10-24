@@ -1,6 +1,6 @@
 [project]
 name = "tarot-choose"
-version = "0.1.0"
+version = "0.2.1"
 description = "每天一张牌：密码学安全随机抽取、固定牌义与邮件投递"
 requires-python = ">=3.12"
 dependencies = []

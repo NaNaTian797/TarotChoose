@@ -105,7 +105,8 @@ def main(argv=None):
         deck = load_deck()
         if args.command == "validate":
             print(json.dumps({"valid": True, "cards": 78, "outcomes": 156,
-                              "deck_version": deck["version"], "deck_sha256": deck["sha256"]}))
+                              "deck_version": deck["version"], "deck_sha256": deck["sha256"],
+                              "content_version": deck["content_version"]}))
             return 0
         if args.command == "preview":
             print("示例预览，未保存为当天正式抽牌。\n")

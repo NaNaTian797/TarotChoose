@@ -1,88 +1,4828 @@
 {
-  "version": "rws-study-zh-0.1.0",
+  "version": "rws-study-zh-0.2.1",
   "source": {
-    "title": "A. E. Waite, The Pictorial Key to the Tarot (1910)，第二部分图像与第三部分牌义",
+    "title": "A. E. Waite, The Pictorial Key to the Tarot (1910)",
     "url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot",
-    "note": "以下为本项目对 RWS 图像和传统牌义的固定中文学习摘要，并非书籍逐字译文；历史读法有分歧，详见仓库 docs/SOURCES.md。"
+    "accessed": "2026-10-24",
+    "license": "Public-domain historical English text; Chinese translations and commentary written for this project.",
+    "scope": "Part III section 3 for Major Arcana; section 2 for Minor Arcana; section 4 supplies the absent reversed Two of Cups entry.",
+    "note": "Original English is retained in source_text. Bilingual display splits coherent clauses or short terms and capitalizes the first letter; no source words are omitted or reordered. Historical statements are not assertions about the recipient."
   },
   "cards": [
-    {"id":0,"suit":"major","name":"愚者","image_description":"青年背着小包，手持白花，仰头站在悬崖边；一只小狗在脚边跃起。","upright":{"keyword":"冒险、轻率","meaning":"象征不受约束的出发、天真与冒险，也含未经考虑便行动的倾向。"},"reversed":{"keyword":"疏忽、游离","meaning":"传统读法涉及疏忽、心不在焉与冷淡，强调行动与注意力可能脱节。"}},
-    {"id":1,"suit":"major","name":"魔术师","image_description":"人物一手举杖向天，一手指向地；桌上摆着权杖、圣杯、宝剑和星币。","upright":{"keyword":"技巧、意志","meaning":"关联技能、沟通、自信与意志，象征把已有资源组织成行动的能力。"},"reversed":{"keyword":"不安、失衡","meaning":"传统读法包含不安与能力使用失当，表示技巧、意图和实际表现之间的落差。"}},
-    {"id":2,"suit":"major","name":"女祭司","image_description":"女子坐在黑白两根柱子之间，手持卷轴；身后是带有石榴图案的帷幕。","upright":{"keyword":"静默、未知","meaning":"关联秘密、尚未揭开的信息、智慧和静默，保留对未明之事的观察。"},"reversed":{"keyword":"表层认识","meaning":"传统读法涉及热情、自负与浅层知识，表现为感受强烈但理解尚不充分。"}},
-    {"id":3,"suit":"major","name":"女皇","image_description":"戴星冠的女子坐在柔软座椅上，周围有麦田、树林与流水，旁边放着带金星符号的盾牌。","upright":{"keyword":"丰饶、孕育","meaning":"象征丰饶、生长、行动与创造的孕育；原书也保留对未知和犹疑的解释。"},"reversed":{"keyword":"澄清、犹疑","meaning":"原书同时列出真相显现、复杂事情得到梳理，以及另一种读法中的摇摆不定。"}},
-    {"id":4,"suit":"major","name":"皇帝","image_description":"身着铠甲、披红袍的统治者坐在饰有羊头的石座上，背后是山岭。","upright":{"keyword":"秩序、稳定","meaning":"关联稳定、保护、理性、权威与意志，象征建立结构和承担职责。"},"reversed":{"keyword":"阻碍、不成熟","meaning":"原书包含仁慈与同情，也包含阻碍和不成熟；权威的表现可能尚未稳固。"}},
-    {"id":5,"suit":"major","name":"教皇","image_description":"宗教导师坐在两根柱子之间，面前有两名学习者，脚边放着交叉的钥匙。","upright":{"keyword":"传统、联结","meaning":"关联制度、教导、联盟与传统，也可能涉及对既有规则的依附或束缚。"},"reversed":{"keyword":"通融、软弱","meaning":"原书列出理解、和谐与社交，也提到过度宽容和软弱；规则与通融形成张力。"}},
-    {"id":6,"suit":"major","name":"恋人","image_description":"两个人站在天使下方，两侧分别有树木，远处是一座山。","upright":{"keyword":"吸引、结合","meaning":"传统牌义关联爱、吸引、美与克服考验，突出彼此靠近及建立联结。"},"reversed":{"keyword":"不协调","meaning":"关联计划不周、受挫与彼此矛盾，象征结合中的不协调或意向不一致。"}},
-    {"id":7,"suit":"major","name":"战车","image_description":"戴冠的人站在有星幕的战车中，车前是一黑一白两只狮身人面兽。","upright":{"keyword":"推进、胜利","meaning":"关联援助、推进与胜利，也包含自负和争斗；强烈行动力可能伴随摩擦。"},"reversed":{"keyword":"冲突、受阻","meaning":"传统读法涉及争吵、纷争与失利，表现为力量彼此冲突，方向或控制受到阻碍。"}},
-    {"id":8,"suit":"major","name":"力量","image_description":"女子平静地接触狮子的嘴部，头顶有无限符号，衣服与花环显得柔和。","upright":{"keyword":"勇气、宽厚","meaning":"关联勇气、活力、行动与宽厚，象征以稳定的力量面对强烈冲动。"},"reversed":{"keyword":"滥用、软弱","meaning":"传统读法涉及权力滥用、软弱与不和，体现力量过度使用或难以发挥。"}},
-    {"id":9,"suit":"major","name":"隐者","image_description":"披斗篷的老人站在高处，一手提着装有星光的灯，一手扶杖。","upright":{"keyword":"审慎、独处","meaning":"关联审慎、细察和退居观察；原书也保留隐藏、伪装等较阴暗的读法。"},"reversed":{"keyword":"退缩、过虑","meaning":"涉及隐匿、恐惧和没有充分理由的谨慎，可能表现为观察变成过度退缩。"}},
-    {"id":10,"suit":"major","name":"命运之轮","image_description":"带有字母和符号的轮盘位于画面中央，周围有升降的形象，四角是带翅膀的象征动物。","upright":{"keyword":"转变、机运","meaning":"传统牌义关联机运、提升、成功与循环，强调局面处于变化之中。"},"reversed":{"keyword":"增长、过量","meaning":"原书逆位并不简单等于坏运，列出增长、丰裕和过剩，提示数量与适度的关系。"}},
-    {"id":11,"suit":"major","name":"正义","image_description":"戴冠的人端坐在柱子之间，一手持剑，一手持天平。","upright":{"keyword":"公平、判断","meaning":"关联公正、正直、合理判断与应得的结果，突出事实、责任和衡量。"},"reversed":{"keyword":"偏见、苛刻","meaning":"传统读法涉及偏见、过度严厉与复杂纠纷，表现为衡量标准失去平衡。"}},
-    {"id":12,"suit":"major","name":"倒吊人","image_description":"人物倒悬在树架上，一条腿弯成三角形，头部周围有光环，神情平静。","upright":{"keyword":"停顿、洞察","meaning":"关联智慧、审慎、考验与牺牲，图像提供从不同位置观察事情的角度。"},"reversed":{"keyword":"自我局限","meaning":"原书列出自私及群体层面的含义；学习摘要侧重只从自身立场理解处境的局限。"}},
-    {"id":13,"suit":"major","name":"死神","image_description":"披甲的骷髅骑在白马上，举着黑底白花旗帜；地上与前方有不同身份的人物。","upright":{"keyword":"结束、变化","meaning":"传统核心涉及结束、消解和旧有形态的终止；在此作为变化意象，而非具体死亡预报。"},"reversed":{"keyword":"停滞、僵化","meaning":"原书列出惰性、沉睡、迟钝与僵化，象征变化过程被拖住或迟迟不能展开。"}},
-    {"id":14,"suit":"major","name":"节制","image_description":"有翅膀的天使把水在两只杯子之间倾倒，一只脚在水中，另一只脚踏地。","upright":{"keyword":"适度、调和","meaning":"关联节约、适度、管理和调适，强调不同因素之间的安排与平衡。"},"reversed":{"keyword":"失和、错配","meaning":"原书列出不和、不利的组合与相互竞争的利益，象征配合和比例出现问题。"}},
-    {"id":15,"suit":"major","name":"恶魔","image_description":"有角的形象坐在台座上，前方两个人戴着锁链，锁链连接在台座上。","upright":{"keyword":"强烈、束缚","meaning":"传统读法涉及强烈力量、激烈欲望和巨大的努力；图像也呈现受制与依附。"},"reversed":{"keyword":"盲点、软弱","meaning":"原书涉及软弱、狭隘与盲目，学习时可关注难以看清的限制和自身力量不足。"}},
-    {"id":16,"suit":"major","name":"高塔","image_description":"闪电击中高塔顶端，王冠被掀开，火焰中有人从塔上坠落。","upright":{"keyword":"突变、瓦解","meaning":"传统牌义围绕突然冲击、困境和结构瓦解，象征原有稳定形态受到打断。"},"reversed":{"keyword":"持续压力","meaning":"原书包括程度较轻的同类困境，以及压迫和束缚，未必代表冲击已经完全结束。"}},
-    {"id":17,"suit":"major","name":"星星","image_description":"女子跪在水边，分别向水中和土地倒水；上方有一颗大星和七颗小星。","upright":{"keyword":"希望、前景","meaning":"传统解释存在分歧；本版选取原书中的希望与明亮前景，同时保留修复、补给的图像联想。"},"reversed":{"keyword":"傲慢、无力","meaning":"原书列出傲慢、自高与无力，象征期待与实际能力之间可能存在距离。"}},
-    {"id":18,"suit":"major","name":"月亮","image_description":"月光照在两座塔和一条道路上，狗与狼朝月亮仰望，水中有甲壳动物爬出。","upright":{"keyword":"模糊、误认","meaning":"传统牌义关联黑暗、恐惧、误差和欺瞒，突出信息不清与想象之间的张力。"},"reversed":{"keyword":"不稳定","meaning":"原书涉及不稳定、反复，以及程度较轻的误差或欺瞒，未必已经获得完全清晰的判断。"}},
-    {"id":19,"suit":"major","name":"太阳","image_description":"明亮的太阳下，孩子骑着白马举起红旗，身后有围墙与向日葵。","upright":{"keyword":"喜悦、满足","meaning":"传统牌义关联幸福、满足和温暖的联结，呈现充足、坦然与明朗的感受。"},"reversed":{"keyword":"较弱的喜悦","meaning":"原书说明基本含义相近但程度较弱；逆位不必被机械地解释为负面结果。"}},
-    {"id":20,"suit":"major","name":"审判","image_description":"天使在云端吹号，下面的人从棺中起身，抬头张开双臂。","upright":{"keyword":"更新、回应","meaning":"传统牌义关联位置改变、更新与结果，象征对召唤的回应和阶段性的重新认识。"},"reversed":{"keyword":"迟疑、审议","meaning":"原书并列软弱、胆怯、审议和决定等含义；本版侧重回应前的迟疑与评估。"}},
-    {"id":21,"suit":"major","name":"世界","image_description":"人物位于椭圆花环之中，手持两根短杖；四角分布着人、鹰、狮子和牛的象征。","upright":{"keyword":"完成、整合","meaning":"传统牌义关联成功、回报、旅途与位置改变，象征一个过程的完成和展开。"},"reversed":{"keyword":"停留、停滞","meaning":"原书列出惰性、固定、停滞和持续不变，呈现阶段完成或转换尚未顺畅的状态。"}},
-    {"id":22,"suit":"wands","name":"权杖一","image_description":"一只从云中伸出的手握住发芽的权杖，远处有城堡和山丘。","upright":{"keyword":"创造、起点","meaning":"传统牌义关联创造、发明、事业的开始和力量的源头。"},"reversed":{"keyword":"衰退、受挫","meaning":"原书涉及衰落、受挫与蒙上阴影的喜悦，表示初始力量尚未顺利发挥。"}},
-    {"id":23,"suit":"wands","name":"权杖二","image_description":"人物站在城墙上，手持地球仪，身旁有两根权杖，面向海岸。","upright":{"keyword":"领地、远望","meaning":"原书把财富与宏大、又把不满足和忧虑并列；图像突出拥有之后的远望。"},"reversed":{"keyword":"意外、波动","meaning":"传统读法包含惊讶、情绪、烦恼与恐惧，强调计划之外的感受和变化。"}},
-    {"id":24,"suit":"wands","name":"权杖三","image_description":"人物背对观者站在高处，三根权杖立在身旁，海面有船只航行。","upright":{"keyword":"拓展、合作","meaning":"关联已建立的力量、企业活动、探索和有能力的合作。"},"reversed":{"keyword":"困境渐止","meaning":"原书逆位列出烦恼、劳累和失望的结束或暂停，不等同于正位含义的反面。"}},
-    {"id":25,"suit":"wands","name":"权杖四","image_description":"四根权杖撑起花环，人物举着花束，后方是桥梁和房屋。","upright":{"keyword":"安宁、庆祝","meaning":"传统牌义关联庇护、休息、和谐、繁荣与阶段成果。"},"reversed":{"keyword":"喜悦、增益","meaning":"原书说明基本含义不变，仍可指繁荣、增长、喜悦与美化。"}},
-    {"id":26,"suit":"wands","name":"权杖五","image_description":"五名青年各自挥动权杖，画面像练习，也像彼此争斗。","upright":{"keyword":"竞争、磨合","meaning":"关联模拟争斗、竞争和为目标付出的努力，不同力量正在相互碰撞。"},"reversed":{"keyword":"争执、矛盾","meaning":"传统读法涉及争端、矛盾与计谋，磨合可能演变为难以协调的纠纷。"}},
-    {"id":27,"suit":"wands","name":"权杖六","image_description":"戴月桂冠的人骑在马上，手中的权杖也饰有花冠，身旁有人同行。","upright":{"keyword":"认可、佳音","meaning":"传统牌义关联胜利、好消息与期待得到回应，突出被看见的成果。"},"reversed":{"keyword":"疑惧、延迟","meaning":"原书涉及忧惧、信任受损和不确定的延误，认可或成果尚未稳妥落定。"}},
-    {"id":28,"suit":"wands","name":"权杖七","image_description":"人物站在高处举杖抵挡，下方有六根权杖朝向他。","upright":{"keyword":"勇气、立场","meaning":"关联勇气、辩论、谈判与竞争，图像中的人物占有较有利的位置。"},"reversed":{"keyword":"困惑、犹疑","meaning":"传统读法涉及困惑、窘迫和焦虑，也提醒反复犹疑会影响立场。"}},
-    {"id":29,"suit":"wands","name":"权杖八","image_description":"八根权杖斜向飞过开阔的天空，下面是河流和远处的房屋。","upright":{"keyword":"迅速、进展","meaning":"关联活动、快速消息、加速推进和接近目标的运动。"},"reversed":{"keyword":"内耗、争执","meaning":"原书涉及嫉妒、内部分歧和争吵，快速的力量可能被内部摩擦打散。"}},
-    {"id":30,"suit":"wands","name":"权杖九","image_description":"头缠绷带的人扶着权杖警觉地站立，身后另有八根权杖排成围栏。","upright":{"keyword":"防守、韧性","meaning":"关联抵抗中的力量、坚守，以及等待、延迟或暂停的状态。"},"reversed":{"keyword":"阻碍、逆境","meaning":"传统读法集中在障碍与逆境，防守所需的力量可能面临持续压力。"}},
-    {"id":31,"suit":"wands","name":"权杖十","image_description":"人物弯身抱着十根沉重的权杖，向前方的城镇走去。","upright":{"keyword":"负荷、压力","meaning":"原书核心是压迫与沉重负担，也包含成功或所得反过来形成压力的含义。"},"reversed":{"keyword":"困难、牵制","meaning":"传统读法涉及阻挠、困难与复杂牵制，负担未必因倒置就自动解除。"}},
-    {"id":32,"suit":"wands","name":"权杖侍从","image_description":"青年立于干燥的土地，双手持杖，专注地看着杖顶。","upright":{"keyword":"消息、热忱","meaning":"传统读法关联忠诚的使者、消息和权杖花色所代表的活力。"},"reversed":{"keyword":"不稳定、迟疑","meaning":"原书包含不利消息、轶闻、犹疑及其带来的不稳定。"}},
-    {"id":33,"suit":"wands","name":"权杖骑士","image_description":"骑士手持短杖，骑在昂起前蹄的马上，远处有沙丘或金字塔。","upright":{"keyword":"出发、迁移","meaning":"传统牌义关联出行、离开、迁移和行动迅速的状态。"},"reversed":{"keyword":"中断、不和","meaning":"关联破裂、分离、中断与不和，行动过程可能失去连贯性。"}},
-    {"id":34,"suit":"wands","name":"权杖王后","image_description":"王后坐在饰有狮子的座椅上，一手持杖，一手拿向日葵，脚边有黑猫。","upright":{"keyword":"友善、吸引力","meaning":"传统读法关联友善、热情、可亲与一定程度的事业成就。"},"reversed":{"keyword":"克制、嫉妒","meaning":"原书既列出节约、助人与服务，也保留反对、嫉妒和不诚实的解释。"}},
-    {"id":35,"suit":"wands","name":"权杖国王","image_description":"国王坐在带有狮子与火蜥蜴图案的王座上，手持长出嫩叶的权杖。","upright":{"keyword":"诚实、担当","meaning":"传统牌义强调诚实、尽责和友善，展现成熟活力与承担事务的姿态。"},"reversed":{"keyword":"严厉、宽容","meaning":"原书描述为善意但严厉、克己而仍有容忍度，逆位并非必然是恶意。"}},
-    {"id":36,"suit":"cups","name":"圣杯一","image_description":"云中的手托起圣杯，水流落向水面，白鸽向杯口飞来，下面有睡莲。","upright":{"keyword":"滋养、喜悦","meaning":"传统牌义关联真心、喜悦、满足、滋养、丰盛和情感的充足。"},"reversed":{"keyword":"变动、不稳","meaning":"原书涉及虚假的情感状态、变化与不稳定，提示感受或联结不够稳定。"}},
-    {"id":37,"suit":"cups","name":"圣杯二","image_description":"两个人相对举杯，上方是带双蛇杖与狮头的有翼标志。","upright":{"keyword":"亲近、和谐","meaning":"关联爱、友谊、吸引、结合、共鸣与和谐的相互关系。"},"reversed":{"keyword":"误解、不一致","meaning":"传统补充读法涉及误解与不一致，强调彼此联结中的差异。"}},
-    {"id":38,"suit":"cups","name":"圣杯三","image_description":"三个人在花果间围成一圈举杯，像是在共同庆祝。","upright":{"keyword":"欢庆、圆满","meaning":"传统牌义关联事情完成、丰足、欢乐、安慰与恢复。"},"reversed":{"keyword":"过量、收尾","meaning":"原书涉及结束、完成与感官享受过度，快乐和适度之间形成张力。"}},
-    {"id":39,"suit":"cups","name":"圣杯四","image_description":"人物坐在树下，面前有三只杯；云中伸出的手递来第四只杯。","upright":{"keyword":"倦怠、厌足","meaning":"传统读法关联厌倦、疏离与不满，已有的满足暂时不能带来新鲜感。"},"reversed":{"keyword":"新知、新联结","meaning":"原书列出新鲜事物、新的教导和新的关系，注意力可能转向新的输入。"}},
-    {"id":40,"suit":"cups","name":"圣杯五","image_description":"披黑斗篷的人看着倒下的三只杯，身后仍立着两只杯，远处有桥与建筑。","upright":{"keyword":"失落、仍有留存","meaning":"传统核心是损失与不如预期，同时也强调并非所有东西都已经失去。"},"reversed":{"keyword":"归来、联结","meaning":"原书包含消息、联盟、亲缘和归来，也保留计划失实的可能读法。"}},
-    {"id":41,"suit":"cups","name":"圣杯六","image_description":"旧庭院里，孩子把盛着花的杯子递给另一个孩子，周围还有其他花杯。","upright":{"keyword":"回忆、旧日","meaning":"传统牌义关联过去、童年和回忆中的快乐，感受更多来自已发生的经验。"},"reversed":{"keyword":"未来、更新","meaning":"原书逆位列出未来、更新和尚待到来的事物，视线由过去移向后续变化。"}},
-    {"id":42,"suit":"cups","name":"圣杯七","image_description":"人物面前的云里浮着七只杯，杯中分别出现珠宝、城堡和奇异形象。","upright":{"keyword":"想象、幻景","meaning":"关联想象、感受与反思中的图像，丰富但尚未呈现稳定、实质的成果。"},"reversed":{"keyword":"意愿、计划","meaning":"传统牌义关联愿望、意志、决心与计划，想象可能开始指向更明确的意图。"}},
-    {"id":43,"suit":"cups","name":"圣杯八","image_description":"八只杯留在前景，人物扶杖离开水岸，向山地走去，月亮挂在天空。","upright":{"keyword":"离开、淡出","meaning":"原书常见读法是某件事逐渐衰退，或曾被看重的东西不再具有原来的分量。"},"reversed":{"keyword":"喜悦、欢聚","meaning":"原书逆位列出很大的喜悦、幸福和宴饮，不能一概套成不愿离开。"}},
-    {"id":44,"suit":"cups","name":"圣杯九","image_description":"人物双臂交抱坐在长凳上，背后弧形高台上整齐摆着九只杯。","upright":{"keyword":"满足、和悦","meaning":"传统牌义关联满足、和谐、成功与身心舒适，偏向可感知的享受和所得。"},"reversed":{"keyword":"真实、不完美","meaning":"原书列出真实、忠诚和自由，也保留错误与不完善的读法，含义并不单一。"}},
-    {"id":45,"suit":"cups","name":"圣杯十","image_description":"两位成人仰望由十只杯组成的彩虹，孩子在旁边跳舞，远处是家园。","upright":{"keyword":"圆满、亲和","meaning":"传统牌义关联心灵的满足、爱与友谊的圆满，以及共同生活的安宁。"},"reversed":{"keyword":"表面安宁、不和","meaning":"原书涉及虚假的安宁、愤怒与冲突，外在和谐可能与内在感受并不一致。"}},
-    {"id":46,"suit":"cups","name":"圣杯侍从","image_description":"青年立在水边端着杯子，一条鱼从杯中探出头，青年专注地望着它。","upright":{"keyword":"消息、沉思","meaning":"传统读法关联消息、学习、专注、思考与愿意提供帮助的姿态。"},"reversed":{"keyword":"依恋、诱惑","meaning":"原书涉及偏好、依恋、诱惑与欺瞒，感受的吸引力可能影响理解。"}},
-    {"id":47,"suit":"cups","name":"圣杯骑士","image_description":"骑士平缓地骑着白马，一手托起圣杯，前方有河流。","upright":{"keyword":"邀约、靠近","meaning":"关联到来、接近、提议、邀请与传递消息，呈现温和靠近的姿态。"},"reversed":{"keyword":"虚饰、欺瞒","meaning":"传统读法涉及计巧、虚饰和欺瞒，表达出来的姿态未必与真实意图一致。"}},
-    {"id":48,"suit":"cups","name":"圣杯王后","image_description":"王后坐在水边，凝望手中带盖、造型复杂的圣杯，座椅饰有水中生物。","upright":{"keyword":"关怀、理解","meaning":"传统牌义关联诚实、奉献、爱的理解、智慧与想象力。"},"reversed":{"keyword":"难以信任","meaning":"原书读法有明显分歧；其中一支涉及不可信与感受失衡，不宜据此判定现实中的人。"}},
-    {"id":49,"suit":"cups","name":"圣杯国王","image_description":"国王坐在海中的石座上，一手持杯，一手持短杖，附近有船和跃起的鱼。","upright":{"keyword":"负责、公允","meaning":"传统读法关联责任、公平、愿意协助他人，以及艺术与创造性的理解。"},"reversed":{"keyword":"失信、不公","meaning":"原书涉及不诚实、双面行为和不公平，象征情感力量被不恰当地使用。"}},
-    {"id":50,"suit":"swords","name":"宝剑一","image_description":"从云中伸出的手高举宝剑，剑尖穿过带有枝叶装饰的王冠。","upright":{"keyword":"力量、决断","meaning":"传统牌义关联胜利、征服和强大的力量；强烈的决断也可能走向过度。"},"reversed":{"keyword":"过度、失当","meaning":"原书延续力量的主题，但强调结果可能失当或破坏性增强。"}},
-    {"id":51,"suit":"swords","name":"宝剑二","image_description":"蒙眼的人坐在水边，双臂交叉持两把剑，身后有海面和月亮。","upright":{"keyword":"均衡、对峙","meaning":"传统读法包含平衡、勇气与武装状态下的和谐，强调暂时维持的均势。"},"reversed":{"keyword":"虚假、失信","meaning":"原书涉及伪装、虚假和不忠，原有均衡可能依赖不透明或不真实的信息。"}},
-    {"id":52,"suit":"swords","name":"宝剑三","image_description":"三把剑穿过一颗心，背景有乌云与雨。","upright":{"keyword":"分离、伤感","meaning":"传统牌义关联缺席、延迟、分开、破裂，以及图像直观呈现的伤感。"},"reversed":{"keyword":"混乱、分心","meaning":"原书涉及错误、损失、注意力分散和混乱，不一定代表伤感已经消失。"}},
-    {"id":53,"suit":"swords","name":"宝剑四","image_description":"骑士的卧像双手合十躺在石台上，墙上悬着三把剑，台侧还有一把剑。","upright":{"keyword":"退居、休息","meaning":"传统读法关联警觉、退居、独处与休息，呈现行动暂时收束的状态。"},"reversed":{"keyword":"审慎、安排","meaning":"原书列出审慎管理、节约和预防，侧重如何安排资源与后续行动。"}},
-    {"id":54,"suit":"swords","name":"宝剑五","image_description":"前景的人收拢几把剑，后方两个人向水边走开，地上留着剑。","upright":{"keyword":"损失、失和","meaning":"传统牌义关联损失、名誉受损和冲突后的代价，胜负之外还存在关系成本。"},"reversed":{"keyword":"余波、损耗","meaning":"原书大体延续正位的损失主题，表示冲突的后果和耗损仍需被看见。"}},
-    {"id":55,"suit":"swords","name":"宝剑六","image_description":"船夫撑船载着两个人离开岸边，六把剑立在船中。","upright":{"keyword":"渡越、转移","meaning":"传统牌义关联水上旅程、路线、使者和可供转移的途径，图像呈现过渡。"},"reversed":{"keyword":"表白、公开","meaning":"原书列出声明、表白和公开表达，强调原先未明说的内容被说出来。"}},
-    {"id":56,"suit":"swords","name":"宝剑七","image_description":"人物抱着五把剑回头离开营地，另外两把剑仍插在地上。","upright":{"keyword":"计划、尝试","meaning":"原书涉及计划、尝试、愿望和信心，也包含争执及计划未必能完成的张力。"},"reversed":{"keyword":"建议、议论","meaning":"传统读法包含好的建议、劝告，也包含议论和中伤，需区分信息的来源与作用。"}},
-    {"id":57,"suit":"swords","name":"宝剑八","image_description":"蒙眼且被束缚的人站在八把剑之间，脚下有湿地，远方是一座城堡。","upright":{"keyword":"限制、困局","meaning":"传统牌义关联危机、冲突和力量受限；图像中的限制被描述为暂时的拘束。"},"reversed":{"keyword":"不安、意外","meaning":"原书涉及不安、困难、阻力和未预见的情况，并非必然已经解除限制。"}},
-    {"id":58,"suit":"swords","name":"宝剑九","image_description":"人物坐在床上双手掩面，九把剑排列在身后的黑暗背景中。","upright":{"keyword":"忧虑、失望","meaning":"传统牌义包含失望、延迟、失败感与绝望；本版作为情绪意象，不作事件预报。"},"reversed":{"keyword":"疑虑、羞惭","meaning":"原书列出怀疑、不安、合理的恐惧和羞惭，强调困扰仍在影响感受。"}},
-    {"id":59,"suit":"swords","name":"宝剑十","image_description":"人物俯卧在地上，背上排列着十把剑，远方天空出现亮色。","upright":{"keyword":"痛苦、终局","meaning":"传统牌义关联痛苦、悲伤和荒凉，表现一个令人疲惫的局面走到极点。"},"reversed":{"keyword":"暂时转机","meaning":"原书列出优势、成功与有利处境，同时强调它们可能并不持久。"}},
-    {"id":60,"suit":"swords","name":"宝剑侍从","image_description":"青年双手持剑站在不平的地面上，身体与目光转向一侧，空中有风和云。","upright":{"keyword":"警觉、检视","meaning":"传统牌义关联观察、监督、警觉与检查，注意细小信息和周围变化。"},"reversed":{"keyword":"准备不足","meaning":"原书涉及未预见的情形和准备不足，也包含警觉品质走向不利一面的读法。"}},
-    {"id":61,"suit":"swords","name":"宝剑骑士","image_description":"骑士举剑策马疾驰，树木与云被风吹向一侧。","upright":{"keyword":"勇敢、冲突","meaning":"传统读法并列技巧、勇气、能力和对抗，行动锋利但可能带来摩擦。"},"reversed":{"keyword":"冒进、失衡","meaning":"原书列出轻率、能力不足与过度挥霍，速度与实际掌握能力之间可能不匹配。"}},
-    {"id":62,"suit":"swords","name":"宝剑王后","image_description":"王后端坐，一手竖起宝剑，另一手向前伸出，神情严肃。","upright":{"keyword":"分离、清醒","meaning":"传统读法涉及缺席、分离和经历悲伤后的严肃；图像带出清楚界限的姿态。"},"reversed":{"keyword":"偏见、苛责","meaning":"原书涉及恶意、偏见、虚饰与欺瞒，判断可能受到僵硬立场的影响。"}},
-    {"id":63,"suit":"swords","name":"宝剑国王","image_description":"国王面向前方端坐，手持出鞘的剑，身后有树木与天空。","upright":{"keyword":"判断、权威","meaning":"传统牌义关联判断、命令、权威、理智与规则，突出决断及其责任。"},"reversed":{"keyword":"严酷、失当","meaning":"原书涉及严酷、不正当意图与背信，象征判断和权力被不恰当地使用。"}},
-    {"id":64,"suit":"pentacles","name":"星币一","image_description":"云中的手托着一枚星币，下面是花园与通向远山的拱门。","upright":{"keyword":"满足、资源","meaning":"传统牌义关联满足、喜悦和物质资源，突出可触及的充足与条件。"},"reversed":{"keyword":"财富的代价","meaning":"原书同时保留富足与财富不利一面的读法，资源是否有益取决于其使用方式。"}},
-    {"id":65,"suit":"pentacles","name":"星币二","image_description":"人物一手一枚星币，两枚星币被横向八字形带子连接，后方有起伏海浪。","upright":{"keyword":"变动、周转","meaning":"传统读法并列愉快活动、书面消息、阻碍与忙乱，图像呈现持续周转。"},"reversed":{"keyword":"勉强维持","meaning":"原书涉及强作欢颜、表面享受和书写事务，表现为外在轻松与内在状态有距离。"}},
-    {"id":66,"suit":"pentacles","name":"星币三","image_description":"工匠在建筑中工作，另外两个人拿着图纸与他交谈，墙上有三枚星币。","upright":{"keyword":"技艺、工作","meaning":"传统牌义关联职业、手艺、熟练劳动和由此获得的认可。"},"reversed":{"keyword":"平庸、薄弱","meaning":"原书列出工作上的平庸、不成熟与薄弱，成果可能尚未达到所需标准。"}},
-    {"id":67,"suit":"pentacles","name":"星币四","image_description":"戴冠的人抱住一枚星币，头顶一枚，两脚各压着一枚，身后是城市。","upright":{"keyword":"保有、稳固","meaning":"传统牌义关联财物的稳固、紧守已有之物，以及赠与和继承。"},"reversed":{"keyword":"悬而未决","meaning":"原书列出悬念、延迟和阻力，保有与流动之间可能暂时难以协调。"}},
-    {"id":68,"suit":"pentacles","name":"星币五","image_description":"两个人在雪中走过明亮的彩窗，窗上有五枚星币，其中一人拄着拐杖。","upright":{"keyword":"匮乏、困顿","meaning":"传统核心关联物质困难与匮乏；原书也保留亲密联结的不同解释。"},"reversed":{"keyword":"失序、不和","meaning":"原书逆位涉及混乱、失和和消耗，不应一律改写为已经脱离困境。"}},
-    {"id":69,"suit":"pentacles","name":"星币六","image_description":"人物一手拿着天平，一手向跪坐的人分发钱币，六枚星币排列在周围。","upright":{"keyword":"给予、照应","meaning":"传统牌义关联礼物、给予、关注、满足与当下的物质条件。"},"reversed":{"keyword":"贪求、比较","meaning":"原书列出欲求、贪心、羡慕和嫉妒，资源分配中可能混入比较与占有。"}},
-    {"id":70,"suit":"pentacles","name":"星币七","image_description":"人物扶着工具，停下来凝视藤叶间的七枚星币。","upright":{"keyword":"经营、衡量","meaning":"原书读法彼此有分歧，主要涉及金钱、经营与交换；图像呈现对已有投入的凝视。"},"reversed":{"keyword":"资源焦虑","meaning":"原书逆位关注与拟借出的钱款有关的焦虑，学习摘要保留资源安排中的不安。"}},
-    {"id":71,"suit":"pentacles","name":"星币八","image_description":"工匠坐在凳子上雕刻星币，完成的星币排列在一侧，远处有城镇。","upright":{"keyword":"练习、工艺","meaning":"传统牌义关联工作、受托事务、工艺与技能，也可处在学习准备阶段。"},"reversed":{"keyword":"虚荣、用巧失当","meaning":"原书涉及落空的野心、虚荣、贪求，或把技巧用在不恰当的算计上。"}},
-    {"id":72,"suit":"pentacles","name":"星币九","image_description":"女子站在丰盛的葡萄园中，一只戴罩的鸟停在手腕，地面有小蜗牛。","upright":{"keyword":"审慎、成果","meaning":"传统牌义关联审慎、安全、成功、完成和辨识力，图像呈现已获得的物质条件。"},"reversed":{"keyword":"失信、计划落空","meaning":"原书列出欺瞒、不守信及计划落空，成果的可靠性可能需要重新确认。"}},
-    {"id":73,"suit":"pentacles","name":"星币十","image_description":"拱门下有成人、孩子和狗，前景坐着老人，十枚星币分布在画面中。","upright":{"keyword":"家业、积累","meaning":"传统牌义关联财富、家族事务、记录与居所，呈现跨时间累积的生活基础。"},"reversed":{"keyword":"变数、损失","meaning":"原书包含机会、损失、风险游戏，也保留赠与和年金的读法，含义并不单一。"}},
-    {"id":74,"suit":"pentacles","name":"星币侍从","image_description":"青年站在田野中，双手托起星币，专心地看着它。","upright":{"keyword":"学习、专注","meaning":"传统牌义关联用功、学习、思考与管理，也可指消息和传递消息的人。"},"reversed":{"keyword":"散漫、浪费","meaning":"原书涉及挥霍、分散、奢侈与不利消息，资源与注意力可能没有有效集中。"}},
-    {"id":75,"suit":"pentacles","name":"星币骑士","image_description":"骑士坐在沉稳站立的马上，手持星币，身后是耕地。","upright":{"keyword":"负责、实用","meaning":"传统牌义关联实用、服务、责任与正直，强调平常事务中的可靠执行。"},"reversed":{"keyword":"停滞、疏忽","meaning":"原书列出惰性、停滞、灰心与疏忽，也包含安静不动的状态。"}},
-    {"id":76,"suit":"pentacles","name":"星币王后","image_description":"王后坐在植物环绕的王座上，低头看着膝上的星币，旁边有兔子。","upright":{"keyword":"慷慨、安稳","meaning":"传统牌义关联富足、慷慨、安全和自由，体现照料现实条件的能力。"},"reversed":{"keyword":"不信任、担忧","meaning":"原书涉及怀疑、悬念、恐惧与不信任，现实条件可能难以带来安稳感。"}},
-    {"id":77,"suit":"pentacles","name":"星币国王","image_description":"国王坐在饰有公牛头的王座上，手持星币，周围有葡萄与繁茂植物。","upright":{"keyword":"才干、成就","meaning":"传统牌义关联勇气、才智、经营与计算方面的能力及相应成就。"},"reversed":{"keyword":"软弱、失当","meaning":"原书列出软弱、不正当行为与风险，物质能力或资源可能被不恰当地运用。"}}
-  ]
+    {
+      "id": 0,
+      "suit": "major",
+      "name": "愚者",
+      "image_description": "青年背着小包，手持白花，仰头站在悬崖边；一只小狗在脚边跃起。",
+      "upright": {
+        "keyword": "冒险、轻率",
+        "fixed_meanings": [
+          {
+            "zh": "愚行",
+            "en": "Folly"
+          },
+          {
+            "zh": "狂热",
+            "en": "Mania"
+          },
+          {
+            "zh": "奢侈浪费",
+            "en": "Extravagance"
+          },
+          {
+            "zh": "醉态",
+            "en": "Intoxication"
+          },
+          {
+            "zh": "谵妄",
+            "en": "Delirium"
+          },
+          {
+            "zh": "狂乱",
+            "en": "Frenzy"
+          },
+          {
+            "zh": "泄露秘密",
+            "en": "Bewrayment"
+          }
+        ],
+        "meaning": "象征不受约束的出发、天真与冒险，也含未经考虑便行动的倾向。\n\n出发的意象让人想到尝试和开放，原书的词条却同时强调失去分寸。两者放在一起，可以帮助区分愿意探索与尚未考虑后果的冲动，给行动保留一点准备。",
+        "question": "我想尝试什么新事物？出发前，有哪一项准备能让我更从容？",
+        "source_text": "Folly, mania, extravagance, intoxication, delirium, frenzy, bewrayment.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "疏忽、游离",
+        "fixed_meanings": [
+          {
+            "zh": "疏忽",
+            "en": "Negligence"
+          },
+          {
+            "zh": "缺席、心不在焉",
+            "en": "Absence"
+          },
+          {
+            "zh": "分散",
+            "en": "Distribution"
+          },
+          {
+            "zh": "粗心",
+            "en": "Carelessness"
+          },
+          {
+            "zh": "冷淡",
+            "en": "Apathy"
+          },
+          {
+            "zh": "无效、空无",
+            "en": "Nullity"
+          },
+          {
+            "zh": "虚荣",
+            "en": "Vanity"
+          }
+        ],
+        "meaning": "传统读法涉及疏忽、心不在焉与冷淡，强调行动与注意力可能脱节。\n\n可以把它理解为注意力没有真正落到正在做的事上。忙碌、分心与无所谓看起来不同，却都可能让行动缺少投入；先辨认自己的状态，比急着给自己下评价更有用。",
+        "question": "今天有什么事情需要我真正到场，而不只是让它从注意力边缘经过？",
+        "source_text": "Negligence, absence, distribution, carelessness, apathy, nullity, vanity.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The Fool"
+    },
+    {
+      "id": 1,
+      "suit": "major",
+      "name": "魔术师",
+      "image_description": "人物一手举杖向天，一手指向地；桌上摆着权杖、圣杯、宝剑和星币。",
+      "upright": {
+        "keyword": "技巧、意志",
+        "fixed_meanings": [
+          {
+            "zh": "技巧",
+            "en": "Skill"
+          },
+          {
+            "zh": "交际手腕",
+            "en": "Diplomacy"
+          },
+          {
+            "zh": "应对能力",
+            "en": "Address"
+          },
+          {
+            "zh": "机敏、精微的手法",
+            "en": "Subtlety"
+          },
+          {
+            "zh": "疾病",
+            "en": "Sickness"
+          },
+          {
+            "zh": "痛苦",
+            "en": "Pain"
+          },
+          {
+            "zh": "损失",
+            "en": "Loss"
+          },
+          {
+            "zh": "灾祸",
+            "en": "Disaster"
+          },
+          {
+            "zh": "敌人的圈套",
+            "en": "Snares of enemies"
+          },
+          {
+            "zh": "自信",
+            "en": "Self-confidence"
+          },
+          {
+            "zh": "意志",
+            "en": "Will"
+          },
+          {
+            "zh": "若问卜者为男性，也可指问卜者本人",
+            "en": "The Querent, if male"
+          }
+        ],
+        "meaning": "关联技能、沟通、自信与意志，象征把已有资源组织成行动的能力。\n\n桌上的工具可以帮助记住资源与运用之间的关系：拥有材料并不等于已经完成事情，还需要组织与实践。原书也保留困难和损失的读法，因此不把能力直接等同于顺利的结果。",
+        "question": "我已经具备哪些资源？今天可以把其中哪一种真正用起来？",
+        "source_text": "Skill, diplomacy, address, subtlety; sickness, pain, loss, disaster, snares of enemies; self-confidence, will; the Querent, if male.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "不安、失衡",
+        "fixed_meanings": [
+          {
+            "zh": "医师",
+            "en": "Physician"
+          },
+          {
+            "zh": "术士",
+            "en": "Magus"
+          },
+          {
+            "zh": "精神疾病",
+            "en": "Mental disease"
+          },
+          {
+            "zh": "失誉",
+            "en": "Disgrace"
+          },
+          {
+            "zh": "不安",
+            "en": "Disquiet"
+          }
+        ],
+        "meaning": "传统读法包含不安与能力使用失当，表示技巧、意图和实际表现之间的落差。\n\n这组历史词条较为混杂，不能只从牌名推断为欺骗，也不用于诊断身心状况。作为学习材料，可以关注表达出的能力与实际准备是否一致，以及不安是否妨碍了清楚行动。",
+        "question": "我想表现出来的能力，与目前实际掌握的部分有什么差距？",
+        "source_text": "Physician, Magus, mental disease, disgrace, disquiet.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The Magician"
+    },
+    {
+      "id": 2,
+      "suit": "major",
+      "name": "女祭司",
+      "image_description": "女子坐在黑白两根柱子之间，手持卷轴；身后是带有石榴图案的帷幕。",
+      "upright": {
+        "keyword": "静默、未知",
+        "fixed_meanings": [
+          {
+            "zh": "秘密、奥秘、尚未揭示的未来",
+            "en": "Secrets, mystery, the future as yet unrevealed"
+          },
+          {
+            "zh": "若问卜者为男性，可指他关注的女性",
+            "en": "The woman who interests the Querent, if male"
+          },
+          {
+            "zh": "若问卜者为女性，可指问卜者本人",
+            "en": "The Querent herself, if female"
+          },
+          {
+            "zh": "静默",
+            "en": "Silence"
+          },
+          {
+            "zh": "坚韧",
+            "en": "Tenacity"
+          },
+          {
+            "zh": "奥秘",
+            "en": "Mystery"
+          },
+          {
+            "zh": "智慧",
+            "en": "Wisdom"
+          },
+          {
+            "zh": "学识",
+            "en": "Science"
+          }
+        ],
+        "meaning": "关联秘密、尚未揭开的信息、智慧和静默，保留对未明之事的观察。\n\n这张牌提供了暂时不急于解释的角度：有些信息还没有出现，有些理解需要留出安静的空间。观察与等待也可以是主动的选择，不必马上把未知补成一个确定的答案。",
+        "question": "哪些信息我还不知道？在下判断之前，我愿意多观察什么？",
+        "source_text": "Secrets, mystery, the future as yet unrevealed; the woman who interests the Querent, if male; the Querent herself, if female; silence, tenacity; mystery, wisdom, science.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "表层认识",
+        "fixed_meanings": [
+          {
+            "zh": "激情",
+            "en": "Passion"
+          },
+          {
+            "zh": "精神或身体上的热烈",
+            "en": "Moral or physical ardour"
+          },
+          {
+            "zh": "自负",
+            "en": "Conceit"
+          },
+          {
+            "zh": "表面知识",
+            "en": "Surface knowledge"
+          }
+        ],
+        "meaning": "传统读法涉及热情、自负与浅层知识，表现为感受强烈但理解尚不充分。\n\n感受的强度与理解的深度并不是一回事。可以借此区分自己已经核实的认识、凭直觉产生的判断，以及因为过于熟悉某个说法而略过的细节。",
+        "question": "有没有一件我以为已经懂了的事，值得再问一个具体问题？",
+        "source_text": "Passion, moral or physical ardour, conceit, surface knowledge.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The High Priestess"
+    },
+    {
+      "id": 3,
+      "suit": "major",
+      "name": "女皇",
+      "image_description": "戴星冠的女子坐在柔软座椅上，周围有麦田、树林与流水，旁边放着带金星符号的盾牌。",
+      "upright": {
+        "keyword": "丰饶、孕育",
+        "fixed_meanings": [
+          {
+            "zh": "丰产、成果丰盛",
+            "en": "Fruitfulness"
+          },
+          {
+            "zh": "行动",
+            "en": "Action"
+          },
+          {
+            "zh": "主动性",
+            "en": "Initiative"
+          },
+          {
+            "zh": "长寿、长久",
+            "en": "Length of days"
+          },
+          {
+            "zh": "未知、隐秘之事",
+            "en": "The unknown, clandestine"
+          },
+          {
+            "zh": "也有困难的含义",
+            "en": "Also difficulty"
+          },
+          {
+            "zh": "疑虑",
+            "en": "Doubt"
+          },
+          {
+            "zh": "无知",
+            "en": "Ignorance"
+          }
+        ],
+        "meaning": "象征丰饶、生长、行动与创造的孕育；原书也保留对未知和犹疑的解释。\n\n孕育的主题可以用于理解创造所需的条件：除了想法，还包括时间、材料和持续照料。原书并未只给出丰盛的读法，也列出未知与困难，因此成长可以与尚不清楚的部分同时存在。",
+        "question": "我正在培育什么？它目前最需要哪一种具体的照料？",
+        "source_text": "Fruitfulness, action, initiative, length of days; the unknown, clandestine; also difficulty, doubt, ignorance.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "澄清、犹疑",
+        "fixed_meanings": [
+          {
+            "zh": "光明、真相、复杂事情得到梳理、公众的欢庆",
+            "en": "Light, truth, the unravelling of involved matters, public rejoicings"
+          },
+          {
+            "zh": "按照另一种读法，则是摇摆不定",
+            "en": "According to another reading, vacillation"
+          }
+        ],
+        "meaning": "原书同时列出真相显现、复杂事情得到梳理，以及另一种读法中的摇摆不定。\n\n这里保留了澄清与犹疑两种不同的历史读法。前者关注事情逐渐可理解，后者关注立场仍在摆动；它们是不同的理解入口，不必被拼成同一段经历。",
+        "question": "有哪些复杂之处已经变清楚了？又有哪些选择仍需要时间？",
+        "source_text": "Light, truth, the unravelling of involved matters, public rejoicings; according to another reading, vacillation.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The Empress"
+    },
+    {
+      "id": 4,
+      "suit": "major",
+      "name": "皇帝",
+      "image_description": "身着铠甲、披红袍的统治者坐在饰有羊头的石座上，背后是山岭。",
+      "upright": {
+        "keyword": "秩序、稳定",
+        "fixed_meanings": [
+          {
+            "zh": "稳定",
+            "en": "Stability"
+          },
+          {
+            "zh": "力量、权力",
+            "en": "Power"
+          },
+          {
+            "zh": "保护",
+            "en": "Protection"
+          },
+          {
+            "zh": "实现",
+            "en": "Realization"
+          },
+          {
+            "zh": "有影响力的人物",
+            "en": "A great person"
+          },
+          {
+            "zh": "帮助",
+            "en": "Aid"
+          },
+          {
+            "zh": "理性",
+            "en": "Reason"
+          },
+          {
+            "zh": "信念",
+            "en": "Conviction"
+          },
+          {
+            "zh": "也指权威与意志",
+            "en": "Also authority and will"
+          }
+        ],
+        "meaning": "关联稳定、保护、理性、权威与意志，象征建立结构和承担职责。\n\n秩序可以是使事情持续运转的框架，例如清楚的职责、边界与安排。它的价值在于支持行动和提供保护；理解这张牌时，也可以留意结构是否仍服务于最初的目的。",
+        "question": "我需要为哪件事建立更清楚的规则、边界或责任分工？",
+        "source_text": "Stability, power, protection, realization; a great person; aid, reason, conviction; also authority and will.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "阻碍、不成熟",
+        "fixed_meanings": [
+          {
+            "zh": "仁慈",
+            "en": "Benevolence"
+          },
+          {
+            "zh": "同情",
+            "en": "Compassion"
+          },
+          {
+            "zh": "信用、信誉",
+            "en": "Credit"
+          },
+          {
+            "zh": "也指使敌人困惑",
+            "en": "Also confusion to enemies"
+          },
+          {
+            "zh": "阻碍",
+            "en": "Obstruction"
+          },
+          {
+            "zh": "不成熟",
+            "en": "Immaturity"
+          }
+        ],
+        "meaning": "原书包含仁慈与同情，也包含阻碍和不成熟；权威的表现可能尚未稳固。\n\n原书的逆位并不只是正位的反面：仁慈、信誉与阻碍、不成熟被并列保留。可以分别从照应他人的方式和承担责任的成熟程度来理解，而不是据此给现实人物贴上标签。",
+        "question": "在承担责任时，我希望怎样兼顾清楚的边界与对人的体谅？",
+        "source_text": "Benevolence, compassion, credit; also confusion to enemies, obstruction, immaturity.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The Emperor"
+    },
+    {
+      "id": 5,
+      "suit": "major",
+      "name": "教皇",
+      "image_description": "宗教导师坐在两根柱子之间，面前有两名学习者，脚边放着交叉的钥匙。",
+      "upright": {
+        "keyword": "传统、联结",
+        "fixed_meanings": [
+          {
+            "zh": "婚姻",
+            "en": "Marriage"
+          },
+          {
+            "zh": "联盟",
+            "en": "Alliance"
+          },
+          {
+            "zh": "囚禁",
+            "en": "Captivity"
+          },
+          {
+            "zh": "服从、受役",
+            "en": "Servitude"
+          },
+          {
+            "zh": "按照另一种说法，指怜悯与善意",
+            "en": "By another account, mercy and goodness"
+          },
+          {
+            "zh": "启发",
+            "en": "Inspiration"
+          },
+          {
+            "zh": "问卜者求助的男性",
+            "en": "The man to whom the Querent has recourse"
+          }
+        ],
+        "meaning": "关联制度、教导、联盟与传统，也可能涉及对既有规则的依附或束缚。\n\n传统和制度既能提供共同语言，也可能要求个人遵循既定方式。教导、结盟与束缚并列时，可以借此分辨自己从规则中获得了什么，又有哪些地方需要保留独立判断。",
+        "question": "我遵循的一条规则，今天仍在帮助我吗？我理解它背后的理由吗？",
+        "source_text": "Marriage, alliance, captivity, servitude; by another account, mercy and goodness; inspiration; the man to whom the Querent has recourse.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "通融、软弱",
+        "fixed_meanings": [
+          {
+            "zh": "社交、社会关系",
+            "en": "Society"
+          },
+          {
+            "zh": "良好的理解",
+            "en": "Good understanding"
+          },
+          {
+            "zh": "和谐",
+            "en": "Concord"
+          },
+          {
+            "zh": "过分仁厚",
+            "en": "Overkindness"
+          },
+          {
+            "zh": "软弱",
+            "en": "Weakness"
+          }
+        ],
+        "meaning": "原书列出理解、和谐与社交，也提到过度宽容和软弱；规则与通融形成张力。\n\n理解与通融能维持联结，过度迁就却可能让自己的立场变得模糊。这里可以关注善意如何落到清楚的表达上，而不必把逆位直接读成反叛或拒绝传统。",
+        "question": "我能否在理解别人时，也把自己的立场清楚说出来？",
+        "source_text": "Society, good understanding, concord, overkindness, weakness.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The Hierophant"
+    },
+    {
+      "id": 6,
+      "suit": "major",
+      "name": "恋人",
+      "image_description": "两个人站在天使下方，两侧分别有树木，远处是一座山。",
+      "upright": {
+        "keyword": "吸引、结合",
+        "fixed_meanings": [
+          {
+            "zh": "吸引",
+            "en": "Attraction"
+          },
+          {
+            "zh": "爱",
+            "en": "Love"
+          },
+          {
+            "zh": "美",
+            "en": "Beauty"
+          },
+          {
+            "zh": "克服考验",
+            "en": "Trials overcome"
+          }
+        ],
+        "meaning": "传统牌义关联爱、吸引、美与克服考验，突出彼此靠近及建立联结。\n\n结合可以从人与人的关系来理解，也可以从自己愿意靠近、认同的事物来理解。吸引提供靠近的动力，共同经历与实际选择则让联结逐渐具备内容。",
+        "question": "我正在靠近什么？这种吸引与我真正重视的东西有什么联系？",
+        "source_text": "Attraction, love, beauty, trials overcome.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "不协调",
+        "fixed_meanings": [
+          {
+            "zh": "失败",
+            "en": "Failure"
+          },
+          {
+            "zh": "欠考虑的计划",
+            "en": "Foolish designs"
+          },
+          {
+            "zh": "另一种说法提到婚姻受挫以及各种矛盾",
+            "en": "Another account speaks of marriage frustrated and contrarieties of all kinds"
+          }
+        ],
+        "meaning": "关联计划不周、受挫与彼此矛盾，象征结合中的不协调或意向不一致。\n\n不协调可以表现为目标不同，也可以表现为计划与实际行动没有对上。把差异说具体，有助于理解结合为何困难；这不需要预先断定一段现实关系必然失败。",
+        "question": "有没有一处看似达成共识、其实仍需要进一步说清的差异？",
+        "source_text": "Failure, foolish designs. Another account speaks of marriage frustrated and contrarieties of all kinds.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The Lovers"
+    },
+    {
+      "id": 7,
+      "suit": "major",
+      "name": "战车",
+      "image_description": "戴冠的人站在有星幕的战车中，车前是一黑一白两只狮身人面兽。",
+      "upright": {
+        "keyword": "推进、胜利",
+        "fixed_meanings": [
+          {
+            "zh": "援助",
+            "en": "Succour"
+          },
+          {
+            "zh": "护佑，也包括战争",
+            "en": "Providence also war"
+          },
+          {
+            "zh": "凯旋",
+            "en": "Triumph"
+          },
+          {
+            "zh": "自负、冒进",
+            "en": "Presumption"
+          },
+          {
+            "zh": "报复",
+            "en": "Vengeance"
+          },
+          {
+            "zh": "麻烦",
+            "en": "Trouble"
+          }
+        ],
+        "meaning": "关联援助、推进与胜利，也包含自负和争斗；强烈行动力可能伴随摩擦。\n\n推进需要力量，也需要知道力量往哪里去。胜利与争斗并列，提醒人区分有效坚持和单纯想赢的冲动；行动的速度之外，还可以关注方向与代价。",
+        "question": "我正在用力推进什么？这个方向仍然符合我最初的目标吗？",
+        "source_text": "Succour, providence also war, triumph, presumption, vengeance, trouble.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "冲突、受阻",
+        "fixed_meanings": [
+          {
+            "zh": "骚乱",
+            "en": "Riot"
+          },
+          {
+            "zh": "争吵",
+            "en": "Quarrel"
+          },
+          {
+            "zh": "争议",
+            "en": "Dispute"
+          },
+          {
+            "zh": "诉讼",
+            "en": "Litigation"
+          },
+          {
+            "zh": "失败",
+            "en": "Defeat"
+          }
+        ],
+        "meaning": "传统读法涉及争吵、纷争与失利，表现为力量彼此冲突，方向或控制受到阻碍。\n\n当不同力量互相牵制，继续加速未必有助于前进。可以先辨认冲突发生在目标、方法还是沟通上，让问题从笼统的受阻变成能够讨论的具体部分。",
+        "question": "眼前的阻力究竟来自哪里？我能先协调哪一个具体环节？",
+        "source_text": "Riot, quarrel, dispute, litigation, defeat.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The Chariot"
+    },
+    {
+      "id": 8,
+      "suit": "major",
+      "name": "力量",
+      "image_description": "女子平静地接触狮子的嘴部，头顶有无限符号，衣服与花环显得柔和。",
+      "upright": {
+        "keyword": "勇气、宽厚",
+        "fixed_meanings": [
+          {
+            "zh": "力量",
+            "en": "Power"
+          },
+          {
+            "zh": "活力",
+            "en": "Energy"
+          },
+          {
+            "zh": "行动",
+            "en": "Action"
+          },
+          {
+            "zh": "勇气",
+            "en": "Courage"
+          },
+          {
+            "zh": "宽宏",
+            "en": "Magnanimity"
+          },
+          {
+            "zh": "也指完全的成功与荣誉",
+            "en": "Also complete success and honours"
+          }
+        ],
+        "meaning": "关联勇气、活力、行动与宽厚，象征以稳定的力量面对强烈冲动。\n\n宽厚与勇气放在一起，让力量不只意味着压过对方。面对强烈感受时，保持稳定、愿意理解并仍能行动，也是一种力量的用法。",
+        "question": "今天有什么地方，可以用稳定和耐心代替一味强撑？",
+        "source_text": "Power, energy, action, courage, magnanimity; also complete success and honours.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "滥用、软弱",
+        "fixed_meanings": [
+          {
+            "zh": "专横、权力滥用、软弱、不和，有时甚至失誉",
+            "en": "Despotism, abuse if power, weakness, discord, sometimes even disgrace"
+          }
+        ],
+        "meaning": "传统读法涉及权力滥用、软弱与不和，体现力量过度使用或难以发挥。\n\n力量可能过度施加，也可能因为疲惫或犹疑而难以发挥。理解时可以分别检查力度、资源与边界，不把一时做不到等同于整个人没有能力。",
+        "question": "我现在需要减少一点强迫，还是补充一点支持？",
+        "source_text": "Despotism, abuse if power, weakness, discord, sometimes even disgrace.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "Strength"
+    },
+    {
+      "id": 9,
+      "suit": "major",
+      "name": "隐者",
+      "image_description": "披斗篷的老人站在高处，一手提着装有星光的灯，一手扶杖。",
+      "upright": {
+        "keyword": "审慎、独处",
+        "fixed_meanings": [
+          {
+            "zh": "审慎",
+            "en": "Prudence"
+          },
+          {
+            "zh": "周密考虑",
+            "en": "Circumspection"
+          },
+          {
+            "zh": "也尤其包括背叛",
+            "en": "Also and especially treason"
+          },
+          {
+            "zh": "掩饰",
+            "en": "Dissimulation"
+          },
+          {
+            "zh": "欺诈",
+            "en": "Roguery"
+          },
+          {
+            "zh": "腐败",
+            "en": "Corruption"
+          }
+        ],
+        "meaning": "关联审慎、细察和退居观察；原书也保留隐藏、伪装等较阴暗的读法。\n\n独处的图像能帮助理解认真观察与辨认方向。原书同时列出隐瞒和欺诈等读法，因而既要留出思考空间，也要区分审慎核实与没有依据的猜疑。",
+        "question": "我需要安静想清楚什么？哪些判断还应回到事实去核实？",
+        "source_text": "Prudence, circumspection; also and especially treason, dissimulation, roguery, corruption.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "退缩、过虑",
+        "fixed_meanings": [
+          {
+            "zh": "隐藏",
+            "en": "Concealment"
+          },
+          {
+            "zh": "伪装",
+            "en": "Disguise"
+          },
+          {
+            "zh": "策略、权谋",
+            "en": "Policy"
+          },
+          {
+            "zh": "恐惧",
+            "en": "Fear"
+          },
+          {
+            "zh": "缺少理由的谨慎",
+            "en": "Unreasoned caution"
+          }
+        ],
+        "meaning": "涉及隐匿、恐惧和没有充分理由的谨慎，可能表现为观察变成过度退缩。\n\n谨慎原本能保护行动，若长期只有回避而缺少新的了解，就可能变成退缩。可以借此观察自己保留距离的原因，给重新接触外界留下一个足够小的入口。",
+        "question": "我是在等待更多信息，还是因为害怕而迟迟不接近某件事？",
+        "source_text": "Concealment, disguise, policy, fear, unreasoned caution.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The Hermit"
+    },
+    {
+      "id": 10,
+      "suit": "major",
+      "name": "命运之轮",
+      "image_description": "带有字母和符号的轮盘位于画面中央，周围有升降的形象，四角是带翅膀的象征动物。",
+      "upright": {
+        "keyword": "转变、机运",
+        "fixed_meanings": [
+          {
+            "zh": "命运",
+            "en": "Destiny"
+          },
+          {
+            "zh": "机运",
+            "en": "Fortune"
+          },
+          {
+            "zh": "成功",
+            "en": "Success"
+          },
+          {
+            "zh": "提升",
+            "en": "Elevation"
+          },
+          {
+            "zh": "好运",
+            "en": "Luck"
+          },
+          {
+            "zh": "幸福",
+            "en": "Felicity"
+          }
+        ],
+        "meaning": "传统牌义关联机运、提升、成功与循环，强调局面处于变化之中。\n\n轮转的图像提供了看待变化的角度：有些条件会随时间移动，个人并不能控制全部过程。可以辨认哪些已经改变、哪些仍可选择，而不是把所有结果都归于运气。",
+        "question": "最近有哪些条件发生了变化？其中哪一部分仍由我决定如何回应？",
+        "source_text": "Destiny, fortune, success, elevation, luck, felicity.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "增长、过量",
+        "fixed_meanings": [
+          {
+            "zh": "增长",
+            "en": "Increase"
+          },
+          {
+            "zh": "丰裕",
+            "en": "Abundance"
+          },
+          {
+            "zh": "过剩",
+            "en": "Superfluity"
+          }
+        ],
+        "meaning": "原书逆位并不简单等于坏运，列出增长、丰裕和过剩，提示数量与适度的关系。\n\n更多并不总是更合适。原书把增长与过剩同时列出，适合用来区分真正有益的充足，以及已经超过精力、时间或实际需求的部分。",
+        "question": "我目前拥有的什么已经足够？还有什么正在变成多余的负担？",
+        "source_text": "Increase, abundance, superfluity.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "Wheel of Fortune"
+    },
+    {
+      "id": 11,
+      "suit": "major",
+      "name": "正义",
+      "image_description": "戴冠的人端坐在柱子之间，一手持剑，一手持天平。",
+      "upright": {
+        "keyword": "公平、判断",
+        "fixed_meanings": [
+          {
+            "zh": "公平",
+            "en": "Equity"
+          },
+          {
+            "zh": "正当",
+            "en": "Rightness"
+          },
+          {
+            "zh": "正直",
+            "en": "Probity"
+          },
+          {
+            "zh": "执行、裁断",
+            "en": "Executive"
+          },
+          {
+            "zh": "法律中应得一方的胜诉",
+            "en": "Triumph of the deserving side in law"
+          }
+        ],
+        "meaning": "关联公正、正直、合理判断与应得的结果，突出事实、责任和衡量。\n\n衡量意味着把事实、标准和个人感受尽量分清。可以关注自己采用的尺度是否一致，以及权利与责任是否被同时看见；法律措辞在这里是历史词条，不代替现实判断。",
+        "question": "我正在用什么标准作判断？同样的标准能否也适用于我自己？",
+        "source_text": "Equity, rightness, probity, executive; triumph of the deserving side in law.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "偏见、苛刻",
+        "fixed_meanings": [
+          {
+            "zh": "法律的各个方面",
+            "en": "Law in all its departments"
+          },
+          {
+            "zh": "法律纠纷的复杂化",
+            "en": "Legal complications"
+          },
+          {
+            "zh": "偏执",
+            "en": "Bigotry"
+          },
+          {
+            "zh": "偏见",
+            "en": "Bias"
+          },
+          {
+            "zh": "过度严厉",
+            "en": "Excessive severity"
+          }
+        ],
+        "meaning": "传统读法涉及偏见、过度严厉与复杂纠纷，表现为衡量标准失去平衡。\n\n规则不清、立场先行或标准过严，都可能让判断失去平衡。先把依据与假设分别写清，可以帮助辨认到底是信息不足，还是已经预设了答案。",
+        "question": "我的一个判断里，哪些是事实，哪些是未经核实的假设？",
+        "source_text": "Law in all its departments, legal complications, bigotry, bias, excessive severity.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "Justice"
+    },
+    {
+      "id": 12,
+      "suit": "major",
+      "name": "倒吊人",
+      "image_description": "人物倒悬在树架上，一条腿弯成三角形，头部周围有光环，神情平静。",
+      "upright": {
+        "keyword": "停顿、洞察",
+        "fixed_meanings": [
+          {
+            "zh": "智慧",
+            "en": "Wisdom"
+          },
+          {
+            "zh": "审慎",
+            "en": "Circumspection"
+          },
+          {
+            "zh": "辨识力",
+            "en": "Discernment"
+          },
+          {
+            "zh": "考验",
+            "en": "Trials"
+          },
+          {
+            "zh": "牺牲",
+            "en": "Sacrifice"
+          },
+          {
+            "zh": "直觉",
+            "en": "Intuition"
+          },
+          {
+            "zh": "占卜",
+            "en": "Divination"
+          },
+          {
+            "zh": "预言",
+            "en": "Prophecy"
+          }
+        ],
+        "meaning": "关联智慧、审慎、考验与牺牲，图像提供从不同位置观察事情的角度。\n\n暂停不一定等于没有进展；换一个位置观察，可能让原来忽略的部分显现出来。也可以检视自己付出的时间或让步，是否仍然服务于值得保留的目标。",
+        "question": "如果暂时换一个角度，我会怎样重新理解眼前这件事？",
+        "source_text": "Wisdom, circumspection, discernment, trials, sacrifice, intuition, divination, prophecy.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "自我局限",
+        "fixed_meanings": [
+          {
+            "zh": "自私、群众、政治共同体",
+            "en": "Selfishness, the crowd, body politic"
+          }
+        ],
+        "meaning": "原书列出自私及群体层面的含义；学习摘要侧重只从自身立场理解处境的局限。\n\n这组条目把个人立场与群体层面并置。可以借此区分自己真正愿意承担的部分，以及只是随众或只顾自身而忽略的视角，不把停顿本身视作错误。",
+        "question": "在我的立场之外，还有谁的处境值得被看见？",
+        "source_text": "Selfishness, the crowd, body politic.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The Hanged Man"
+    },
+    {
+      "id": 13,
+      "suit": "major",
+      "name": "死神",
+      "image_description": "披甲的骷髅骑在白马上，举着黑底白花旗帜；地上与前方有不同身份的人物。",
+      "upright": {
+        "keyword": "结束、变化",
+        "fixed_meanings": [
+          {
+            "zh": "结束、死亡、毁坏、腐败；也包括男性失去恩人、女性遭遇诸多不顺等历史读法",
+            "en": "End, mortality, destruction, corruption also, for a man, the loss of a benefactor for a woman, many contrarieties"
+          },
+          {
+            "zh": "对于未婚女子，原书还列出婚姻计划失败",
+            "en": "For a maid, failure of marriage projects"
+          }
+        ],
+        "meaning": "传统核心涉及结束、消解和旧有形态的终止；在此作为变化意象，而非具体死亡预报。\n\n结束的意象可以帮助人辨认已不再延续的方式、角色或阶段。旧形式的消解未必立刻带来轻松，也无需急着赋予它积极意义；先承认变化，才有空间整理留下的东西。",
+        "question": "有哪些旧方式已经不适用了？我希望怎样与这个阶段告别？",
+        "source_text": "End, mortality, destruction, corruption also, for a man, the loss of a benefactor for a woman, many contrarieties; for a maid, failure of marriage projects.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "停滞、僵化",
+        "fixed_meanings": [
+          {
+            "zh": "惰性",
+            "en": "Inertia"
+          },
+          {
+            "zh": "沉睡",
+            "en": "Sleep"
+          },
+          {
+            "zh": "迟钝",
+            "en": "Lethargy"
+          },
+          {
+            "zh": "僵化",
+            "en": "Petrifaction"
+          },
+          {
+            "zh": "梦游",
+            "en": "Somnambulism"
+          },
+          {
+            "zh": "希望破灭",
+            "en": "Hope destroyed"
+          }
+        ],
+        "meaning": "原书列出惰性、沉睡、迟钝与僵化，象征变化过程被拖住或迟迟不能展开。\n\n停滞有时来自惯性，有时来自尚未具备改变所需的条件。可以先看清被保留的旧状态以及它提供的保护，再寻找一个现实中能够移动的小部分。",
+        "question": "我仍然维持着哪一种旧状态？它在保护我什么，又限制了什么？",
+        "source_text": "Inertia, sleep, lethargy, petrifaction, somnambulism; hope destroyed.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "Death"
+    },
+    {
+      "id": 14,
+      "suit": "major",
+      "name": "节制",
+      "image_description": "有翅膀的天使把水在两只杯子之间倾倒，一只脚在水中，另一只脚踏地。",
+      "upright": {
+        "keyword": "适度、调和",
+        "fixed_meanings": [
+          {
+            "zh": "节约、经济安排",
+            "en": "Economy"
+          },
+          {
+            "zh": "适度",
+            "en": "Moderation"
+          },
+          {
+            "zh": "节俭",
+            "en": "Frugality"
+          },
+          {
+            "zh": "管理",
+            "en": "Management"
+          },
+          {
+            "zh": "调适、协调",
+            "en": "Accommodation"
+          }
+        ],
+        "meaning": "关联节约、适度、管理和调适，强调不同因素之间的安排与平衡。\n\n调和并不只是取中间值，而是理解不同材料、需求和节奏怎样配合。时间、精力与资源的安排，可以帮助把抽象的适度变成可持续的日常方式。",
+        "question": "我可以怎样调整比例，让一件事更容易持续下去？",
+        "source_text": "Economy, moderation, frugality, management, accommodation.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "失和、错配",
+        "fixed_meanings": [
+          {
+            "zh": "与教会、宗教、教派、神职有关的事，有时也指将为问卜者主持婚礼的神父",
+            "en": "Things connected with churches, religions, sects, the priesthood, sometimes even the priest who will marry the Querent"
+          },
+          {
+            "zh": "也指不和",
+            "en": "Also disunion"
+          },
+          {
+            "zh": "不利的组合",
+            "en": "Unfortunate combinations"
+          },
+          {
+            "zh": "相互竞争的利益",
+            "en": "Competing interests"
+          }
+        ],
+        "meaning": "原书列出不和、不利的组合与相互竞争的利益，象征配合和比例出现问题。\n\n原书一方面列出宗教事务，另一方面列出失和与利益冲突，不能强行归成同一件事。作为通俗理解，可以观察某种组合为何难以相容，是比例不当，还是各自追求的目标不同。",
+        "question": "我正在勉强搭配哪些彼此不相容的需求？它们能否换一种安排？",
+        "source_text": "Things connected with churches, religions, sects, the priesthood, sometimes even the priest who will marry the Querent; also disunion, unfortunate combinations, competing interests.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "Temperance"
+    },
+    {
+      "id": 15,
+      "suit": "major",
+      "name": "恶魔",
+      "image_description": "有角的形象坐在台座上，前方两个人戴着锁链，锁链连接在台座上。",
+      "upright": {
+        "keyword": "强烈、束缚",
+        "fixed_meanings": [
+          {
+            "zh": "蹂躏、破坏",
+            "en": "Ravage"
+          },
+          {
+            "zh": "暴力",
+            "en": "Violence"
+          },
+          {
+            "zh": "激烈",
+            "en": "Vehemence"
+          },
+          {
+            "zh": "非同寻常的努力",
+            "en": "Extraordinary efforts"
+          },
+          {
+            "zh": "强力",
+            "en": "Force"
+          },
+          {
+            "zh": "宿命",
+            "en": "Fatality"
+          },
+          {
+            "zh": "被认为命定的事物，但不因命定就必然邪恶",
+            "en": "That which is predestined but is not for this reason evil"
+          }
+        ],
+        "meaning": "传统读法涉及强烈力量、激烈欲望和巨大的努力；图像也呈现受制与依附。\n\n束缚的图像适合用来观察强烈欲望、依赖和投入如何影响选择。关键不只在于想要什么，也在于自己还保有多少调整的空间，以及代价是否被清楚看见。",
+        "question": "有什么正在强烈吸引或牵制我？我仍然拥有哪些选择？",
+        "source_text": "Ravage, violence, vehemence, extraordinary efforts, force, fatality; that which is predestined but is not for this reason evil.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "盲点、软弱",
+        "fixed_meanings": [
+          {
+            "zh": "不利的宿命",
+            "en": "Evil fatality"
+          },
+          {
+            "zh": "软弱",
+            "en": "Weakness"
+          },
+          {
+            "zh": "狭隘",
+            "en": "Pettiness"
+          },
+          {
+            "zh": "盲目",
+            "en": "Blindness"
+          }
+        ],
+        "meaning": "原书涉及软弱、狭隘与盲目，学习时可关注难以看清的限制和自身力量不足。\n\n这份历史逆位没有直接写成解除束缚。可以把关注点放在自己尚未看清的限制、容易忽略的代价，以及需要他人协助才能辨认的盲点。",
+        "question": "我可能忽略了什么代价？谁能帮助我多看见一个角度？",
+        "source_text": "Evil fatality, weakness, pettiness, blindness.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The Devil"
+    },
+    {
+      "id": 16,
+      "suit": "major",
+      "name": "高塔",
+      "image_description": "闪电击中高塔顶端，王冠被掀开，火焰中有人从塔上坠落。",
+      "upright": {
+        "keyword": "突变、瓦解",
+        "fixed_meanings": [
+          {
+            "zh": "苦难",
+            "en": "Misery"
+          },
+          {
+            "zh": "痛苦、困厄",
+            "en": "Distress"
+          },
+          {
+            "zh": "贫困",
+            "en": "Indigence"
+          },
+          {
+            "zh": "逆境",
+            "en": "Adversity"
+          },
+          {
+            "zh": "灾祸",
+            "en": "Calamity"
+          },
+          {
+            "zh": "失誉",
+            "en": "Disgrace"
+          },
+          {
+            "zh": "欺瞒",
+            "en": "Deception"
+          },
+          {
+            "zh": "毁坏",
+            "en": "Ruin"
+          },
+          {
+            "zh": "原书尤其将它列为意外灾变之牌",
+            "en": "It is a card in particular of unforeseen catastrophe"
+          }
+        ],
+        "meaning": "传统牌义围绕突然冲击、困境和结构瓦解，象征原有稳定形态受到打断。\n\n结构受到打断时，熟悉的解释可能暂时不再管用。作为思考意象，可以分清真正受到影响的部分和仍可依靠的基础，把注意力放回具体情况，而不是把画面当作即将发生的事件。",
+        "question": "如果一个旧假设不再成立，我仍然可以依靠哪些实际条件？",
+        "source_text": "Misery, distress, indigence, adversity, calamity, disgrace, deception, ruin. It is a card in particular of unforeseen catastrophe.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "持续压力",
+        "fixed_meanings": [
+          {
+            "zh": "按一种说法，正位同类含义的程度较轻；也包括压迫、囚禁、专制",
+            "en": "According to one account, the same in a lesser degree also oppression, imprisonment, tyranny"
+          }
+        ],
+        "meaning": "原书包括程度较轻的同类困境，以及压迫和束缚，未必代表冲击已经完全结束。\n\n程度较轻与压力消失并不是同一回事。可以关注持续存在的限制是否被习惯化，以及哪些稳定只是表面维持，哪些支持则确实能帮助自己恢复主动。",
+        "question": "有没有一种持续的压力，我已经习惯了，却仍然需要认真对待？",
+        "source_text": "According to one account, the same in a lesser degree also oppression, imprisonment, tyranny.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The Tower"
+    },
+    {
+      "id": 17,
+      "suit": "major",
+      "name": "星星",
+      "image_description": "女子跪在水边，分别向水中和土地倒水；上方有一颗大星和七颗小星。",
+      "upright": {
+        "keyword": "希望、前景",
+        "fixed_meanings": [
+          {
+            "zh": "损失",
+            "en": "Loss"
+          },
+          {
+            "zh": "盗窃",
+            "en": "Theft"
+          },
+          {
+            "zh": "匮乏",
+            "en": "Privation"
+          },
+          {
+            "zh": "遗弃",
+            "en": "Abandonment"
+          },
+          {
+            "zh": "另一种读法则是希望与光明的前景",
+            "en": "Another reading says-hope and bright prospects"
+          }
+        ],
+        "meaning": "星星的历史牌义包含两组不同方向：一组涉及损失、匮乏与遗弃，另一组指向希望和明亮前景；原书并未将它们统一成单一结论。\n\n补给和敞开的图像可以作为联想，帮助理解人在不足之后如何重新看见可期待的部分。它是一个解释角度，不要求两组读法同时对应现实。",
+        "question": "有什么具体的小事，正在让我重新愿意期待？",
+        "source_text": "Loss, theft, privation, abandonment; another reading says-hope and bright prospects,",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "傲慢、无力",
+        "fixed_meanings": [
+          {
+            "zh": "傲慢",
+            "en": "Arrogance"
+          },
+          {
+            "zh": "自高",
+            "en": "Haughtiness"
+          },
+          {
+            "zh": "无力",
+            "en": "Impotence"
+          }
+        ],
+        "meaning": "原书列出傲慢、自高与无力，象征期待与实际能力之间可能存在距离。\n\n可以借此观察对自己的期待是否和当前条件相称。把尚未做到的部分看清，不必等于否定所有可能；也可以区分真实的信心与不愿承认限制的姿态。",
+        "question": "我的期待与现有条件之间，哪一处最需要重新对齐？",
+        "source_text": "Arrogance, haughtiness, impotence.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The Star"
+    },
+    {
+      "id": 18,
+      "suit": "major",
+      "name": "月亮",
+      "image_description": "月光照在两座塔和一条道路上，狗与狼朝月亮仰望，水中有甲壳动物爬出。",
+      "upright": {
+        "keyword": "模糊、误认",
+        "fixed_meanings": [
+          {
+            "zh": "隐藏的敌人",
+            "en": "Hidden enemies"
+          },
+          {
+            "zh": "危险",
+            "en": "Danger"
+          },
+          {
+            "zh": "诽谤",
+            "en": "Calumny"
+          },
+          {
+            "zh": "黑暗",
+            "en": "Darkness"
+          },
+          {
+            "zh": "恐惧",
+            "en": "Terror"
+          },
+          {
+            "zh": "欺瞒",
+            "en": "Deception"
+          },
+          {
+            "zh": "神秘力量",
+            "en": "Occult forces"
+          },
+          {
+            "zh": "错误",
+            "en": "Error"
+          }
+        ],
+        "meaning": "传统牌义关联黑暗、恐惧、误差和欺瞒，突出信息不清与想象之间的张力。\n\n当信息不完整时，想象很容易填补空白。可以把担忧、直觉和已经验证的事实分开放置，让不确定性得到承认，而不急着把它解释成某种隐藏的威胁。",
+        "question": "我现在担心的内容中，哪些已经有事实支持，哪些仍是猜测？",
+        "source_text": "Hidden enemies, danger, calumny, darkness, terror, deception, occult forces, error.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "不稳定",
+        "fixed_meanings": [
+          {
+            "zh": "不稳定",
+            "en": "Instability"
+          },
+          {
+            "zh": "反复无常",
+            "en": "Inconstancy"
+          },
+          {
+            "zh": "沉默",
+            "en": "Silence"
+          },
+          {
+            "zh": "程度较轻的欺瞒与错误",
+            "en": "Lesser degrees of deception and error"
+          }
+        ],
+        "meaning": "原书涉及不稳定、反复，以及程度较轻的误差或欺瞒，未必已经获得完全清晰的判断。\n\n混乱减弱不代表一切已经明朗。面对反复的信息或沉默，可以保留修正判断的余地，先寻找一个可验证的小事实，而不要求自己马上得到完整答案。",
+        "question": "我今天能核实哪一个小事实，让判断比昨天清楚一点？",
+        "source_text": "Instability, inconstancy, silence, lesser degrees of deception and error.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The Moon"
+    },
+    {
+      "id": 19,
+      "suit": "major",
+      "name": "太阳",
+      "image_description": "明亮的太阳下，孩子骑着白马举起红旗，身后有围墙与向日葵。",
+      "upright": {
+        "keyword": "喜悦、满足",
+        "fixed_meanings": [
+          {
+            "zh": "物质层面的幸福",
+            "en": "Material happiness"
+          },
+          {
+            "zh": "美满的婚姻",
+            "en": "Fortunate marriage"
+          },
+          {
+            "zh": "满足",
+            "en": "Contentment"
+          }
+        ],
+        "meaning": "传统牌义关联幸福、满足和温暖的联结，呈现充足、坦然与明朗的感受。\n\n明朗与满足可以来自非常具体的经验，例如完成后的轻松、被理解的感受，或生活条件带来的舒适。可以允许自己感受已经拥有的愉快，而不急着把它变成新的任务。",
+        "question": "今天有什么值得我直接享受，而不必先证明它足够重要？",
+        "source_text": "Material happiness, fortunate marriage, contentment.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "较弱的喜悦",
+        "fixed_meanings": [
+          {
+            "zh": "与正位相同，但程度较弱",
+            "en": "The same in a lesser sense"
+          }
+        ],
+        "meaning": "原书说明基本含义相近但程度较弱；逆位不必被机械地解释为负面结果。\n\n这里的逆位仍保留喜悦与满足，只是强度或充分程度较弱。可以用较温和的尺度去辨认快乐，不必因为感受不够鲜明，就把它理解为不存在。",
+        "question": "有没有一种不那么耀眼、却真实存在的小满足？",
+        "source_text": "The same in a lesser sense.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The Sun"
+    },
+    {
+      "id": 20,
+      "suit": "major",
+      "name": "审判",
+      "image_description": "天使在云端吹号，下面的人从棺中起身，抬头张开双臂。",
+      "upright": {
+        "keyword": "更新、回应",
+        "fixed_meanings": [
+          {
+            "zh": "位置、处境的改变",
+            "en": "Change of position"
+          },
+          {
+            "zh": "更新",
+            "en": "Renewal"
+          },
+          {
+            "zh": "结果",
+            "en": "Outcome"
+          },
+          {
+            "zh": "另一种说法指因诉讼而完全失去",
+            "en": "Another account specifies total loss though lawsuit"
+          }
+        ],
+        "meaning": "传统牌义关联位置改变、更新与结果，象征对召唤的回应和阶段性的重新认识。\n\n回应与更新可以理解为重新认识一段经历，并决定如何继续。原书也保留完全不同的损失读法，因此不把更新当作必然的好结果，而是关注自己对经验作出的回应。",
+        "question": "回看一段经历后，我现在愿意作出什么不同的回应？",
+        "source_text": "Change of position, renewal, outcome. Another account specifies total loss though lawsuit.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "迟疑、审议",
+        "fixed_meanings": [
+          {
+            "zh": "软弱",
+            "en": "Weakness"
+          },
+          {
+            "zh": "怯懦",
+            "en": "Pusillanimity"
+          },
+          {
+            "zh": "单纯",
+            "en": "Simplicity"
+          },
+          {
+            "zh": "也指审议",
+            "en": "Also deliberation"
+          },
+          {
+            "zh": "决定",
+            "en": "Decision"
+          },
+          {
+            "zh": "判决",
+            "en": "Sentence"
+          }
+        ],
+        "meaning": "原书并列软弱、胆怯、审议和决定等含义；本版侧重回应前的迟疑与评估。\n\n迟疑与审议看起来相似，区别在于是否逐渐形成更清楚的依据。可以借此检查自己还需要什么信息，以及何时可以结束反复评估，作出愿意承担的决定。",
+        "question": "我是在认真审议，还是不断推迟回应？还缺哪一条真正必要的信息？",
+        "source_text": "Weakness, pusillanimity, simplicity; also deliberation, decision, sentence.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "Judgement"
+    },
+    {
+      "id": 21,
+      "suit": "major",
+      "name": "世界",
+      "image_description": "人物位于椭圆花环之中，手持两根短杖；四角分布着人、鹰、狮子和牛的象征。",
+      "upright": {
+        "keyword": "完成、整合",
+        "fixed_meanings": [
+          {
+            "zh": "确保成功",
+            "en": "Assured success"
+          },
+          {
+            "zh": "回报、报偿",
+            "en": "Recompense"
+          },
+          {
+            "zh": "旅程、航行",
+            "en": "Voyage"
+          },
+          {
+            "zh": "路线",
+            "en": "Route"
+          },
+          {
+            "zh": "移民",
+            "en": "Emigration"
+          },
+          {
+            "zh": "飞行",
+            "en": "Flight"
+          },
+          {
+            "zh": "地点改变",
+            "en": "Change of place"
+          }
+        ],
+        "meaning": "世界正位的“完成”，可以理解为一段经历形成了较完整的结果；“整合”则是把其中的学习、经验与收获连成整体。作品完稿、课程结束，或一项工作交付，都能帮助理解这种完整感。\n\n固定牌义还提供了两个阅读方向：“确保成功、回报”侧重成果与所得；“旅程、路线、移民、飞行、地点改变”侧重行程与环境转换。这些是不同的理解入口，不必同时对应同一件事。",
+        "question": "有没有一件事已经可以告一段落？我想从这段经历中带走什么？",
+        "source_text": "Assured success, recompense, voyage, route, emigration, flight, change of place.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "reversed": {
+        "keyword": "停留、停滞",
+        "fixed_meanings": [
+          {
+            "zh": "惰性",
+            "en": "Inertia"
+          },
+          {
+            "zh": "固定",
+            "en": "Fixity"
+          },
+          {
+            "zh": "停滞",
+            "en": "Stagnation"
+          },
+          {
+            "zh": "持续不变",
+            "en": "Permanence"
+          }
+        ],
+        "meaning": "原书列出惰性、固定、停滞和持续不变，呈现阶段完成或转换尚未顺畅的状态。\n\n可以把它理解为仍停在原处，而不是直接把正位的成功翻成失败。仅凭这张牌，不能知道停住的具体原因，也不能一律解释成只差最后一步。",
+        "question": "我希望告一段落的事情，究竟停在哪一个具体环节？",
+        "source_text": "Inertia, fixity, stagnation, permanence.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-3-the-greater-arcana-and-their-divinatory-meanings"
+      },
+      "name_en": "The World"
+    },
+    {
+      "id": 22,
+      "suit": "wands",
+      "name": "权杖一",
+      "image_description": "一只从云中伸出的手握住发芽的权杖，远处有城堡和山丘。",
+      "upright": {
+        "keyword": "创造、起点",
+        "fixed_meanings": [
+          {
+            "zh": "创造、发明、事业，以及由此产生的力量",
+            "en": "Creation, invention, enterprise, the powers which result in these"
+          },
+          {
+            "zh": "原理",
+            "en": "Principle"
+          },
+          {
+            "zh": "开端",
+            "en": "Beginning"
+          },
+          {
+            "zh": "源头",
+            "en": "Source"
+          },
+          {
+            "zh": "出生、家庭、起源，以及某种意义上其背后的生殖活力",
+            "en": "Birth, family, origin, and in a sense the virility which is behind them"
+          },
+          {
+            "zh": "事业的起点",
+            "en": "The starting point of enterprises"
+          },
+          {
+            "zh": "按另一种说法，也指金钱、财富和遗产",
+            "en": "According to another account, money, fortune, inheritance"
+          }
+        ],
+        "meaning": "传统牌义关联创造、发明、事业的开始和力量的源头。\n\n起点的价值在于它为行动提供了最初的能量。可以先辨认自己想创造什么、已经拥有什么材料，再让一个足够小的尝试把想法带到现实中。",
+        "question": "我希望开始什么？今天最小、最具体的一步是什么？",
+        "source_text": "Creation, invention, enterprise, the powers which result in these; principle, beginning, source; birth, family, origin, and in a sense the virility which is behind them; the starting point of enterprises; according to another account, money, fortune, inheritance.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ace-of-wands"
+      },
+      "reversed": {
+        "keyword": "衰退、受挫",
+        "fixed_meanings": [
+          {
+            "zh": "衰落、颓败、毁坏、沉沦、消亡，也包括蒙上阴影的喜悦",
+            "en": "Fall, decadence, ruin, perdition, to perish also a certain clouded joy"
+          }
+        ],
+        "meaning": "原书涉及衰落、受挫与蒙上阴影的喜悦，表示初始力量尚未顺利发挥。\n\n最初的热情未能延续，可能需要重新检查条件与期待。与其只问自己是否足够有动力，也可以看看目标、资源和行动方式是否彼此相配。",
+        "question": "什么让我的起步变得困难？我可以先调整哪一个条件？",
+        "source_text": "Fall, decadence, ruin, perdition, to perish also a certain clouded joy.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ace-of-wands"
+      },
+      "name_en": "Ace of Wands"
+    },
+    {
+      "id": 23,
+      "suit": "wands",
+      "name": "权杖二",
+      "image_description": "人物站在城墙上，手持地球仪，身旁有两根权杖，面向海岸。",
+      "upright": {
+        "keyword": "领地、远望",
+        "fixed_meanings": [
+          {
+            "zh": "不同读法之间无法调和",
+            "en": "Between the alternative readings there is no marriage possible"
+          },
+          {
+            "zh": "一方面指财富、运气与宏大",
+            "en": "On the one hand, riches, fortune, magnificence"
+          },
+          {
+            "zh": "另一方面指身体痛苦、疾病、懊恼、悲伤与屈辱",
+            "en": "On the other, physical suffering, disease, chagrin, sadness, mortification"
+          },
+          {
+            "zh": "图像给出了一种提示",
+            "en": "The design gives one suggestion"
+          },
+          {
+            "zh": "一位领主俯瞰自己的领地，同时凝视一个地球仪",
+            "en": "Here is a lord overlooking his dominion and alternately contemplating a globe"
+          },
+          {
+            "zh": "这像是亚历山大置身世间财富的辉煌之中，却仍有病痛、屈辱与悲伤",
+            "en": "It looks like the malady, the mortification, the sadness of Alexander amidst the grandeur of this world's wealth"
+          }
+        ],
+        "meaning": "原书把财富与宏大、又把不满足和忧虑并列；图像突出拥有之后的远望。\n\n拥有与满足并不总是同步。远望的姿态可以帮助理解人如何一边看到现有条件，一边感受尚未完成的愿望；先分清不满足来自哪里，才更容易辨认方向。",
+        "question": "我已经拥有了什么？仍在向远处寻找的，又究竟是什么？",
+        "source_text": "Between the alternative readings there is no marriage possible; on the one hand, riches, fortune, magnificence; on the other, physical suffering, disease, chagrin, sadness, mortification. The design gives one suggestion; here is a lord overlooking his dominion and alternately contemplating a globe; it looks like the malady, the mortification, the sadness of Alexander amidst the grandeur of this world's wealth.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/two-of-wands"
+      },
+      "reversed": {
+        "keyword": "意外、波动",
+        "fixed_meanings": [
+          {
+            "zh": "惊讶",
+            "en": "Surprise"
+          },
+          {
+            "zh": "惊奇",
+            "en": "Wonder"
+          },
+          {
+            "zh": "迷醉",
+            "en": "Enchantment"
+          },
+          {
+            "zh": "情绪",
+            "en": "Emotion"
+          },
+          {
+            "zh": "烦恼",
+            "en": "Trouble"
+          },
+          {
+            "zh": "恐惧",
+            "en": "Fear"
+          }
+        ],
+        "meaning": "传统读法包含惊讶、情绪、烦恼与恐惧，强调计划之外的感受和变化。\n\n计划之外的感受不必立刻被判作好坏。可以先区分新鲜事物带来的兴奋，以及不确定性带来的紧张，让自己的选择有一点重新了解情况的余地。",
+        "question": "面对一个意外，我最先感受到什么？还需要了解哪些情况？",
+        "source_text": "Surprise, wonder, enchantment, emotion, trouble, fear.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/two-of-wands"
+      },
+      "name_en": "Two of Wands"
+    },
+    {
+      "id": 24,
+      "suit": "wands",
+      "name": "权杖三",
+      "image_description": "人物背对观者站在高处，三根权杖立在身旁，海面有船只航行。",
+      "upright": {
+        "keyword": "拓展、合作",
+        "fixed_meanings": [
+          {
+            "zh": "人物象征已经建立的力量",
+            "en": "He symbolizes established strength"
+          },
+          {
+            "zh": "事业",
+            "en": "Enterprise"
+          },
+          {
+            "zh": "努力",
+            "en": "Effort"
+          },
+          {
+            "zh": "贸易",
+            "en": "Trade"
+          },
+          {
+            "zh": "商业活动",
+            "en": "Commerce"
+          },
+          {
+            "zh": "发现",
+            "en": "Discovery"
+          },
+          {
+            "zh": "载着货物的船正是他的船，航行在海上",
+            "en": "Those are his ships, bearing his merchandise, which are sailing over the sea"
+          },
+          {
+            "zh": "这张牌也表示有能力的商业合作，像一位成功商人从自己的位置望向你，希望提供帮助",
+            "en": "The card also signifies able co-operation in business, as if the successful merchant prince were looking from his side towards yours with a view to help you"
+          }
+        ],
+        "meaning": "关联已建立的力量、企业活动、探索和有能力的合作。\n\n拓展建立在已有基础之上，也依赖对外部条件的了解。可以关注自己的准备能怎样与他人的能力相接，让合作成为互相补足，而不是单方面等待成果。",
+        "question": "我已经准备好的部分，能够与谁的能力形成合作？",
+        "source_text": "He symbolizes established strength, enterprise, effort, trade, commerce, discovery; those are his ships, bearing his merchandise, which are sailing over the sea. The card also signifies able co-operation in business, as if the successful merchant prince were looking from his side towards yours with a view to help you.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/three-of-wands"
+      },
+      "reversed": {
+        "keyword": "困境渐止",
+        "fixed_meanings": [
+          {
+            "zh": "烦恼结束，逆境、劳累与失望暂停或终止",
+            "en": "The end of troubles, suspension or cessation of adversity, toil and disappointment"
+          }
+        ],
+        "meaning": "原书逆位列出烦恼、劳累和失望的结束或暂停，不等同于正位含义的反面。\n\n停止困难与获得新成果是两个不同的阶段。若某种消耗已经减少，可以先留意腾出的空间，整理经验，再决定是否需要继续向外拓展。",
+        "question": "有没有一种消耗已经可以放下？腾出的空间，我想怎样使用？",
+        "source_text": "The end of troubles, suspension or cessation of adversity, toil and disappointment.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/three-of-wands"
+      },
+      "name_en": "Three of Wands"
+    },
+    {
+      "id": 25,
+      "suit": "wands",
+      "name": "权杖四",
+      "image_description": "四根权杖撑起花环，人物举着花束，后方是桥梁和房屋。",
+      "upright": {
+        "keyword": "安宁、庆祝",
+        "fixed_meanings": [
+          {
+            "zh": "含义几乎直接呈现在画面上：乡村生活、避难之所、家庭丰收庆典般的收获、休息、和睦、和谐、繁荣、和平，以及这些事物的完满成果",
+            "en": "They are for once almost on the surface--country life, haven of refuge, a species of domestic harvest-home, repose, concord, harmony, prosperity, peace, and the perfected work of these"
+          }
+        ],
+        "meaning": "传统牌义关联庇护、休息、和谐、繁荣与阶段成果。\n\n安稳可以来自一个容身之处、一群能够相处的人，也可以来自阶段工作得到收束。庆祝不一定要盛大，只是愿意为已经形成的基础留出被感受的时间。",
+        "question": "我能用什么小方式，庆祝一件已经完成或稳固下来的事？",
+        "source_text": "They are for once almost on the surface--country life, haven of refuge, a species of domestic harvest-home, repose, concord, harmony, prosperity, peace, and the perfected work of these.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/four-of-wands"
+      },
+      "reversed": {
+        "keyword": "喜悦、增益",
+        "fixed_meanings": [
+          {
+            "zh": "基本含义保持不变",
+            "en": "The meaning remains unaltered"
+          },
+          {
+            "zh": "仍指繁荣、增长、幸福、美与装点",
+            "en": "It is prosperity, increase, felicity, beauty, embellishment"
+          }
+        ],
+        "meaning": "原书说明基本含义不变，仍可指繁荣、增长、喜悦与美化。\n\n逆位在这里没有改变安宁与丰盛的基本方向。可以把注意力放在那些使生活更舒适、更有归属感的细节上，理解维护安稳也需要持续而细小的照料。",
+        "question": "我可以照料哪一个小细节，让自己的生活空间更舒适？",
+        "source_text": "The meaning remains unaltered; it is prosperity, increase, felicity, beauty, embellishment.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/four-of-wands"
+      },
+      "name_en": "Four of Wands"
+    },
+    {
+      "id": 26,
+      "suit": "wands",
+      "name": "权杖五",
+      "image_description": "五名青年各自挥动权杖，画面像练习，也像彼此争斗。",
+      "upright": {
+        "keyword": "竞争、磨合",
+        "fixed_meanings": [
+          {
+            "zh": "模仿，例如模拟战斗；也指追求财富与好运时激烈的竞争和挣扎",
+            "en": "Imitation, as, for example, sham fight, but also the strenuous competition and struggle of the search after riches and fortune"
+          },
+          {
+            "zh": "在此意义上，它与生活中的奋斗相连",
+            "en": "In this sense it connects with the battle of life"
+          },
+          {
+            "zh": "所以某些解读将它视为黄金、收益与富足之牌",
+            "en": "Hence some attributions say that it is a card of gold, gain, opulence"
+          }
+        ],
+        "meaning": "关联模拟争斗、竞争和为目标付出的努力，不同力量正在相互碰撞。\n\n碰撞有时暴露差异，也有时帮助人练习表达与配合。先辨认竞争到底围绕什么，可以让注意力从争取赢面，转向真正需要磨合或提升的部分。",
+        "question": "眼前的竞争或分歧，让我看见了哪一种值得练习的能力？",
+        "source_text": "Imitation, as, for example, sham fight, but also the strenuous competition and struggle of the search after riches and fortune. In this sense it connects with the battle of life. Hence some attributions say that it is a card of gold, gain, opulence.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/five-of-wands"
+      },
+      "reversed": {
+        "keyword": "争执、矛盾",
+        "fixed_meanings": [
+          {
+            "zh": "诉讼",
+            "en": "Litigation"
+          },
+          {
+            "zh": "争端",
+            "en": "Disputes"
+          },
+          {
+            "zh": "诡计",
+            "en": "Trickery"
+          },
+          {
+            "zh": "矛盾",
+            "en": "Contradiction"
+          }
+        ],
+        "meaning": "传统读法涉及争端、矛盾与计谋，磨合可能演变为难以协调的纠纷。\n\n当讨论只剩下相互牵制，原来的目标可能已经被遮住。可以先把具体争点、已经达成的共识与尚不清楚的部分分别列出，给沟通重新找到入口。",
+        "question": "我与对方争执的，是否还是最初想解决的那个问题？",
+        "source_text": "Litigation, disputes, trickery, contradiction.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/five-of-wands"
+      },
+      "name_en": "Five of Wands"
+    },
+    {
+      "id": 27,
+      "suit": "wands",
+      "name": "权杖六",
+      "image_description": "戴月桂冠的人骑在马上，手中的权杖也饰有花冠，身旁有人同行。",
+      "upright": {
+        "keyword": "认可、佳音",
+        "fixed_meanings": [
+          {
+            "zh": "这张牌的设计可以容纳数种含义",
+            "en": "The card has been so designed that it can cover several significations"
+          },
+          {
+            "zh": "表面上是胜利者凯旋，也可以是国王信使郑重传来的重大好消息",
+            "en": "On the surface, it is a victor triumphing, but it is also great news, such as might be carried in state by the King's courier"
+          },
+          {
+            "zh": "它也是期待因自身所愿而得到加冕、希望之冠等等",
+            "en": "It is expectation crowned with its own desire, the crown of hope, and so forth"
+          }
+        ],
+        "meaning": "传统牌义关联胜利、好消息与期待得到回应，突出被看见的成果。\n\n认可可以让投入变得可见，也可以帮助人确认哪些努力已经产生效果。理解这张牌时，可以同时看见成果和促成成果的过程，让外界回应成为反馈，而非唯一的尺度。",
+        "question": "有哪些努力已经产生了效果？我愿意怎样认真承认它？",
+        "source_text": "The card has been so designed that it can cover several significations; on the surface, it is a victor triumphing, but it is also great news, such as might be carried in state by the King's courier; it is expectation crowned with its own desire, the crown of hope, and so forth.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/six-of-wands"
+      },
+      "reversed": {
+        "keyword": "疑惧、延迟",
+        "fixed_meanings": [
+          {
+            "zh": "忧惧、恐惧，如得胜的敌人已到城门前",
+            "en": "Apprehension, fear, as of a victorious enemy at the gate"
+          },
+          {
+            "zh": "背叛、不忠，如有人打开城门迎敌",
+            "en": "Treachery, disloyalty, as of gates being opened to the enemy"
+          },
+          {
+            "zh": "也指期限不明的延迟",
+            "en": "Also indefinite delay"
+          }
+        ],
+        "meaning": "原书涉及忧惧、信任受损和不确定的延误，认可或成果尚未稳妥落定。\n\n等待回应时，未确定的部分容易被想象放大。可以区分已经收到的信息与自己补出的解释，把评价的延迟与作品、行动本身的价值暂时分开放置。",
+        "question": "在尚未得到回应的时候，我仍能依据哪些具体事实评价自己的努力？",
+        "source_text": "Apprehension, fear, as of a victorious enemy at the gate; treachery, disloyalty, as of gates being opened to the enemy; also indefinite delay.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/six-of-wands"
+      },
+      "name_en": "Six of Wands"
+    },
+    {
+      "id": 28,
+      "suit": "wands",
+      "name": "权杖七",
+      "image_description": "人物站在高处举杖抵挡，下方有六根权杖朝向他。",
+      "upright": {
+        "keyword": "勇气、立场",
+        "fixed_meanings": [
+          {
+            "zh": "它表示勇气：画面中六人攻击一人，而那个人占据有利位置",
+            "en": "It is a card of valour, for, on the surface, six are attacking one, who has, however, the vantage position"
+          },
+          {
+            "zh": "在思想层面，指讨论与言语上的争执",
+            "en": "On the intellectual plane, it signifies discussion, wordy strife"
+          },
+          {
+            "zh": "在商业方面，指谈判",
+            "en": "In business--negotiations"
+          },
+          {
+            "zh": "贸易战",
+            "en": "War of trade"
+          },
+          {
+            "zh": "交换",
+            "en": "Barter"
+          },
+          {
+            "zh": "竞争",
+            "en": "Competition"
+          },
+          {
+            "zh": "也指成功，因为战斗者居于高处，敌人可能无法够到他",
+            "en": "It is further a card of success, for the combatant is on the top and his enemies may be unable to reach him"
+          }
+        ],
+        "meaning": "关联勇气、辩论、谈判与竞争，图像中的人物占有较有利的位置。\n\n坚持立场需要知道自己在守护什么。占有优势并不要求处处对抗；可以辨认哪些分歧关系到核心，哪些只是表达方式的不同，让力量用在真正重要的边界上。",
+        "question": "我最需要守住的立场是什么？哪些地方其实可以保留弹性？",
+        "source_text": "It is a card of valour, for, on the surface, six are attacking one, who has, however, the vantage position. On the intellectual plane, it signifies discussion, wordy strife; in business--negotiations, war of trade, barter, competition. It is further a card of success, for the combatant is on the top and his enemies may be unable to reach him.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/seven-of-wands"
+      },
+      "reversed": {
+        "keyword": "困惑、犹疑",
+        "fixed_meanings": [
+          {
+            "zh": "困惑",
+            "en": "Perplexity"
+          },
+          {
+            "zh": "窘迫",
+            "en": "Embarrassments"
+          },
+          {
+            "zh": "焦虑",
+            "en": "Anxiety"
+          },
+          {
+            "zh": "也提醒人避免优柔寡断",
+            "en": "It is also a caution against indecision"
+          }
+        ],
+        "meaning": "传统读法涉及困惑、窘迫和焦虑，也提醒反复犹疑会影响立场。\n\n犹疑有时不是因为没有立场，而是同时想满足太多要求。先说清自己当前最重视的一项原则，可以帮助缩小选择范围，减轻反复比较的消耗。",
+        "question": "如果只能优先守住一项原则，我会选择哪一项？",
+        "source_text": "Perplexity, embarrassments, anxiety. It is also a caution against indecision.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/seven-of-wands"
+      },
+      "name_en": "Seven of Wands"
+    },
+    {
+      "id": 29,
+      "suit": "wands",
+      "name": "权杖八",
+      "image_description": "八根权杖斜向飞过开阔的天空，下面是河流和远处的房屋。",
+      "upright": {
+        "keyword": "迅速、进展",
+        "fixed_meanings": [
+          {
+            "zh": "事业中的活动、活动的路线，以及如急递信使般的迅速",
+            "en": "Activity in undertakings, the path of such activity, swiftness, as that of an express messenger"
+          },
+          {
+            "zh": "非常匆忙、很大的希望，迅速走向被认为会带来幸福的终点",
+            "en": "Great haste, great hope, speed towards an end which promises assured felicity"
+          },
+          {
+            "zh": "总体上指处于运动中的事物",
+            "en": "Generally, that which is on the move"
+          },
+          {
+            "zh": "也指爱之箭",
+            "en": "Also the arrows of love"
+          }
+        ],
+        "meaning": "关联活动、快速消息、加速推进和接近目标的运动。\n\n速度能够推动事情，也会压缩整理信息的时间。可以关注信息如何传递、下一步是否清楚，让快速行动有可以跟随的方向，而不是只增加忙碌的感受。",
+        "question": "我正在加速的事情中，哪一条信息最需要先传达清楚？",
+        "source_text": "Activity in undertakings, the path of such activity, swiftness, as that of an express messenger; great haste, great hope, speed towards an end which promises assured felicity; generally, that which is on the move; also the arrows of love.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/eight-of-wands"
+      },
+      "reversed": {
+        "keyword": "内耗、争执",
+        "fixed_meanings": [
+          {
+            "zh": "嫉妒之箭",
+            "en": "Arrows of jealousy"
+          },
+          {
+            "zh": "内部分歧",
+            "en": "Internal dispute"
+          },
+          {
+            "zh": "良心的刺痛",
+            "en": "Stingings of conscience"
+          },
+          {
+            "zh": "争吵",
+            "en": "Quarrels"
+          },
+          {
+            "zh": "也指已婚者的家庭争执",
+            "en": "And domestic disputes for persons who are married"
+          }
+        ],
+        "meaning": "原书涉及嫉妒、内部分歧和争吵，快速的力量可能被内部摩擦打散。\n\n当注意力被内部摩擦反复拉扯，再快的行动也可能难以形成连贯结果。可以先看见未说清的感受和分工，让沟通的速度重新与理解的速度接近。",
+        "question": "我能先说清哪一个分歧，减少不必要的来回消耗？",
+        "source_text": "Arrows of jealousy, internal dispute, stingings of conscience, quarrels; and domestic disputes for persons who are married.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/eight-of-wands"
+      },
+      "name_en": "Eight of Wands"
+    },
+    {
+      "id": 30,
+      "suit": "wands",
+      "name": "权杖九",
+      "image_description": "头缠绷带的人扶着权杖警觉地站立，身后另有八根权杖排成围栏。",
+      "upright": {
+        "keyword": "防守、韧性",
+        "fixed_meanings": [
+          {
+            "zh": "这张牌表示面对对抗时的力量",
+            "en": "The card signifies strength in opposition"
+          },
+          {
+            "zh": "如果受到攻击，人物会勇敢迎击",
+            "en": "If attacked, the person will meet an onslaught boldly"
+          },
+          {
+            "zh": "他的体格显示他可能是强劲的对手",
+            "en": "And his build shews, that he may prove a formidable antagonist"
+          },
+          {
+            "zh": "与核心含义相伴的还可能有延迟",
+            "en": "With this main significance there are all its possible adjuncts--delay"
+          },
+          {
+            "zh": "暂停",
+            "en": "Suspension"
+          },
+          {
+            "zh": "延期",
+            "en": "Adjournment"
+          }
+        ],
+        "meaning": "关联抵抗中的力量、坚守，以及等待、延迟或暂停的状态。\n\n韧性不只是继续坚持，也包括知道怎样保存自己的力量。若一直处于防守姿态，可以检查警觉是否仍有现实依据，以及休息能否成为长期坚持的一部分。",
+        "question": "我需要守住什么，又需要怎样恢复守护它的力量？",
+        "source_text": "The card signifies strength in opposition. If attacked, the person will meet an onslaught boldly; and his build shews, that he may prove a formidable antagonist. With this main significance there are all its possible adjuncts--delay, suspension, adjournment.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/nine-of-wands"
+      },
+      "reversed": {
+        "keyword": "阻碍、逆境",
+        "fixed_meanings": [
+          {
+            "zh": "障碍",
+            "en": "Obstacles"
+          },
+          {
+            "zh": "逆境",
+            "en": "Adversity"
+          },
+          {
+            "zh": "灾祸",
+            "en": "Calamity"
+          }
+        ],
+        "meaning": "传统读法集中在障碍与逆境，防守所需的力量可能面临持续压力。\n\n压力增加时，可以先分清单靠个人努力能处理的部分，以及确实需要支持或条件改变的部分。承认资源有限，有助于重新安排负担，而不是无限延长防守。",
+        "question": "哪一种压力已经超过我独自承受的范围？我可以向哪里寻求支持？",
+        "source_text": "Obstacles, adversity, calamity.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/nine-of-wands"
+      },
+      "name_en": "Nine of Wands"
+    },
+    {
+      "id": 31,
+      "suit": "wands",
+      "name": "权杖十",
+      "image_description": "人物弯身抱着十根沉重的权杖，向前方的城镇走去。",
+      "upright": {
+        "keyword": "负荷、压力",
+        "fixed_meanings": [
+          {
+            "zh": "这张牌有许多含义，其中一些读法无法协调",
+            "en": "A card of many significances, and some of the readings cannot be harmonized"
+          },
+          {
+            "zh": "作者暂且搁置将它与荣誉和诚实相连的读法",
+            "en": "I set aside that which connects it with honour and good faith"
+          },
+          {
+            "zh": "主要含义是压迫，也包括财富、收益与各种成功，以及这些事物反过来形成的压迫",
+            "en": "The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things"
+          },
+          {
+            "zh": "也指虚假表象、伪装与背信",
+            "en": "It is also a card of false-seeming, disguise, perfidy"
+          },
+          {
+            "zh": "人物所接近的地方可能受到他携带的权杖损害",
+            "en": "The place which the figure is approaching may suffer from the rods that he carries"
+          },
+          {
+            "zh": "若后接宝剑九，成功会落空；若询问诉讼，原书断言会有损失",
+            "en": "Success is stultified if the Nine of Swords follows, and if it is a question of a lawsuit, there will be certain loss"
+          }
+        ],
+        "meaning": "原书核心是压迫与沉重负担，也包含成功或所得反过来形成压力的含义。\n\n有些负荷来自困难，有些负荷却来自已经获得的成果。可以借此检查责任为何不断累积，哪些是当前确实需要承担的，哪些已经可以交接、简化或重新分配。",
+        "question": "我背负的事情里，有哪一件已经可以交接或简化？",
+        "source_text": "A card of many significances, and some of the readings cannot be harmonized. I set aside that which connects it with honour and good faith. The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things. It is also a card of false-seeming, disguise, perfidy. The place which the figure is approaching may suffer from the rods that he carries. Success is stultified if the Nine of Swords follows, and if it is a question of a lawsuit, there will be certain loss.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ten-of-wands"
+      },
+      "reversed": {
+        "keyword": "困难、牵制",
+        "fixed_meanings": [
+          {
+            "zh": "不顺、阻挠",
+            "en": "Contrarieties"
+          },
+          {
+            "zh": "困难",
+            "en": "Difficulties"
+          },
+          {
+            "zh": "阴谋、复杂的暗中活动",
+            "en": "Intrigues"
+          },
+          {
+            "zh": "以及与这些相似的情况",
+            "en": "And their analogies"
+          }
+        ],
+        "meaning": "传统读法涉及阻挠、困难与复杂牵制，负担未必因倒置就自动解除。\n\n卸下负担不一定只靠意志，还可能需要把复杂的关系与安排梳理清楚。先让问题具体化，可以帮助找到一个可以松动的结，而不是把所有困难看成同一团重量。",
+        "question": "如果先处理一个最具体的牵制点，我会从哪里开始？",
+        "source_text": "Contrarieties, difficulties, intrigues, and their analogies.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ten-of-wands"
+      },
+      "name_en": "Ten of Wands"
+    },
+    {
+      "id": 32,
+      "suit": "wands",
+      "name": "权杖侍从",
+      "image_description": "青年立于干燥的土地，双手持杖，专注地看着杖顶。",
+      "upright": {
+        "keyword": "消息、热忱",
+        "fixed_meanings": [
+          {
+            "zh": "深色肤发的青年，忠实者、恋人、使者或邮差",
+            "en": "Dark young man, faithful, a lover, an envoy, a postman"
+          },
+          {
+            "zh": "位于一名男子旁边时，会为该男子作有利的证言",
+            "en": "Beside a man, he will bear favourable testimony concerning him"
+          },
+          {
+            "zh": "若后接圣杯侍从，则被读为危险的竞争者",
+            "en": "A dangerous rival, if followed by the Page of Cups"
+          },
+          {
+            "zh": "具有所属花色的主要特质",
+            "en": "Has the chief qualities of his suit"
+          },
+          {
+            "zh": "也可指家庭消息",
+            "en": "He may signify family intelligence"
+          }
+        ],
+        "meaning": "传统读法关联忠诚的使者、消息和权杖花色所代表的活力。\n\n使者的主题可以帮助理解一个想法如何被带到别人面前。热忱提供了表达的动力，清楚而可靠的信息则让这份动力更容易被接住；人物外貌用语属于历史描述。",
+        "question": "我想传递什么想法？怎样表达，才能让对方更容易理解？",
+        "source_text": "Dark young man, faithful, a lover, an envoy, a postman. Beside a man, he will bear favourable testimony concerning him. A dangerous rival, if followed by the Page of Cups. Has the chief qualities of his suit. He may signify family intelligence.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/page-of-wands"
+      },
+      "reversed": {
+        "keyword": "不稳定、迟疑",
+        "fixed_meanings": [
+          {
+            "zh": "轶闻",
+            "en": "Anecdotes"
+          },
+          {
+            "zh": "公告、宣布",
+            "en": "Announcements"
+          },
+          {
+            "zh": "不利的消息",
+            "en": "Evil news"
+          },
+          {
+            "zh": "也指优柔寡断及随之而来的不稳定",
+            "en": "Also indecision and the instability which accompanies it"
+          }
+        ],
+        "meaning": "原书包含不利消息、轶闻、犹疑及其带来的不稳定。\n\n消息与情绪混在一起时，容易让决定跟着传闻摇摆。可以先核对信息的来源，再区分自己真正想做的事，与受到一时刺激而产生的反应。",
+        "question": "我正在依据哪条消息作判断？它值得怎样核实？",
+        "source_text": "Anecdotes, announcements, evil news. Also indecision and the instability which accompanies it.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/page-of-wands"
+      },
+      "name_en": "Page of Wands"
+    },
+    {
+      "id": 33,
+      "suit": "wands",
+      "name": "权杖骑士",
+      "image_description": "骑士手持短杖，骑在昂起前蹄的马上，远处有沙丘或金字塔。",
+      "upright": {
+        "keyword": "出发、迁移",
+        "fixed_meanings": [
+          {
+            "zh": "离开、出发",
+            "en": "Departure"
+          },
+          {
+            "zh": "缺席",
+            "en": "Absence"
+          },
+          {
+            "zh": "飞离、逃离",
+            "en": "Flight"
+          },
+          {
+            "zh": "移民",
+            "en": "Emigration"
+          },
+          {
+            "zh": "深色肤发且友善的青年",
+            "en": "A dark young man, friendly"
+          },
+          {
+            "zh": "更换住处",
+            "en": "Change of residence"
+          }
+        ],
+        "meaning": "传统牌义关联出行、离开、迁移和行动迅速的状态。\n\n离开熟悉的地方可以是具体的迁移，也可以帮助理解一种主动变化的姿态。理解行动的方向、所需条件和将要放下的部分，可以让出发更加完整。",
+        "question": "我想向哪里移动？出发意味着需要带上什么、放下什么？",
+        "source_text": "Departure, absence, flight, emigration. A dark young man, friendly. Change of residence.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/knight-of-wands"
+      },
+      "reversed": {
+        "keyword": "中断、不和",
+        "fixed_meanings": [
+          {
+            "zh": "破裂",
+            "en": "Rupture"
+          },
+          {
+            "zh": "分离",
+            "en": "Division"
+          },
+          {
+            "zh": "中断",
+            "en": "Interruption"
+          },
+          {
+            "zh": "不和",
+            "en": "Discord"
+          }
+        ],
+        "meaning": "关联破裂、分离、中断与不和，行动过程可能失去连贯性。\n\n行动被打断后，可以先辨认是暂时停顿，还是原来的联系已经改变。先让中断的原因得到理解，再决定接续、调整或结束，往往比只追求恢复原速度更清楚。",
+        "question": "这次中断需要怎样被理解？我真正希望接续的是什么？",
+        "source_text": "Rupture, division, interruption, discord.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/knight-of-wands"
+      },
+      "name_en": "Knight of Wands"
+    },
+    {
+      "id": 34,
+      "suit": "wands",
+      "name": "权杖王后",
+      "image_description": "王后坐在饰有狮子的座椅上，一手持杖，一手拿向日葵，脚边有黑猫。",
+      "upright": {
+        "keyword": "友善、吸引力",
+        "fixed_meanings": [
+          {
+            "zh": "深色肤发的女性、乡间女子，友善、贞洁、亲爱而可敬",
+            "en": "A dark woman, countrywoman, friendly, chaste, loving, honourable"
+          },
+          {
+            "zh": "若相邻牌代表男性，她对该男性抱有好感",
+            "en": "If the card beside her signifies a man, she is well disposed towards him"
+          },
+          {
+            "zh": "若相邻牌代表女性，则她关注问卜者",
+            "en": "If a woman, she is interested in the Querent"
+          },
+          {
+            "zh": "也包括对金钱的喜爱，或某种商业上的成功",
+            "en": "Also, love of money, or a certain success in business"
+          }
+        ],
+        "meaning": "传统读法关联友善、热情、可亲与一定程度的事业成就。\n\n友善与活力可以让一个人愿意主动参与，也让环境更容易回应这种参与。作为姿态来理解，可以关注自己怎样表达兴趣、接纳别人，并为想做的事投入稳定的热情。",
+        "question": "我可以怎样更自然地表达对一件事的兴趣和热情？",
+        "source_text": "A dark woman, countrywoman, friendly, chaste, loving, honourable. If the card beside her signifies a man, she is well disposed towards him; if a woman, she is interested in the Querent. Also, love of money, or a certain success in business.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/queen-of-wands"
+      },
+      "reversed": {
+        "keyword": "克制、嫉妒",
+        "fixed_meanings": [
+          {
+            "zh": "善良",
+            "en": "Good"
+          },
+          {
+            "zh": "节俭",
+            "en": "Economical"
+          },
+          {
+            "zh": "乐于助人",
+            "en": "Obliging"
+          },
+          {
+            "zh": "有服务精神",
+            "en": "Serviceable"
+          },
+          {
+            "zh": "在特定位置且邻牌也趋向相应含义时，也指反对、嫉妒，甚至欺瞒与不忠",
+            "en": "Signifies also--but in certain positions and in the neighbourhood of other cards tending in such directions--opposition, jealousy, even deceit and infidelity"
+          }
+        ],
+        "meaning": "原书既列出节约、助人与服务，也保留反对、嫉妒和不诚实的解释。\n\n服务、节约与嫉妒等词条属于不同的历史读法，不能仅凭一张牌给人定性。可以观察善意、比较与控制感之间的边界，让照应他人仍保有适当的分寸。",
+        "question": "我投入的关心里，是否也夹杂了需要被看见或比较的心情？",
+        "source_text": "Good, economical, obliging, serviceable. Signifies also--but in certain positions and in the neighbourhood of other cards tending in such directions--opposition, jealousy, even deceit and infidelity.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/queen-of-wands"
+      },
+      "name_en": "Queen of Wands"
+    },
+    {
+      "id": 35,
+      "suit": "wands",
+      "name": "权杖国王",
+      "image_description": "国王坐在带有狮子与火蜥蜴图案的王座上，手持长出嫩叶的权杖。",
+      "upright": {
+        "keyword": "诚实、担当",
+        "fixed_meanings": [
+          {
+            "zh": "深色肤发的男子",
+            "en": "Dark man"
+          },
+          {
+            "zh": "友善",
+            "en": "Friendly"
+          },
+          {
+            "zh": "乡间男子",
+            "en": "Countryman"
+          },
+          {
+            "zh": "通常已婚",
+            "en": "Generally married"
+          },
+          {
+            "zh": "诚实且尽责",
+            "en": "Honest and conscientious"
+          },
+          {
+            "zh": "此牌始终表示诚实，也可能指很快传来的意外继承消息",
+            "en": "The card always signifies honesty, and may mean news concerning an unexpected heritage to fall in before very long"
+          }
+        ],
+        "meaning": "传统牌义强调诚实、尽责和友善，展现成熟活力与承担事务的姿态。\n\n成熟的行动力可以表现在持续承担与诚实表达上。可以留意自己愿意负责到什么程度，以及承诺如何成为可以被别人理解和依靠的具体行动。",
+        "question": "我愿意认真负责的一件事，今天可以怎样落实？",
+        "source_text": "Dark man, friendly, countryman, generally married, honest and conscientious. The card always signifies honesty, and may mean news concerning an unexpected heritage to fall in before very long.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/king-of-wands"
+      },
+      "reversed": {
+        "keyword": "严厉、宽容",
+        "fixed_meanings": [
+          {
+            "zh": "善意，但严厉",
+            "en": "Good, but severe"
+          },
+          {
+            "zh": "严肃克己",
+            "en": "Austere"
+          },
+          {
+            "zh": "却仍有容忍度",
+            "en": "Yet tolerant"
+          }
+        ],
+        "meaning": "原书描述为善意但严厉、克己而仍有容忍度，逆位并非必然是恶意。\n\n要求严格与保有宽容并不必然矛盾。可以借此区分对事情的标准和对人的态度，思考清楚的要求如何被表达，而不额外增加压迫感。",
+        "question": "我能否保持标准，同时让自己的表达更容易被理解？",
+        "source_text": "Good, but severe; austere, yet tolerant.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/king-of-wands"
+      },
+      "name_en": "King of Wands"
+    },
+    {
+      "id": 36,
+      "suit": "cups",
+      "name": "圣杯一",
+      "image_description": "云中的手托起圣杯，水流落向水面，白鸽向杯口飞来，下面有睡莲。",
+      "upright": {
+        "keyword": "滋养、喜悦",
+        "fixed_meanings": [
+          {
+            "zh": "真心之所、喜悦、满足、居所、滋养、丰盛与生育力",
+            "en": "House of the true heart, joy, content, abode, nourishment, abundance, fertility"
+          },
+          {
+            "zh": "圣餐台",
+            "en": "Holy Table"
+          },
+          {
+            "zh": "由此带来的幸福",
+            "en": "Felicity hereof"
+          }
+        ],
+        "meaning": "传统牌义关联真心、喜悦、满足、滋养、丰盛和情感的充足。\n\n滋养可以来自关系，也可以来自创作、环境或一段真诚的体验。可以关注什么让内在感受得到回应，以及自己是否愿意为这样的经验留出空间。",
+        "question": "最近有什么让我感到被滋养？我愿意怎样为它留一点时间？",
+        "source_text": "House of the true heart, joy, content, abode, nourishment, abundance, fertility; Holy Table, felicity hereof.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ace-of-cups"
+      },
+      "reversed": {
+        "keyword": "变动、不稳",
+        "fixed_meanings": [
+          {
+            "zh": "虚假之心的居所、变动、不稳定与剧变",
+            "en": "House of the false heart, mutation, instability, revolution"
+          }
+        ],
+        "meaning": "原书涉及虚假的情感状态、变化与不稳定，提示感受或联结不够稳定。\n\n表达出来的满足与实际感受之间，可能存在需要被理解的距离。可以先允许情绪尚不稳定，辨认自己真正需要什么，而不是急着维持一种理想的样子。",
+        "question": "我对外表现的感受，与自己真正的感受有什么不同？",
+        "source_text": "House of the false heart, mutation, instability, revolution.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ace-of-cups"
+      },
+      "name_en": "Ace of Cups"
+    },
+    {
+      "id": 37,
+      "suit": "cups",
+      "name": "圣杯二",
+      "image_description": "两个人相对举杯，上方是带双蛇杖与狮头的有翼标志。",
+      "upright": {
+        "keyword": "亲近、和谐",
+        "fixed_meanings": [
+          {
+            "zh": "爱、激情、友谊、亲和、结合、和睦、共鸣、两性之间的相互关系；以及一种超出占卜范畴的提示：并非自然本身的欲望，却使自然得到神圣化的愿望",
+            "en": "Love, passion, friendship, affinity, union, concord, sympathy, the interrelation of the sexes, and--as a suggestion apart from all offices of divination--that desire which is not in Nature, but by which Nature is sanctified"
+          }
+        ],
+        "meaning": "关联爱、友谊、吸引、结合、共鸣与和谐的相互关系。\n\n联结的重点不只在于彼此吸引，也在于回应能够往返。可以从相互倾听、交换和理解来认识这种亲近，而不需要把它限定为某种关系身份。",
+        "question": "在哪一段交流中，我希望让倾听和回应更加对等？",
+        "source_text": "Love, passion, friendship, affinity, union, concord, sympathy, the interrelation of the sexes, and--as a suggestion apart from all offices of divination--that desire which is not in Nature, but by which Nature is sanctified.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/two-of-cups"
+      },
+      "reversed": {
+        "keyword": "激情、热烈",
+        "fixed_meanings": [
+          {
+            "zh": "激情",
+            "en": "Passion"
+          }
+        ],
+        "meaning": "本版采用的补充节将圣杯二逆位列为激情。它首先描述感受的热烈，不在这里自动转译成误解、分手或不一致。\n\n理解时可以区分吸引的强度与彼此了解的程度，观察热情如何被表达，也给相互认识保留空间。",
+        "question": "强烈的吸引之外，我还希望更了解什么？",
+        "source_text": "Passion.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/section-4-some-additional-meanings-of-the-lesser-arcana"
+      },
+      "name_en": "Two of Cups"
+    },
+    {
+      "id": 38,
+      "suit": "cups",
+      "name": "圣杯三",
+      "image_description": "三个人在花果间围成一圈举杯，像是在共同庆祝。",
+      "upright": {
+        "keyword": "欢庆、圆满",
+        "fixed_meanings": [
+          {
+            "zh": "事情在丰足、完满与欢喜中结束",
+            "en": "The conclusion of any matter in plenty, perfection and merriment"
+          },
+          {
+            "zh": "圆满的结果",
+            "en": "Happy issue"
+          },
+          {
+            "zh": "胜利",
+            "en": "Victory"
+          },
+          {
+            "zh": "实现",
+            "en": "Fulfilment"
+          },
+          {
+            "zh": "安慰",
+            "en": "Solace"
+          },
+          {
+            "zh": "疗愈",
+            "en": "Healing"
+          }
+        ],
+        "meaning": "传统牌义关联事情完成、丰足、欢乐、安慰与恢复。\n\n欢庆可以让一个结果从个人经验变成共同记忆。理解这张牌时，可以看见分享、陪伴与相互支持，如何让完成一件事的感受变得更充足。",
+        "question": "我愿意与谁分享一件小小的成果或快乐？",
+        "source_text": "The conclusion of any matter in plenty, perfection and merriment; happy issue, victory, fulfilment, solace, healing,",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/three-of-cups"
+      },
+      "reversed": {
+        "keyword": "过量、收尾",
+        "fixed_meanings": [
+          {
+            "zh": "迅速办理",
+            "en": "Expedition"
+          },
+          {
+            "zh": "派遣、办结",
+            "en": "Dispatch"
+          },
+          {
+            "zh": "成就",
+            "en": "Achievement"
+          },
+          {
+            "zh": "结束",
+            "en": "End"
+          },
+          {
+            "zh": "也表示身体享受过度的一面，以及感官的愉悦",
+            "en": "It signifies also the side of excess in physical enjoyment, and the pleasures of the senses"
+          }
+        ],
+        "meaning": "原书涉及结束、完成与感官享受过度，快乐和适度之间形成张力。\n\n快乐与过量之间没有一条适合所有人的统一界线。可以观察一次欢聚或享受之后，自己是得到补充还是更加疲惫，让适度依据真实感受来调整。",
+        "question": "什么程度的享受能让我得到补充，而不是更加疲惫？",
+        "source_text": "Expedition, dispatch, achievement, end. It signifies also the side of excess in physical enjoyment, and the pleasures of the senses.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/three-of-cups"
+      },
+      "name_en": "Three of Cups"
+    },
+    {
+      "id": 39,
+      "suit": "cups",
+      "name": "圣杯四",
+      "image_description": "人物坐在树下，面前有三只杯；云中伸出的手递来第四只杯。",
+      "upright": {
+        "keyword": "倦怠、厌足",
+        "fixed_meanings": [
+          {
+            "zh": "厌倦、反感、排斥与想象中的烦恼，仿佛世间的酒只能带来餍足",
+            "en": "Weariness, disgust, aversion, imaginary vexations, as if the wine of this world had caused satiety only"
+          },
+          {
+            "zh": "另一杯如精灵礼物般的酒递给这位挥霍者，但他并未从中得到安慰",
+            "en": "Another wine, as if a fairy gift, is now offered the wastrel, but he sees no consolation therein"
+          },
+          {
+            "zh": "这也是一张混合愉悦之牌",
+            "en": "This is also a card of blended pleasure"
+          }
+        ],
+        "meaning": "传统读法关联厌倦、疏离与不满，已有的满足暂时不能带来新鲜感。\n\n不满足未必意味着外界缺少选择，也可能是自己暂时没有接纳新输入的空间。可以先辨认疲倦、重复与真正无兴趣的区别，不必立刻要求自己振作。",
+        "question": "我的不感兴趣，更接近疲倦、重复，还是确实已经不再需要？",
+        "source_text": "Weariness, disgust, aversion, imaginary vexations, as if the wine of this world had caused satiety only; another wine, as if a fairy gift, is now offered the wastrel, but he sees no consolation therein. This is also a card of blended pleasure.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/four-of-cups"
+      },
+      "reversed": {
+        "keyword": "新知、新联结",
+        "fixed_meanings": [
+          {
+            "zh": "新鲜事物",
+            "en": "Novelty"
+          },
+          {
+            "zh": "预感、征兆",
+            "en": "Presage"
+          },
+          {
+            "zh": "新的教导",
+            "en": "New instruction"
+          },
+          {
+            "zh": "新的关系",
+            "en": "New relations"
+          }
+        ],
+        "meaning": "原书列出新鲜事物、新的教导和新的关系，注意力可能转向新的输入。\n\n新的输入可以很轻，也可以只是一个不同的问法。可以给自己一点接触新事物的空间，同时保留选择的余地，让兴趣逐渐形成，而非马上作出投入的承诺。",
+        "question": "我愿意接触哪一种新的输入，看看它会带来什么感受？",
+        "source_text": "Novelty, presage, new instruction, new relations.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/four-of-cups"
+      },
+      "name_en": "Four of Cups"
+    },
+    {
+      "id": 40,
+      "suit": "cups",
+      "name": "圣杯五",
+      "image_description": "披黑斗篷的人看着倒下的三只杯，身后仍立着两只杯，远处有桥与建筑。",
+      "upright": {
+        "keyword": "失落、仍有留存",
+        "fixed_meanings": [
+          {
+            "zh": "它是一张损失之牌，但仍有东西留存",
+            "en": "It is a card of loss, but something remains over"
+          },
+          {
+            "zh": "三只杯已经失去，两只杯仍留下",
+            "en": "Three have been taken, but two are left"
+          },
+          {
+            "zh": "也指继承、祖产和传承，但不符合原有期待",
+            "en": "It is a card of inheritance, patrimony, transmission, but not corresponding to expectations"
+          },
+          {
+            "zh": "有些解读把它视为婚姻之牌，却仍伴有苦涩或挫折",
+            "en": "With some interpreters it is a card of marriage, but not without bitterness or frustration"
+          }
+        ],
+        "meaning": "传统核心是损失与不如预期，同时也强调并非所有东西都已经失去。\n\n承认损失与看见留存可以同时进行，不需要用后者否定前者。画面让注意力停在遗憾上，也为尚未被看见的支持留出了位置。",
+        "question": "在允许自己失落的同时，我还想认真看见什么仍然存在？",
+        "source_text": "It is a card of loss, but something remains over; three have been taken, but two are left; it is a card of inheritance, patrimony, transmission, but not corresponding to expectations; with some interpreters it is a card of marriage, but not without bitterness or frustration.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/five-of-cups"
+      },
+      "reversed": {
+        "keyword": "归来、联结",
+        "fixed_meanings": [
+          {
+            "zh": "消息",
+            "en": "News"
+          },
+          {
+            "zh": "联盟",
+            "en": "Alliances"
+          },
+          {
+            "zh": "亲和、关联",
+            "en": "Affinity"
+          },
+          {
+            "zh": "血缘关系",
+            "en": "Consanguinity"
+          },
+          {
+            "zh": "祖先、家世",
+            "en": "Ancestry"
+          },
+          {
+            "zh": "归来",
+            "en": "Return"
+          },
+          {
+            "zh": "不切实际的计划",
+            "en": "False projects"
+          }
+        ],
+        "meaning": "原书包含消息、联盟、亲缘和归来，也保留计划失实的可能读法。\n\n归来与联结提供了重新接触的方向，失实计划则提醒人核对期待。可以分别看待已经发生的回应和自己希望它代表的意义，让恢复联结的过程保持真实。",
+        "question": "我希望重新联系什么？这份期待里，哪些已经得到实际回应？",
+        "source_text": "News, alliances, affinity, consanguinity, ancestry, return, false projects.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/five-of-cups"
+      },
+      "name_en": "Five of Cups"
+    },
+    {
+      "id": 41,
+      "suit": "cups",
+      "name": "圣杯六",
+      "image_description": "旧庭院里，孩子把盛着花的杯子递给另一个孩子，周围还有其他花杯。",
+      "upright": {
+        "keyword": "回忆、旧日",
+        "fixed_meanings": [
+          {
+            "zh": "关于过去与回忆之牌，例如回望童年",
+            "en": "A card of the past and of memories, looking back, as--for example--on childhood"
+          },
+          {
+            "zh": "幸福与享受，但更多来自过去",
+            "en": "Happiness, enjoyment, but coming rather from the past"
+          },
+          {
+            "zh": "已经消失的事物",
+            "en": "Things that have vanished"
+          },
+          {
+            "zh": "另一种读法则相反，指新关系、新知识和新环境，画中的孩子于是身处陌生的地方玩耍",
+            "en": "Another reading reverses this, giving new relations, new knowledge, new environment, and then the children are disporting in an unfamiliar precinct"
+          }
+        ],
+        "meaning": "传统牌义关联过去、童年和回忆中的快乐，感受更多来自已发生的经验。\n\n回忆带来的温暖，可以是对旧日经验的珍惜，也可能让现在被拿去与理想化的过去比较。可以把值得带走的部分与已经改变的条件分开看见。",
+        "question": "过去有什么值得我带到现在，又有什么已经可以留在过去？",
+        "source_text": "A card of the past and of memories, looking back, as--for example--on childhood; happiness, enjoyment, but coming rather from the past; things that have vanished. Another reading reverses this, giving new relations, new knowledge, new environment, and then the children are disporting in an unfamiliar precinct.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/six-of-cups"
+      },
+      "reversed": {
+        "keyword": "未来、更新",
+        "fixed_meanings": [
+          {
+            "zh": "未来、更新，以及不久将发生的事物",
+            "en": "The future, renewal, that which will come to pass presently"
+          }
+        ],
+        "meaning": "原书逆位列出未来、更新和尚待到来的事物，视线由过去移向后续变化。\n\n视线从过去转向未来，并不要求切断所有旧联系。可以思考自己希望保留什么，又愿意为新的认识、关系或环境腾出哪一点空间。",
+        "question": "为了接纳新的经验，我愿意先腾出什么空间？",
+        "source_text": "The future, renewal, that which will come to pass presently.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/six-of-cups"
+      },
+      "name_en": "Six of Cups"
+    },
+    {
+      "id": 42,
+      "suit": "cups",
+      "name": "圣杯七",
+      "image_description": "人物面前的云里浮着七只杯，杯中分别出现珠宝、城堡和奇异形象。",
+      "upright": {
+        "keyword": "想象、幻景",
+        "fixed_meanings": [
+          {
+            "zh": "精灵般的恩惠、映照的图像、情感、想象，以及凝思之镜中看见的事物",
+            "en": "Fairy favours, images of reflection, sentiment, imagination, things seen in the glass of contemplation"
+          },
+          {
+            "zh": "在这些层面可以有所获得，但并不指向持久或实质性的成果",
+            "en": "Some attainment in these degrees, but nothing permanent or substantial is suggested"
+          }
+        ],
+        "meaning": "关联想象、感受与反思中的图像，丰富但尚未呈现稳定、实质的成果。\n\n丰富的想象可以成为创造的材料，却与已经实现的事物属于不同层面。可以先享受想法的多样，再辨认自己最愿意投入实践的一项，让选择有具体的落点。",
+        "question": "这些想象中，我最愿意把哪一个变成可以尝试的具体形式？",
+        "source_text": "Fairy favours, images of reflection, sentiment, imagination, things seen in the glass of contemplation; some attainment in these degrees, but nothing permanent or substantial is suggested.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/seven-of-cups"
+      },
+      "reversed": {
+        "keyword": "意愿、计划",
+        "fixed_meanings": [
+          {
+            "zh": "愿望",
+            "en": "Desire"
+          },
+          {
+            "zh": "意志",
+            "en": "Will"
+          },
+          {
+            "zh": "决心",
+            "en": "Determination"
+          },
+          {
+            "zh": "计划",
+            "en": "Project"
+          }
+        ],
+        "meaning": "传统牌义关联愿望、意志、决心与计划，想象可能开始指向更明确的意图。\n\n当想象开始指向计划，重要的不只是愿望更强烈，也包括愿意作出取舍。可以先选择一个能够落实的方向，让行动与期待逐渐接近。",
+        "question": "为了推进最想做的一件事，我愿意暂时放下哪一个其他选项？",
+        "source_text": "Desire, will, determination, project.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/seven-of-cups"
+      },
+      "name_en": "Seven of Cups"
+    },
+    {
+      "id": 43,
+      "suit": "cups",
+      "name": "圣杯八",
+      "image_description": "八只杯留在前景，人物扶杖离开水岸，向山地走去，月亮挂在天空。",
+      "upright": {
+        "keyword": "离开、淡出",
+        "fixed_meanings": [
+          {
+            "zh": "画面表面上已经表达其意义，但其他读法完全相反，包括喜悦、温和、羞怯、荣誉和谦逊",
+            "en": "The card speaks for itself on the surface, but other readings are entirely antithetical--giving joy, mildness, timidity, honour, modesty"
+          },
+          {
+            "zh": "实际运用中，常把它读为事情逐渐衰退，或曾被认为重要的事其实分量很轻；这不论对好事或坏事都适用",
+            "en": "In practice, it is usually found that the card shews the decline of a matter, or that a matter which has been thought to be important is really of slight consequence--either for good or evil"
+          }
+        ],
+        "meaning": "原书常见读法是某件事逐渐衰退，或曾被看重的东西不再具有原来的分量。\n\n离开的图像可以帮助理解重要性的变化：曾经值得投入的东西，未必始终适合现在的自己。也可以检视所谓放下，是经过辨认后的选择，还是尚未说清的疲惫。",
+        "question": "有什么曾经重要的事，正在改变它对我的分量？",
+        "source_text": "The card speaks for itself on the surface, but other readings are entirely antithetical--giving joy, mildness, timidity, honour, modesty. In practice, it is usually found that the card shews the decline of a matter, or that a matter which has been thought to be important is really of slight consequence--either for good or evil.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/eight-of-cups"
+      },
+      "reversed": {
+        "keyword": "喜悦、欢聚",
+        "fixed_meanings": [
+          {
+            "zh": "极大的喜悦",
+            "en": "Great joy"
+          },
+          {
+            "zh": "幸福",
+            "en": "Happiness"
+          },
+          {
+            "zh": "宴饮",
+            "en": "Feasting"
+          }
+        ],
+        "meaning": "原书逆位列出很大的喜悦、幸福和宴饮，不能一概套成不愿离开。\n\n这组逆位保留了偏向欢愉的历史读法，并不统一解释为舍不得离开。可以从自己真实感受到的快乐、相聚与享受来理解它，而不强求它与离开的画面形成同一个故事。",
+        "question": "有什么真实的快乐，是我愿意停下来好好感受的？",
+        "source_text": "Great joy, happiness, feasting.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/eight-of-cups"
+      },
+      "name_en": "Eight of Cups"
+    },
+    {
+      "id": 44,
+      "suit": "cups",
+      "name": "圣杯九",
+      "image_description": "人物双臂交抱坐在长凳上，背后弧形高台上整齐摆着九只杯。",
+      "upright": {
+        "keyword": "满足、和悦",
+        "fixed_meanings": [
+          {
+            "zh": "和谐",
+            "en": "Concord"
+          },
+          {
+            "zh": "满足",
+            "en": "Contentment"
+          },
+          {
+            "zh": "身体舒适",
+            "en": "Physical bien-être"
+          },
+          {
+            "zh": "也指胜利",
+            "en": "Also victory"
+          },
+          {
+            "zh": "成功",
+            "en": "Success"
+          },
+          {
+            "zh": "优势",
+            "en": "Advantage"
+          },
+          {
+            "zh": "问卜者或接受咨询者的满意",
+            "en": "Satisfaction for the Querent or person for whom the consultation is made"
+          }
+        ],
+        "meaning": "传统牌义关联满足、和谐、成功与身心舒适，偏向可感知的享受和所得。\n\n满足并不总要等待更大的目标完成。可以从已经拥有的条件和真实的享受中辨认所得，也看看这种满足主要来自自己的感受，还是来自与别人比较后的优势。",
+        "question": "如果暂时不与别人比较，我此刻已经满足于什么？",
+        "source_text": "Concord, contentment, physical bien-être; also victory, success, advantage; satisfaction for the Querent or person for whom the consultation is made.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/nine-of-cups"
+      },
+      "reversed": {
+        "keyword": "真实、不完美",
+        "fixed_meanings": [
+          {
+            "zh": "真实",
+            "en": "Truth"
+          },
+          {
+            "zh": "忠诚",
+            "en": "Loyalty"
+          },
+          {
+            "zh": "自由",
+            "en": "Liberty"
+          },
+          {
+            "zh": "但读法不同，也包括错误、不完善等",
+            "en": "But the readings vary and include mistakes, imperfections, etc"
+          }
+        ],
+        "meaning": "原书列出真实、忠诚和自由，也保留错误与不完善的读法，含义并不单一。\n\n真实与不完美可以同时存在。可以借此区分外表看起来圆满的结果，以及内在真正认同的满足，不必因为发现缺口就否定已有的全部收获。",
+        "question": "我希望承认哪一处不完美，让自己的满足变得更真实？",
+        "source_text": "Truth, loyalty, liberty; but the readings vary and include mistakes, imperfections, etc.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/nine-of-cups"
+      },
+      "name_en": "Nine of Cups"
+    },
+    {
+      "id": 45,
+      "suit": "cups",
+      "name": "圣杯十",
+      "image_description": "两位成人仰望由十只杯组成的彩虹，孩子在旁边跳舞，远处是家园。",
+      "upright": {
+        "keyword": "圆满、亲和",
+        "fixed_meanings": [
+          {
+            "zh": "满足、整个心灵的安宁",
+            "en": "Contentment, repose of the entire heart"
+          },
+          {
+            "zh": "这种状态的完满",
+            "en": "The perfection of that state"
+          },
+          {
+            "zh": "也指人间爱与友谊的圆满",
+            "en": "Also perfection of human love and friendship"
+          },
+          {
+            "zh": "若与数张人物牌同现，可指照看问卜者利益的人",
+            "en": "If with several picture-cards, a person who is taking charge of the Querent's interests"
+          },
+          {
+            "zh": "也指问卜者居住的城镇、村庄或乡间",
+            "en": "Also the town, village or country inhabited by the Querent"
+          }
+        ],
+        "meaning": "传统牌义关联心灵的满足、爱与友谊的圆满，以及共同生活的安宁。\n\n共同生活的安宁，需要容纳真实的人与差异。可以把圆满理解为关系中有可以依靠的联结，而不是每个人都必须表现得同样快乐或没有分歧。",
+        "question": "哪些关系或日常时刻，让我感到可以安稳地与人相处？",
+        "source_text": "Contentment, repose of the entire heart; the perfection of that state; also perfection of human love and friendship; if with several picture-cards, a person who is taking charge of the Querent's interests; also the town, village or country inhabited by the Querent.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ten-of-cups"
+      },
+      "reversed": {
+        "keyword": "表面安宁、不和",
+        "fixed_meanings": [
+          {
+            "zh": "虚假之心的安宁、愤慨与暴力",
+            "en": "Repose of the false heart, indignation, violence"
+          }
+        ],
+        "meaning": "原书涉及虚假的安宁、愤怒与冲突，外在和谐可能与内在感受并不一致。\n\n维持和气与真正能够交流并不是同一回事。可以留意哪些感受为了保持表面的安宁而被忽略，给清楚而适当的表达留出位置；牌义不用于断定现实关系正在发生什么。",
+        "question": "有没有一种被我压下的感受，需要用合适的方式表达出来？",
+        "source_text": "Repose of the false heart, indignation, violence.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ten-of-cups"
+      },
+      "name_en": "Ten of Cups"
+    },
+    {
+      "id": 46,
+      "suit": "cups",
+      "name": "圣杯侍从",
+      "image_description": "青年立在水边端着杯子，一条鱼从杯中探出头，青年专注地望着它。",
+      "upright": {
+        "keyword": "消息、沉思",
+        "fixed_meanings": [
+          {
+            "zh": "浅色肤发的青年，愿意提供服务，并与问卜者有所联系",
+            "en": "Fair young man, one impelled to render service and with whom the Querent will be connected"
+          },
+          {
+            "zh": "用功的青年",
+            "en": "A studious youth"
+          },
+          {
+            "zh": "消息",
+            "en": "News"
+          },
+          {
+            "zh": "口信",
+            "en": "Message"
+          },
+          {
+            "zh": "用心、专注",
+            "en": "Application"
+          },
+          {
+            "zh": "反思",
+            "en": "Reflection"
+          },
+          {
+            "zh": "沉思",
+            "en": "Meditation"
+          },
+          {
+            "zh": "也指这些品质用于事务经营",
+            "en": "Also these things directed to business"
+          }
+        ],
+        "meaning": "传统读法关联消息、学习、专注、思考与愿意提供帮助的姿态。\n\n愿意观察和倾听，可以让细小的感受或想法得到发展。可以从一条消息、一份好奇或尚未成熟的表达开始，不急着要求它立刻成为完整的成果。",
+        "question": "今天有什么细小的感受或想法，值得我认真听一听？",
+        "source_text": "Fair young man, one impelled to render service and with whom the Querent will be connected; a studious youth; news, message; application, reflection, meditation; also these things directed to business.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/page-of-cups"
+      },
+      "reversed": {
+        "keyword": "依恋、诱惑",
+        "fixed_meanings": [
+          {
+            "zh": "品味、偏好",
+            "en": "Taste"
+          },
+          {
+            "zh": "倾向",
+            "en": "Inclination"
+          },
+          {
+            "zh": "依恋",
+            "en": "Attachment"
+          },
+          {
+            "zh": "诱惑",
+            "en": "Seduction"
+          },
+          {
+            "zh": "欺瞒",
+            "en": "Deception"
+          },
+          {
+            "zh": "计巧",
+            "en": "Artifice"
+          }
+        ],
+        "meaning": "原书涉及偏好、依恋、诱惑与欺瞒，感受的吸引力可能影响理解。\n\n被吸引的感觉很有力量，却不一定足以说明事情的全貌。可以观察自己的偏好如何影响理解，区分真正在回应的内容与自己希望从中听到的内容。",
+        "question": "我是在回应眼前实际的内容，还是在回应自己的期待？",
+        "source_text": "Taste, inclination, attachment, seduction, deception, artifice.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/page-of-cups"
+      },
+      "name_en": "Page of Cups"
+    },
+    {
+      "id": 47,
+      "suit": "cups",
+      "name": "圣杯骑士",
+      "image_description": "骑士平缓地骑着白马，一手托起圣杯，前方有河流。",
+      "upright": {
+        "keyword": "邀约、靠近",
+        "fixed_meanings": [
+          {
+            "zh": "到来、接近，有时指信使的到来",
+            "en": "Arrival, approach--sometimes that of a messenger"
+          },
+          {
+            "zh": "主动接近",
+            "en": "Advances"
+          },
+          {
+            "zh": "提议",
+            "en": "Proposition"
+          },
+          {
+            "zh": "姿态、举止",
+            "en": "Demeanour"
+          },
+          {
+            "zh": "邀请",
+            "en": "Invitation"
+          },
+          {
+            "zh": "鼓动",
+            "en": "Incitement"
+          }
+        ],
+        "meaning": "关联到来、接近、提议、邀请与传递消息，呈现温和靠近的姿态。\n\n靠近可以通过邀请、表达或一份愿意交流的姿态发生。可以关注自己怎样提出心意，也给对方保留回应的空间，让温和与清楚同时存在。",
+        "question": "我想向谁或向什么靠近？我能怎样发出一份清楚而温和的邀请？",
+        "source_text": "Arrival, approach--sometimes that of a messenger; advances, proposition, demeanour, invitation, incitement.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/knight-of-cups"
+      },
+      "reversed": {
+        "keyword": "虚饰、欺瞒",
+        "fixed_meanings": [
+          {
+            "zh": "诡计",
+            "en": "Trickery"
+          },
+          {
+            "zh": "计巧",
+            "en": "Artifice"
+          },
+          {
+            "zh": "机巧",
+            "en": "Subtlety"
+          },
+          {
+            "zh": "诈骗",
+            "en": "Swindling"
+          },
+          {
+            "zh": "两面行为",
+            "en": "Duplicity"
+          },
+          {
+            "zh": "欺诈",
+            "en": "Fraud"
+          }
+        ],
+        "meaning": "传统读法涉及计巧、虚饰和欺瞒，表达出来的姿态未必与真实意图一致。\n\n表达的动人与行动的可靠需要分别观察。可以先看承诺是否具体、行动是否一致，而不只根据一种姿态作判断；同样的检视也适用于自己的表达。",
+        "question": "我看见或说出的承诺，有哪些实际行动作为支持？",
+        "source_text": "Trickery, artifice, subtlety, swindling, duplicity, fraud.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/knight-of-cups"
+      },
+      "name_en": "Knight of Cups"
+    },
+    {
+      "id": 48,
+      "suit": "cups",
+      "name": "圣杯王后",
+      "image_description": "王后坐在水边，凝望手中带盖、造型复杂的圣杯，座椅饰有水中生物。",
+      "upright": {
+        "keyword": "关怀、理解",
+        "fixed_meanings": [
+          {
+            "zh": "善良",
+            "en": "Good"
+          },
+          {
+            "zh": "浅色肤发的女性",
+            "en": "Fair woman"
+          },
+          {
+            "zh": "诚实而投入、愿意帮助问卜者的女性",
+            "en": "Honest, devoted woman, who will do service to the Querent"
+          },
+          {
+            "zh": "充满爱的理解力，以及由此而来的洞见",
+            "en": "Loving intelligence, and hence the gift of vision"
+          },
+          {
+            "zh": "成功",
+            "en": "Success"
+          },
+          {
+            "zh": "幸福",
+            "en": "Happiness"
+          },
+          {
+            "zh": "愉悦",
+            "en": "Pleasure"
+          },
+          {
+            "zh": "也指智慧",
+            "en": "Also wisdom"
+          },
+          {
+            "zh": "美德",
+            "en": "Virtue"
+          },
+          {
+            "zh": "理想的配偶与好母亲",
+            "en": "A perfect spouse and a good mother"
+          }
+        ],
+        "meaning": "传统牌义关联诚实、奉献、爱的理解、智慧与想象力。\n\n理解感受需要倾听，也需要保留自己与他人的边界。可以把关怀视作一种能够陪伴和理解的能力，而不是必须替别人承担所有情绪的义务。",
+        "question": "我可以怎样表达关怀，同时保留自己需要的边界？",
+        "source_text": "Good, fair woman; honest, devoted woman, who will do service to the Querent; loving intelligence, and hence the gift of vision; success, happiness, pleasure; also wisdom, virtue; a perfect spouse and a good mother.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/queen-of-cups"
+      },
+      "reversed": {
+        "keyword": "难以信任",
+        "fixed_meanings": [
+          {
+            "zh": "记述彼此不同",
+            "en": "The accounts vary"
+          },
+          {
+            "zh": "善良的女性",
+            "en": "Good woman"
+          },
+          {
+            "zh": "另一种说法指杰出却不可信的女性",
+            "en": "Otherwise, distinguished woman but one not to be trusted"
+          },
+          {
+            "zh": "乖张的女性",
+            "en": "Perverse woman"
+          },
+          {
+            "zh": "恶习",
+            "en": "Vice"
+          },
+          {
+            "zh": "失誉",
+            "en": "Dishonour"
+          },
+          {
+            "zh": "堕落",
+            "en": "Depravity"
+          }
+        ],
+        "meaning": "原书读法有明显分歧；其中一支涉及不可信与感受失衡，不宜据此判定现实中的人。\n\n彼此矛盾的人物评价说明历史读法本就有分歧，不能据此给现实人物定性。作为学习角度，可以关注情绪、信任和判断之间的关系，回到具体行为来理解可靠性。",
+        "question": "在一段需要信任的互动中，我真正观察到了哪些具体行为？",
+        "source_text": "The accounts vary; good woman; otherwise, distinguished woman but one not to be trusted; perverse woman; vice, dishonour, depravity.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/queen-of-cups"
+      },
+      "name_en": "Queen of Cups"
+    },
+    {
+      "id": 49,
+      "suit": "cups",
+      "name": "圣杯国王",
+      "image_description": "国王坐在海中的石座上，一手持杯，一手持短杖，附近有船和跃起的鱼。",
+      "upright": {
+        "keyword": "负责、公允",
+        "fixed_meanings": [
+          {
+            "zh": "浅色肤发的男子",
+            "en": "Fair man"
+          },
+          {
+            "zh": "商界人士",
+            "en": "Man of business"
+          },
+          {
+            "zh": "法律人士",
+            "en": "Law"
+          },
+          {
+            "zh": "或宗教人士",
+            "en": "Or divinity"
+          },
+          {
+            "zh": "负责，愿意帮助问卜者",
+            "en": "Responsible, disposed to oblige the Querent"
+          },
+          {
+            "zh": "也指公平、艺术和学术，包括从事学术、法律与艺术的人",
+            "en": "Also equity, art and science, including those who profess science, law and art"
+          },
+          {
+            "zh": "创造性的才智",
+            "en": "Creative intelligence"
+          }
+        ],
+        "meaning": "传统读法关联责任、公平、愿意协助他人，以及艺术与创造性的理解。\n\n成熟的情感能力可以表现为理解感受，也能在事务中承担责任。可以关注自己如何在关怀与判断之间保持公允，让善意有清楚而可靠的形式。",
+        "question": "我可以怎样把一份善意，落实为公平而可靠的帮助？",
+        "source_text": "Fair man, man of business, law, or divinity; responsible, disposed to oblige the Querent; also equity, art and science, including those who profess science, law and art; creative intelligence.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/king-of-cups"
+      },
+      "reversed": {
+        "keyword": "失信、不公",
+        "fixed_meanings": [
+          {
+            "zh": "不诚实",
+            "en": "Dishonest"
+          },
+          {
+            "zh": "两面行事的男子",
+            "en": "Double-dealing man"
+          },
+          {
+            "zh": "欺诈",
+            "en": "Roguery"
+          },
+          {
+            "zh": "苛索",
+            "en": "Exaction"
+          },
+          {
+            "zh": "不公",
+            "en": "Injustice"
+          },
+          {
+            "zh": "恶习",
+            "en": "Vice"
+          },
+          {
+            "zh": "丑闻",
+            "en": "Scandal"
+          },
+          {
+            "zh": "掠夺",
+            "en": "Pillage"
+          },
+          {
+            "zh": "重大损失",
+            "en": "Considerable loss"
+          }
+        ],
+        "meaning": "原书涉及不诚实、双面行为和不公平，象征情感力量被不恰当地使用。\n\n感受与影响力如果被用于控制，善意的表象就可能遮住不公平的安排。可以检视一件事中的责任、获益和表达是否一致，以具体情况代替对人格的猜测。",
+        "question": "一件涉及情感或信任的事，其责任与获益是否分配得清楚？",
+        "source_text": "Dishonest, double-dealing man; roguery, exaction, injustice, vice, scandal, pillage, considerable loss.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/king-of-cups"
+      },
+      "name_en": "King of Cups"
+    },
+    {
+      "id": 50,
+      "suit": "swords",
+      "name": "宝剑一",
+      "image_description": "从云中伸出的手高举宝剑，剑尖穿过带有枝叶装饰的王冠。",
+      "upright": {
+        "keyword": "力量、决断",
+        "fixed_meanings": [
+          {
+            "zh": "凯旋、事事达到过度的程度、征服、力量的胜利",
+            "en": "Triumph, the excessive degree in everything, conquest, triumph of force"
+          },
+          {
+            "zh": "它表示强大的力量，在爱与恨中都是如此",
+            "en": "It is a card of great force, in love as well as in hatred"
+          },
+          {
+            "zh": "王冠或有比通常占卜范围更高的含义",
+            "en": "The crown may carry a much higher significance than comes usually within the sphere of fortune-telling"
+          }
+        ],
+        "meaning": "传统牌义关联胜利、征服和强大的力量；强烈的决断也可能走向过度。\n\n清楚的想法能带来决断，也可能因太过锋利而忽略代价。可以关注自己的判断如何形成，以及表达与行动的力度是否仍与事实和目标相称。",
+        "question": "我已经看清了什么？怎样表达或行动，才能既明确又不过度？",
+        "source_text": "Triumph, the excessive degree in everything, conquest, triumph of force. It is a card of great force, in love as well as in hatred. The crown may carry a much higher significance than comes usually within the sphere of fortune-telling.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ace-of-swords"
+      },
+      "reversed": {
+        "keyword": "过度、失当",
+        "fixed_meanings": [
+          {
+            "zh": "与正位相同，但结果具有破坏性",
+            "en": "The same, but the results are disastrous"
+          },
+          {
+            "zh": "另一种说法列出受孕、生育、增加与繁多",
+            "en": "Another account says--conception, childbirth, augmentation, multiplicity"
+          }
+        ],
+        "meaning": "原书延续力量的主题，但强调结果可能失当或破坏性增强。\n\n不同读法在这里并不完全一致，不能只归为失败或混乱。作为判断的角度，可以检视决断是否过急，或某种力量是否在使用中超出了自己原本的目的。",
+        "question": "我的一项决定，是否需要在执行前重新检查力度和后果？",
+        "source_text": "The same, but the results are disastrous; another account says--conception, childbirth, augmentation, multiplicity.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ace-of-swords"
+      },
+      "name_en": "Ace of Swords"
+    },
+    {
+      "id": 51,
+      "suit": "swords",
+      "name": "宝剑二",
+      "image_description": "蒙眼的人坐在水边，双臂交叉持两把剑，身后有海面和月亮。",
+      "upright": {
+        "keyword": "均衡、对峙",
+        "fixed_meanings": [
+          {
+            "zh": "一致性及由此带来的均衡、勇气、友谊、武装状态下的和睦",
+            "en": "Conformity and the equipoise which it suggests, courage, friendship, concord in a state of arms"
+          },
+          {
+            "zh": "另一种读法列出温柔、感情与亲密",
+            "en": "Another reading gives tenderness, affection, intimacy"
+          },
+          {
+            "zh": "和谐及其他有利读法都应附带限定，因为宝剑一般并不象征人事中的善意力量",
+            "en": "The suggestion of harmony and other favourable readings must be considered in a qualified manner, as Swords generally are not symbolical of beneficent forces in human affairs"
+          }
+        ],
+        "meaning": "传统读法包含平衡、勇气与武装状态下的和谐，强调暂时维持的均势。\n\n暂时的平衡可能来自理解，也可能来自双方都没有继续行动。可以观察这种均势是在为了解留出空间，还是让一个需要讨论的差异一直停在那里。",
+        "question": "我维持的平衡，正在帮助理解，还是暂时搁置了一个问题？",
+        "source_text": "Conformity and the equipoise which it suggests, courage, friendship, concord in a state of arms; another reading gives tenderness, affection, intimacy. The suggestion of harmony and other favourable readings must be considered in a qualified manner, as Swords generally are not symbolical of beneficent forces in human affairs.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/two-of-swords"
+      },
+      "reversed": {
+        "keyword": "虚假、失信",
+        "fixed_meanings": [
+          {
+            "zh": "冒充、欺诈",
+            "en": "Imposture"
+          },
+          {
+            "zh": "虚假",
+            "en": "Falsehood"
+          },
+          {
+            "zh": "两面行为",
+            "en": "Duplicity"
+          },
+          {
+            "zh": "不忠",
+            "en": "Disloyalty"
+          }
+        ],
+        "meaning": "原书涉及伪装、虚假和不忠，原有均衡可能依赖不透明或不真实的信息。\n\n若平衡依赖未说清或不真实的信息，就难以稳定持续。可以先区分自己知道的事实、对方明确表达的内容，以及尚未得到确认的推断。",
+        "question": "有哪一处含糊的信息，需要被直接而清楚地确认？",
+        "source_text": "Imposture, falsehood, duplicity, disloyalty.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/two-of-swords"
+      },
+      "name_en": "Two of Swords"
+    },
+    {
+      "id": 52,
+      "suit": "swords",
+      "name": "宝剑三",
+      "image_description": "三把剑穿过一颗心，背景有乌云与雨。",
+      "upright": {
+        "keyword": "分离、伤感",
+        "fixed_meanings": [
+          {
+            "zh": "离去、缺席、延迟、分开、破裂、离散，以及图像自然表达的其他意义；这些含义过于明白，无需再逐项详列",
+            "en": "Removal, absence, delay, division, rupture, dispersion, and all that the design signifies naturally, being too simple and obvious to call for specific enumeration"
+          }
+        ],
+        "meaning": "传统牌义关联缺席、延迟、分开、破裂，以及图像直观呈现的伤感。\n\n画面中的伤感可以帮助人承认分离或失望带来的感受，而不必马上整理成一个有意义的结果。可以先看见正在痛的部分，以及自己愿意怎样照顾这份感受。",
+        "question": "我希望怎样表达或安放一份尚未消散的难过？",
+        "source_text": "Removal, absence, delay, division, rupture, dispersion, and all that the design signifies naturally, being too simple and obvious to call for specific enumeration.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/three-of-swords"
+      },
+      "reversed": {
+        "keyword": "混乱、分心",
+        "fixed_meanings": [
+          {
+            "zh": "精神疏离、精神失常",
+            "en": "Mental alienation"
+          },
+          {
+            "zh": "错误",
+            "en": "Error"
+          },
+          {
+            "zh": "损失",
+            "en": "Loss"
+          },
+          {
+            "zh": "分心",
+            "en": "Distraction"
+          },
+          {
+            "zh": "失序",
+            "en": "Disorder"
+          },
+          {
+            "zh": "混乱",
+            "en": "Confusion"
+          }
+        ],
+        "meaning": "原书涉及错误、损失、注意力分散和混乱，不一定代表伤感已经消失。\n\n这里没有保证伤感已经消失，而是把混乱与注意力分散也放进理解范围。可以先把几种感受分别命名，让原本难以分辨的一团体验逐渐有可理解的轮廓。",
+        "question": "如果把当前的感受分开命名，我能辨认出哪几种不同的心情？",
+        "source_text": "Mental alienation, error, loss, distraction, disorder, confusion.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/three-of-swords"
+      },
+      "name_en": "Three of Swords"
+    },
+    {
+      "id": 53,
+      "suit": "swords",
+      "name": "宝剑四",
+      "image_description": "骑士的卧像双手合十躺在石台上，墙上悬着三把剑，台侧还有一把剑。",
+      "upright": {
+        "keyword": "退居、休息",
+        "fixed_meanings": [
+          {
+            "zh": "警觉",
+            "en": "Vigilance"
+          },
+          {
+            "zh": "退居",
+            "en": "Retreat"
+          },
+          {
+            "zh": "独处",
+            "en": "Solitude"
+          },
+          {
+            "zh": "隐者的休息",
+            "en": "Hermit's repose"
+          },
+          {
+            "zh": "流放",
+            "en": "Exile"
+          },
+          {
+            "zh": "坟墓与棺木",
+            "en": "Tomb and coffin"
+          },
+          {
+            "zh": "正是最后这些含义启发了图像设计",
+            "en": "It is these last that have suggested the design"
+          }
+        ],
+        "meaning": "传统读法关联警觉、退居、独处与休息，呈现行动暂时收束的状态。\n\n暂停行动可以为恢复与整理提供条件。独处的价值不必只用下一次的效率衡量，也可以是暂时放下应对，让自己重新感到有足够空间。",
+        "question": "我需要怎样的一段休息，才能真正减少应对和消耗？",
+        "source_text": "Vigilance, retreat, solitude, hermit's repose, exile, tomb and coffin. It is these last that have suggested the design.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/four-of-swords"
+      },
+      "reversed": {
+        "keyword": "审慎、安排",
+        "fixed_meanings": [
+          {
+            "zh": "明智的管理",
+            "en": "Wise administration"
+          },
+          {
+            "zh": "审慎",
+            "en": "Circumspection"
+          },
+          {
+            "zh": "节约",
+            "en": "Economy"
+          },
+          {
+            "zh": "贪婪",
+            "en": "Avarice"
+          },
+          {
+            "zh": "预防",
+            "en": "Precaution"
+          },
+          {
+            "zh": "遗嘱",
+            "en": "Testament"
+          }
+        ],
+        "meaning": "原书列出审慎管理、节约和预防，侧重如何安排资源与后续行动。\n\n审慎安排可以把担忧转成具体的准备。可以关注精力、时间与资源怎样分配，也区分合理保留和因为不安而过分紧守的部分。",
+        "question": "我可以提前安排哪一件小事，让自己更安心地休息？",
+        "source_text": "Wise administration, circumspection, economy, avarice, precaution, testament.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/four-of-swords"
+      },
+      "name_en": "Four of Swords"
+    },
+    {
+      "id": 54,
+      "suit": "swords",
+      "name": "宝剑五",
+      "image_description": "前景的人收拢几把剑，后方两个人向水边走开，地上留着剑。",
+      "upright": {
+        "keyword": "损失、失和",
+        "fixed_meanings": [
+          {
+            "zh": "贬损、毁坏、撤销、恶名、失誉、损失，以及这些含义的变体和类似情况",
+            "en": "Degradation, destruction, revocation, infamy, dishonour, loss, with the variants and analogues of these"
+          }
+        ],
+        "meaning": "传统牌义关联损失、名誉受损和冲突后的代价，胜负之外还存在关系成本。\n\n冲突的结果不只存在于胜负，也会留在信任、精力和相处方式里。可以借此思考自己真正想保全什么，以及继续争取是否仍值得付出相应代价。",
+        "question": "如果不只看输赢，这场争执里我真正想保全的是什么？",
+        "source_text": "Degradation, destruction, revocation, infamy, dishonour, loss, with the variants and analogues of these.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/five-of-swords"
+      },
+      "reversed": {
+        "keyword": "余波、损耗",
+        "fixed_meanings": [
+          {
+            "zh": "与正位相同",
+            "en": "The same"
+          },
+          {
+            "zh": "埋葬与丧礼",
+            "en": "Burial and obsequies"
+          }
+        ],
+        "meaning": "原书大体延续正位的损失主题，表示冲突的后果和耗损仍需被看见。\n\n结束冲突不代表余波立即消失。可以允许自己整理失去的部分，辨认哪些关系或方式需要告别，也为之后的相处设立更清楚的界线。",
+        "question": "一段冲突之后，我需要整理什么，才能真正向前走？",
+        "source_text": "The same; burial and obsequies.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/five-of-swords"
+      },
+      "name_en": "Five of Swords"
+    },
+    {
+      "id": 55,
+      "suit": "swords",
+      "name": "宝剑六",
+      "image_description": "船夫撑船载着两个人离开岸边，六把剑立在船中。",
+      "upright": {
+        "keyword": "渡越、转移",
+        "fixed_meanings": [
+          {
+            "zh": "水上旅程",
+            "en": "Journey by water"
+          },
+          {
+            "zh": "路线",
+            "en": "Route"
+          },
+          {
+            "zh": "道路",
+            "en": "Way"
+          },
+          {
+            "zh": "使者",
+            "en": "Envoy"
+          },
+          {
+            "zh": "受托者",
+            "en": "Commissionary"
+          },
+          {
+            "zh": "权宜方法、可行途径",
+            "en": "Expedient"
+          }
+        ],
+        "meaning": "传统牌义关联水上旅程、路线、使者和可供转移的途径，图像呈现过渡。\n\n过渡未必已经到达目的地，但意味着开始寻找可以移动的路线。可以关注自己能借助哪些支持，以及怎样把必要的经验带走，而不把所有旧负担一并携带。",
+        "question": "我可以借助什么支持，向一个更适合自己的状态移动一点？",
+        "source_text": "journey by water, route, way, envoy, commissionary, expedient.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/six-of-swords"
+      },
+      "reversed": {
+        "keyword": "表白、公开",
+        "fixed_meanings": [
+          {
+            "zh": "声明",
+            "en": "Declaration"
+          },
+          {
+            "zh": "坦白",
+            "en": "Confession"
+          },
+          {
+            "zh": "公开",
+            "en": "Publicity"
+          },
+          {
+            "zh": "一种说法认为它也指爱的表白",
+            "en": "One account says that it is a proposal of love"
+          }
+        ],
+        "meaning": "原书列出声明、表白和公开表达，强调原先未明说的内容被说出来。\n\n原先没有说出的内容被表达出来，可以改变一段互动的条件。可以思考哪些话需要被说明，以及如何选择时机与方式，让表达尽可能清楚而真实。",
+        "question": "有没有一件一直未明说的事，我希望用什么方式表达？",
+        "source_text": "Declaration, confession, publicity; one account says that it is a proposal of love.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/six-of-swords"
+      },
+      "name_en": "Six of Swords"
+    },
+    {
+      "id": 56,
+      "suit": "swords",
+      "name": "宝剑七",
+      "image_description": "人物抱着五把剑回头离开营地，另外两把剑仍插在地上。",
+      "upright": {
+        "keyword": "计划、尝试",
+        "fixed_meanings": [
+          {
+            "zh": "构想、计划",
+            "en": "Design"
+          },
+          {
+            "zh": "尝试",
+            "en": "Attempt"
+          },
+          {
+            "zh": "愿望",
+            "en": "Wish"
+          },
+          {
+            "zh": "希望",
+            "en": "Hope"
+          },
+          {
+            "zh": "信心",
+            "en": "Confidence"
+          },
+          {
+            "zh": "也包括争吵、可能失败的计划和烦恼",
+            "en": "Also quarrelling, a plan that may fail, annoyance"
+          },
+          {
+            "zh": "由于这些含义彼此差异很大，图像的含义并不确定",
+            "en": "The design is uncertain in its import, because the significations are widely at variance with each other"
+          }
+        ],
+        "meaning": "原书涉及计划、尝试、愿望和信心，也包含争执及计划未必能完成的张力。\n\n计划提供方向，尝试则会暴露原先没有想到的条件。可以既保留信心，也允许根据实际反馈调整，不必只凭一个巧妙的想法就认定所有环节都已可行。",
+        "question": "我的计划里，哪一个假设最值得先用小范围尝试来检验？",
+        "source_text": "Design, attempt, wish, hope, confidence; also quarrelling, a plan that may fail, annoyance. The design is uncertain in its import, because the significations are widely at variance with each other.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/seven-of-swords"
+      },
+      "reversed": {
+        "keyword": "建议、议论",
+        "fixed_meanings": [
+          {
+            "zh": "好的建议",
+            "en": "Good advice"
+          },
+          {
+            "zh": "劝告",
+            "en": "Counsel"
+          },
+          {
+            "zh": "指导",
+            "en": "Instruction"
+          },
+          {
+            "zh": "诽谤",
+            "en": "Slander"
+          },
+          {
+            "zh": "空谈",
+            "en": "Babbling"
+          }
+        ],
+        "meaning": "传统读法包含好的建议、劝告，也包含议论和中伤，需区分信息的来源与作用。\n\n建议与议论都以语言的形式出现，却未必有同样的依据和作用。可以检视信息来自何处、是否具体，以及它是否帮助自己更清楚地作决定。",
+        "question": "我正在听取的一个说法，提供了哪些可以核实的依据？",
+        "source_text": "Good advice, counsel, instruction, slander, babbling.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/seven-of-swords"
+      },
+      "name_en": "Seven of Swords"
+    },
+    {
+      "id": 57,
+      "suit": "swords",
+      "name": "宝剑八",
+      "image_description": "蒙眼且被束缚的人站在八把剑之间，脚下有湿地，远方是一座城堡。",
+      "upright": {
+        "keyword": "限制、困局",
+        "fixed_meanings": [
+          {
+            "zh": "坏消息",
+            "en": "Bad news"
+          },
+          {
+            "zh": "强烈的懊恼",
+            "en": "Violent chagrin"
+          },
+          {
+            "zh": "危机",
+            "en": "Crisis"
+          },
+          {
+            "zh": "谴责",
+            "en": "Censure"
+          },
+          {
+            "zh": "力量受到束缚",
+            "en": "Power in trammels"
+          },
+          {
+            "zh": "冲突",
+            "en": "Conflict"
+          },
+          {
+            "zh": "诽谤",
+            "en": "Calumny"
+          },
+          {
+            "zh": "也包括疾病",
+            "en": "Also sickness"
+          }
+        ],
+        "meaning": "传统牌义关联危机、冲突和力量受限；图像中的限制被描述为暂时的拘束。\n\n受限的图像可以帮助人区分外部条件与内在预设。先把限制说具体，再观察是否仍有一点可以选择的空间，不需要把整个处境一次解决。",
+        "question": "我感到受限的事情里，哪些条件已经确定，哪些仍有一点选择空间？",
+        "source_text": "Bad news, violent chagrin, crisis, censure, power in trammels, conflict, calumny; also sickness.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/eight-of-swords"
+      },
+      "reversed": {
+        "keyword": "不安、意外",
+        "fixed_meanings": [
+          {
+            "zh": "不安",
+            "en": "Disquiet"
+          },
+          {
+            "zh": "困难",
+            "en": "Difficulty"
+          },
+          {
+            "zh": "反对、阻力",
+            "en": "Opposition"
+          },
+          {
+            "zh": "意外",
+            "en": "Accident"
+          },
+          {
+            "zh": "背叛",
+            "en": "Treachery"
+          },
+          {
+            "zh": "未曾预见的事",
+            "en": "What is unforeseen"
+          },
+          {
+            "zh": "宿命、厄运",
+            "en": "Fatality"
+          }
+        ],
+        "meaning": "原书涉及不安、困难、阻力和未预见的情况，并非必然已经解除限制。\n\n未知带来的不安不等于已经确认的危险。可以把需要准备的实际环节与反复想象的可能性分开，让注意力先落在自己能够了解和安排的部分。",
+        "question": "为了面对不确定，我今天能作出哪一项具体准备？",
+        "source_text": "Disquiet, difficulty, opposition, accident, treachery; what is unforeseen; fatality.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/eight-of-swords"
+      },
+      "name_en": "Eight of Swords"
+    },
+    {
+      "id": 58,
+      "suit": "swords",
+      "name": "宝剑九",
+      "image_description": "人物坐在床上双手掩面，九把剑排列在身后的黑暗背景中。",
+      "upright": {
+        "keyword": "忧虑、失望",
+        "fixed_meanings": [
+          {
+            "zh": "死亡",
+            "en": "Death"
+          },
+          {
+            "zh": "失败",
+            "en": "Failure"
+          },
+          {
+            "zh": "流产、事情落空",
+            "en": "Miscarriage"
+          },
+          {
+            "zh": "延迟",
+            "en": "Delay"
+          },
+          {
+            "zh": "欺瞒",
+            "en": "Deception"
+          },
+          {
+            "zh": "失望",
+            "en": "Disappointment"
+          },
+          {
+            "zh": "绝望",
+            "en": "Despair"
+          }
+        ],
+        "meaning": "传统牌义包含失望、延迟、失败感与绝望；本版作为情绪意象，不作事件预报。\n\n黑暗的画面可以用来理解被忧虑占据的感受，不能据此预报原书列出的事件。可以先照顾当下的疲惫，再区分正在发生的事实与在脑海中反复演练的最坏结果。",
+        "question": "我脑海里反复出现的担忧，和眼下真实发生的事情分别是什么？",
+        "source_text": "Death, failure, miscarriage, delay, deception, disappointment, despair.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/nine-of-swords"
+      },
+      "reversed": {
+        "keyword": "疑虑、羞惭",
+        "fixed_meanings": [
+          {
+            "zh": "囚禁",
+            "en": "Imprisonment"
+          },
+          {
+            "zh": "猜疑",
+            "en": "Suspicion"
+          },
+          {
+            "zh": "疑虑",
+            "en": "Doubt"
+          },
+          {
+            "zh": "有理由的恐惧",
+            "en": "Reasonable fear"
+          },
+          {
+            "zh": "羞惭",
+            "en": "Shame"
+          }
+        ],
+        "meaning": "原书列出怀疑、不安、合理的恐惧和羞惭，强调困扰仍在影响感受。\n\n困扰仍在时，可以先让它变得能够被表达。把担心说清、写下，或向信任的人说明，都是整理经验的方式，不必先证明自己已经能够独自应付。",
+        "question": "有没有一种难以说出口的担忧，我愿意先用一句话描述出来？",
+        "source_text": "Imprisonment, suspicion, doubt, reasonable fear, shame.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/nine-of-swords"
+      },
+      "name_en": "Nine of Swords"
+    },
+    {
+      "id": 59,
+      "suit": "swords",
+      "name": "宝剑十",
+      "image_description": "人物俯卧在地上，背上排列着十把剑，远方天空出现亮色。",
+      "upright": {
+        "keyword": "痛苦、终局",
+        "fixed_meanings": [
+          {
+            "zh": "图像所表达的一切",
+            "en": "Whatsoever is intimated by the design"
+          },
+          {
+            "zh": "也包括痛苦",
+            "en": "Also pain"
+          },
+          {
+            "zh": "苦楚",
+            "en": "Affliction"
+          },
+          {
+            "zh": "眼泪",
+            "en": "Tears"
+          },
+          {
+            "zh": "悲伤",
+            "en": "Sadness"
+          },
+          {
+            "zh": "荒凉",
+            "en": "Desolation"
+          },
+          {
+            "zh": "它并非特别指暴力死亡之牌",
+            "en": "It is not especially a card of violent death"
+          }
+        ],
+        "meaning": "传统牌义关联痛苦、悲伤和荒凉，表现一个令人疲惫的局面走到极点。\n\n走到极点的意象，可以帮助人承认一种做法已经过度消耗自己。理解终局并不要求立刻振作；也可以先停止继续加重负担，给整理和恢复留下空间。",
+        "question": "我是否还在延续一种已经让我过度疲惫的方式？",
+        "source_text": "Whatsoever is intimated by the design; also pain, affliction, tears, sadness, desolation. It is not especially a card of violent death.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ten-of-swords"
+      },
+      "reversed": {
+        "keyword": "暂时转机",
+        "fixed_meanings": [
+          {
+            "zh": "优势、收益、成功与有利条件，但这些都不持久",
+            "en": "Advantage, profit, success, favour, but none of these are permanent"
+          },
+          {
+            "zh": "也指力量与权威",
+            "en": "Also power and authority"
+          }
+        ],
+        "meaning": "原书列出优势、成功与有利处境，同时强调它们可能并不持久。\n\n暂时有利的条件可以提供喘息，却不必马上被当作一切已经恢复。可以看看这段空间能怎样支持自己调整旧方式，让变化建立在可持续的安排上。",
+        "question": "如果现在得到一点喘息，我最希望用它来调整什么？",
+        "source_text": "Advantage, profit, success, favour, but none of these are permanent; also power and authority.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ten-of-swords"
+      },
+      "name_en": "Ten of Swords"
+    },
+    {
+      "id": 60,
+      "suit": "swords",
+      "name": "宝剑侍从",
+      "image_description": "青年双手持剑站在不平的地面上，身体与目光转向一侧，空中有风和云。",
+      "upright": {
+        "keyword": "警觉、检视",
+        "fixed_meanings": [
+          {
+            "zh": "权威、监督、秘密服务、警觉、侦察、检查，以及与这些相连的品质",
+            "en": "Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging"
+          }
+        ],
+        "meaning": "传统牌义关联观察、监督、警觉与检查，注意细小信息和周围变化。\n\n细察能帮助发现尚未被看见的信息，也需要有明确的对象。可以关注自己到底想确认什么，让观察服务于理解，而不只是不断寻找更多值得担心的细节。",
+        "question": "我正在留意的信息，究竟要帮助我回答哪一个问题？",
+        "source_text": "Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/page-of-swords"
+      },
+      "reversed": {
+        "keyword": "准备不足",
+        "fixed_meanings": [
+          {
+            "zh": "上述品质中较不利的一面",
+            "en": "More evil side of these qualities"
+          },
+          {
+            "zh": "未曾预见的事",
+            "en": "What is unforeseen"
+          },
+          {
+            "zh": "缺少准备的状态",
+            "en": "Unprepared state"
+          },
+          {
+            "zh": "也暗示疾病",
+            "en": "Sickness is also intimated"
+          }
+        ],
+        "meaning": "原书涉及未预见的情形和准备不足，也包含警觉品质走向不利一面的读法。\n\n警觉并不等于已经准备充分。可以把泛泛的不安转成一份具体的核对，辨认遗漏的条件，也允许自己在信息不足时先暂停结论。",
+        "question": "眼前的事情中，我还有哪一项基本准备没有完成？",
+        "source_text": "More evil side of these qualities; what is unforeseen, unprepared state; sickness is also intimated.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/page-of-swords"
+      },
+      "name_en": "Page of Swords"
+    },
+    {
+      "id": 61,
+      "suit": "swords",
+      "name": "宝剑骑士",
+      "image_description": "骑士举剑策马疾驰，树木与云被风吹向一侧。",
+      "upright": {
+        "keyword": "勇敢、冲突",
+        "fixed_meanings": [
+          {
+            "zh": "技巧",
+            "en": "Skill"
+          },
+          {
+            "zh": "勇敢",
+            "en": "Bravery"
+          },
+          {
+            "zh": "能力",
+            "en": "Capacity"
+          },
+          {
+            "zh": "防御",
+            "en": "Defence"
+          },
+          {
+            "zh": "应对能力",
+            "en": "Address"
+          },
+          {
+            "zh": "敌意",
+            "en": "Enmity"
+          },
+          {
+            "zh": "愤怒",
+            "en": "Wrath"
+          },
+          {
+            "zh": "战争",
+            "en": "War"
+          },
+          {
+            "zh": "破坏",
+            "en": "Destruction"
+          },
+          {
+            "zh": "反对",
+            "en": "Opposition"
+          },
+          {
+            "zh": "抵抗",
+            "en": "Resistance"
+          },
+          {
+            "zh": "毁灭",
+            "en": "Ruin"
+          },
+          {
+            "zh": "因此它在某种意义上也表示死亡，但原书限定只有邻近其他厄运牌时才采用这种读法",
+            "en": "There is therefore a sense in which the card signifies death, but it carries this meaning only in its proximity to other cards of fatality"
+          }
+        ],
+        "meaning": "传统读法并列技巧、勇气、能力和对抗，行动锋利但可能带来摩擦。\n\n行动锋利可以带来效率，也可能让讨论迅速变成对抗。可以检视自己想达成的目标与采取的力度是否一致，在坚定表达的同时，为理解事实保留空间。",
+        "question": "我希望迅速解决什么？速度是否让我忽略了一条重要信息？",
+        "source_text": "Skill, bravery, capacity, defence, address, enmity, wrath, war, destruction, opposition, resistance, ruin. There is therefore a sense in which the card signifies death, but it carries this meaning only in its proximity to other cards of fatality.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/knight-of-swords"
+      },
+      "reversed": {
+        "keyword": "冒进、失衡",
+        "fixed_meanings": [
+          {
+            "zh": "轻率",
+            "en": "Imprudence"
+          },
+          {
+            "zh": "能力不足",
+            "en": "Incapacity"
+          },
+          {
+            "zh": "挥霍、过度",
+            "en": "Extravagance"
+          }
+        ],
+        "meaning": "原书列出轻率、能力不足与过度挥霍，速度与实际掌握能力之间可能不匹配。\n\n愿意冲在前面与已经掌握条件之间可能存在距离。可以把行动稍微分段，先确认方法与资源，再决定需要怎样的速度，而不是只凭气势推进。",
+        "question": "我能先验证哪一个环节，让行动更符合实际能力和条件？",
+        "source_text": "Imprudence, incapacity, extravagance.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/knight-of-swords"
+      },
+      "name_en": "Knight of Swords"
+    },
+    {
+      "id": 62,
+      "suit": "swords",
+      "name": "宝剑王后",
+      "image_description": "王后端坐，一手竖起宝剑，另一手向前伸出，神情严肃。",
+      "upright": {
+        "keyword": "分离、清醒",
+        "fixed_meanings": [
+          {
+            "zh": "丧偶",
+            "en": "Widowhood"
+          },
+          {
+            "zh": "女性的悲伤与窘迫",
+            "en": "Female sadness and embarrassment"
+          },
+          {
+            "zh": "缺席",
+            "en": "Absence"
+          },
+          {
+            "zh": "不育、贫瘠",
+            "en": "Sterility"
+          },
+          {
+            "zh": "哀悼",
+            "en": "Mourning"
+          },
+          {
+            "zh": "匮乏",
+            "en": "Privation"
+          },
+          {
+            "zh": "分离",
+            "en": "Separation"
+          }
+        ],
+        "meaning": "传统读法涉及缺席、分离和经历悲伤后的严肃；图像带出清楚界限的姿态。\n\n经历失去之后的清楚，可能同时带着严肃与距离。可以把边界理解为照顾经验的方式，而不必要求自己用冷静掩盖所有感受；人物性别用语属于历史文本。",
+        "question": "我希望为自己保留怎样的边界，既保护感受，也不完全隔绝联结？",
+        "source_text": "Widowhood, female sadness and embarrassment, absence, sterility, mourning, privation, separation.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/queen-of-swords"
+      },
+      "reversed": {
+        "keyword": "偏见、苛责",
+        "fixed_meanings": [
+          {
+            "zh": "恶意",
+            "en": "Malice"
+          },
+          {
+            "zh": "偏执",
+            "en": "Bigotry"
+          },
+          {
+            "zh": "计巧",
+            "en": "Artifice"
+          },
+          {
+            "zh": "拘谨、假正经",
+            "en": "Prudery"
+          },
+          {
+            "zh": "祸害",
+            "en": "Bale"
+          },
+          {
+            "zh": "欺瞒",
+            "en": "Deceit"
+          }
+        ],
+        "meaning": "原书涉及恶意、偏见、虚饰与欺瞒，判断可能受到僵硬立场的影响。\n\n清楚的判断若缺少新的了解，也可能变成僵硬的立场。可以检查自己是否把一段过去的经验当作适用于所有情况的规则，让事实有修正看法的机会。",
+        "question": "我是否正在用一个旧经验，过早判断眼前的新情况？",
+        "source_text": "Malice, bigotry, artifice, prudery, bale, deceit.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/queen-of-swords"
+      },
+      "name_en": "Queen of Swords"
+    },
+    {
+      "id": 63,
+      "suit": "swords",
+      "name": "宝剑国王",
+      "image_description": "国王面向前方端坐，手持出鞘的剑，身后有树木与天空。",
+      "upright": {
+        "keyword": "判断、权威",
+        "fixed_meanings": [
+          {
+            "zh": "与判断及其相关观念相连的一切：力量、命令、权威、战斗性的理智、法律、王室职务等等",
+            "en": "Whatsoever arises out of the idea of judgment and all its connexions-power, command, authority, militant intelligence, law, offices of the crown, and so forth"
+          }
+        ],
+        "meaning": "传统牌义关联判断、命令、权威、理智与规则，突出决断及其责任。\n\n判断与权威之所以有分量，在于它们会影响后续行动。可以关注标准是否清楚、依据是否充分，以及作决定的人是否愿意承担相应责任。",
+        "question": "我作出的一个判断，需要哪些依据，又意味着怎样的责任？",
+        "source_text": "Whatsoever arises out of the idea of judgment and all its connexions-power, command, authority, militant intelligence, law, offices of the crown, and so forth.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/king-of-swords"
+      },
+      "reversed": {
+        "keyword": "严酷、失当",
+        "fixed_meanings": [
+          {
+            "zh": "残酷",
+            "en": "Cruelty"
+          },
+          {
+            "zh": "悖逆、偏执",
+            "en": "Perversity"
+          },
+          {
+            "zh": "野蛮",
+            "en": "Barbarity"
+          },
+          {
+            "zh": "背信",
+            "en": "Perfidy"
+          },
+          {
+            "zh": "恶意",
+            "en": "Evil intention"
+          }
+        ],
+        "meaning": "原书涉及严酷、不正当意图与背信，象征判断和权力被不恰当地使用。\n\n理性语言也可能被用来掩盖不公平或过度强硬的安排。可以回到具体影响，检视标准如何应用、谁承担代价，而不只看决定是否显得有权威。",
+        "question": "一项看似合理的安排，给不同的人带来了什么实际影响？",
+        "source_text": "Cruelty, perversity, barbarity, perfidy, evil intention.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/king-of-swords"
+      },
+      "name_en": "King of Swords"
+    },
+    {
+      "id": 64,
+      "suit": "pentacles",
+      "name": "星币一",
+      "image_description": "云中的手托着一枚星币，下面是花园与通向远山的拱门。",
+      "upright": {
+        "keyword": "满足、资源",
+        "fixed_meanings": [
+          {
+            "zh": "完全的满足",
+            "en": "Perfect contentment"
+          },
+          {
+            "zh": "幸福",
+            "en": "Felicity"
+          },
+          {
+            "zh": "狂喜",
+            "en": "Ecstasy"
+          },
+          {
+            "zh": "也指迅速传来的消息",
+            "en": "Also speedy intelligence"
+          },
+          {
+            "zh": "黄金",
+            "en": "Gold"
+          }
+        ],
+        "meaning": "传统牌义关联满足、喜悦和物质资源，突出可触及的充足与条件。\n\n可触及的资源能为想法提供落点，例如时间、材料、空间或一种可靠的支持。可以从自己实际拥有的条件开始，理解充足如何成为可以使用的基础。",
+        "question": "我手边已经拥有的哪一种资源，最值得好好使用？",
+        "source_text": "Perfect contentment, felicity, ecstasy; also speedy intelligence; gold.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ace-of-pentacles"
+      },
+      "reversed": {
+        "keyword": "财富的代价",
+        "fixed_meanings": [
+          {
+            "zh": "财富不利的一面、坏消息",
+            "en": "The evil side of wealth, bad intelligence"
+          },
+          {
+            "zh": "也包括巨额财富",
+            "en": "Also great riches"
+          },
+          {
+            "zh": "无论正逆都呈现繁荣和舒适的物质条件，但这些是否有益于拥有者，取决于牌是否逆位",
+            "en": "In any case it shews prosperity, comfortable material conditions, but whether these are of advantage to the possessor will depend on whether the card is reversed or not"
+          }
+        ],
+        "meaning": "原书同时保留富足与财富不利一面的读法，资源是否有益取决于其使用方式。\n\n资源的多少与它对生活的帮助不是同一回事。可以观察某种获得同时带来了哪些责任、依赖或消耗，让有益与充足分别得到理解。",
+        "question": "我正在追求的某种资源，会给生活带来哪些帮助与额外负担？",
+        "source_text": "The evil side of wealth, bad intelligence; also great riches. In any case it shews prosperity, comfortable material conditions, but whether these are of advantage to the possessor will depend on whether the card is reversed or not.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ace-of-pentacles"
+      },
+      "name_en": "Ace of Pentacles"
+    },
+    {
+      "id": 65,
+      "suit": "pentacles",
+      "name": "星币二",
+      "image_description": "人物一手一枚星币，两枚星币被横向八字形带子连接，后方有起伏海浪。",
+      "upright": {
+        "keyword": "变动、周转",
+        "fixed_meanings": [
+          {
+            "zh": "一方面，画面将它表现为欢乐、消遣及其相关活动之牌",
+            "en": "On the one hand it is represented as a card of gaiety, recreation and its connexions, which is the subject of the design"
+          },
+          {
+            "zh": "但也读为书面消息、阻碍、忙乱、烦恼与纠缠",
+            "en": "But it is read also as news and messages in writing, as obstacles, agitation, trouble, embroilment"
+          }
+        ],
+        "meaning": "传统读法并列愉快活动、书面消息、阻碍与忙乱，图像呈现持续周转。\n\n持续周转可以带来灵活，也可能让人没有真正停下来的时间。可以检查自己同时维持的事项，辨认哪些确实需要协调，哪些只是习惯性地一直转动。",
+        "question": "我正在同时照应哪些事情？哪一件可以调整节奏或暂时放下？",
+        "source_text": "On the one hand it is represented as a card of gaiety, recreation and its connexions, which is the subject of the design; but it is read also as news and messages in writing, as obstacles, agitation, trouble, embroilment.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/two-of-pentacles"
+      },
+      "reversed": {
+        "keyword": "勉强维持",
+        "fixed_meanings": [
+          {
+            "zh": "被迫的欢乐",
+            "en": "Enforced gaiety"
+          },
+          {
+            "zh": "佯装享受",
+            "en": "Simulated enjoyment"
+          },
+          {
+            "zh": "字面含义",
+            "en": "Literal sense"
+          },
+          {
+            "zh": "手写文字",
+            "en": "Handwriting"
+          },
+          {
+            "zh": "写作、文稿",
+            "en": "Composition"
+          },
+          {
+            "zh": "汇票、往来函件",
+            "en": "Letters of exchange"
+          }
+        ],
+        "meaning": "原书涉及强作欢颜、表面享受和书写事务，表现为外在轻松与内在状态有距离。\n\n外表轻松并不总能说明真实的余裕。可以允许自己承认安排已经吃紧，把精力用于重新分配事情，而不是继续维持毫不费力的样子。",
+        "question": "我在哪件事上表现得很轻松，实际却需要一点重新安排？",
+        "source_text": "Enforced gaiety, simulated enjoyment, literal sense, handwriting, composition, letters of exchange.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/two-of-pentacles"
+      },
+      "name_en": "Two of Pentacles"
+    },
+    {
+      "id": 66,
+      "suit": "pentacles",
+      "name": "星币三",
+      "image_description": "工匠在建筑中工作，另外两个人拿着图纸与他交谈，墙上有三枚星币。",
+      "upright": {
+        "keyword": "技艺、工作",
+        "fixed_meanings": [
+          {
+            "zh": "职业、专长",
+            "en": "Métier"
+          },
+          {
+            "zh": "手艺、行业",
+            "en": "Trade"
+          },
+          {
+            "zh": "熟练劳动",
+            "en": "Skilled labour"
+          },
+          {
+            "zh": "但通常也被视为高贵、贵族、声誉与荣耀之牌",
+            "en": "Usually, however, regarded as a card of nobility, aristocracy, renown, glory"
+          }
+        ],
+        "meaning": "传统牌义关联职业、手艺、熟练劳动和由此获得的认可。\n\n技艺通过具体的工作呈现，也能在交流与共同检视中得到提升。可以关注成果哪里已经稳定，哪里还需要别人的反馈，让认可与练习形成联系。",
+        "question": "我希望把哪项技能做得更扎实？谁能给出具体而有帮助的反馈？",
+        "source_text": "Métier, trade, skilled labour; usually, however, regarded as a card of nobility, aristocracy, renown, glory.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/three-of-pentacles"
+      },
+      "reversed": {
+        "keyword": "平庸、薄弱",
+        "fixed_meanings": [
+          {
+            "zh": "平庸",
+            "en": "Mediocrity"
+          },
+          {
+            "zh": "在工作中或其他方面",
+            "en": "In work and otherwise"
+          },
+          {
+            "zh": "幼稚",
+            "en": "Puerility"
+          },
+          {
+            "zh": "狭小、琐碎",
+            "en": "Pettiness"
+          },
+          {
+            "zh": "薄弱",
+            "en": "Weakness"
+          }
+        ],
+        "meaning": "原书列出工作上的平庸、不成熟与薄弱，成果可能尚未达到所需标准。\n\n尚未达到标准并不自动等于没有潜力。把薄弱的部分说具体，才能区分缺少练习、协作不清和标准不明，让改进有一个可以着手的方向。",
+        "question": "一份成果中，哪一个最具体的薄弱点值得优先练习？",
+        "source_text": "Mediocrity, in work and otherwise, puerility, pettiness, weakness.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/three-of-pentacles"
+      },
+      "name_en": "Three of Pentacles"
+    },
+    {
+      "id": 67,
+      "suit": "pentacles",
+      "name": "星币四",
+      "image_description": "戴冠的人抱住一枚星币，头顶一枚，两脚各压着一枚，身后是城市。",
+      "upright": {
+        "keyword": "保有、稳固",
+        "fixed_meanings": [
+          {
+            "zh": "财物的稳固、紧守已有之物、礼物、遗赠与继承",
+            "en": "The surety of possessions, cleaving to that which one has, gift, legacy, inheritance"
+          }
+        ],
+        "meaning": "传统牌义关联财物的稳固、紧守已有之物，以及赠与和继承。\n\n保有能够提供安全感，也可能限制需要发生的流动。可以观察自己紧握的究竟是资源、秩序还是某种确定感，再辨认哪些保留确实仍有用。",
+        "question": "我正在紧握什么？它提供的安全感，是否也带来了一些限制？",
+        "source_text": "The surety of possessions, cleaving to that which one has, gift, legacy, inheritance.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/four-of-pentacles"
+      },
+      "reversed": {
+        "keyword": "悬而未决",
+        "fixed_meanings": [
+          {
+            "zh": "悬而未决",
+            "en": "Suspense"
+          },
+          {
+            "zh": "延迟",
+            "en": "Delay"
+          },
+          {
+            "zh": "反对、阻力",
+            "en": "Opposition"
+          }
+        ],
+        "meaning": "原书列出悬念、延迟和阻力，保有与流动之间可能暂时难以协调。\n\n在事情尚未确定时，可以区分需要继续等待的条件，以及因为想保住确定感而不愿调整的部分。不是所有停顿都需要用更强的控制来应对。",
+        "question": "眼前的等待，究竟缺少一个外部条件，还是需要我松动一种安排？",
+        "source_text": "Suspense, delay, opposition.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/four-of-pentacles"
+      },
+      "name_en": "Four of Pentacles"
+    },
+    {
+      "id": 68,
+      "suit": "pentacles",
+      "name": "星币五",
+      "image_description": "两个人在雪中走过明亮的彩窗，窗上有五枚星币，其中一人拄着拐杖。",
+      "upright": {
+        "keyword": "匮乏、困顿",
+        "fixed_meanings": [
+          {
+            "zh": "原书首先将它断作物质困境，可能是图中表现的贫困，也可能是其他形式",
+            "en": "The card foretells material trouble above all, whether in the form illustrated--that is, destitution--or otherwise"
+          },
+          {
+            "zh": "对一些读牌者，它又是爱与恋人之牌，包括妻子、丈夫、朋友和情人",
+            "en": "For some cartomancists, it is a card of love and lovers-wife, husband, friend, mistress"
+          },
+          {
+            "zh": "也指和谐",
+            "en": "Also concordance"
+          },
+          {
+            "zh": "亲缘、亲和",
+            "en": "Affinities"
+          },
+          {
+            "zh": "这些互异的读法无法调和",
+            "en": "These alternatives cannot be harmonized"
+          }
+        ],
+        "meaning": "传统核心关联物质困难与匮乏；原书也保留亲密联结的不同解释。\n\n匮乏的感受可能让人只看见自己欠缺的部分。可以先承认现实困难，再辨认是否存在尚未接触的支持；原书的亲密关系读法另成一组，不必与困难同时对应。",
+        "question": "当我感到欠缺时，有没有一种实际支持是我还没有尝试接近的？",
+        "source_text": "The card foretells material trouble above all, whether in the form illustrated--that is, destitution--or otherwise. For some cartomancists, it is a card of love and lovers-wife, husband, friend, mistress; also concordance, affinities. These alternatives cannot be harmonized.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/five-of-pentacles"
+      },
+      "reversed": {
+        "keyword": "失序、不和",
+        "fixed_meanings": [
+          {
+            "zh": "失序",
+            "en": "Disorder"
+          },
+          {
+            "zh": "混乱",
+            "en": "Chaos"
+          },
+          {
+            "zh": "毁坏",
+            "en": "Ruin"
+          },
+          {
+            "zh": "不和",
+            "en": "Discord"
+          },
+          {
+            "zh": "挥霍放纵",
+            "en": "Profligacy"
+          }
+        ],
+        "meaning": "原书逆位涉及混乱、失和和消耗，不应一律改写为已经脱离困境。\n\n混乱与消耗需要具体地被整理，而不因逆位就被理解为已经走出困境。可以先选择一个最小的秩序，例如说明需求或整理安排，让后续行动有一点支点。",
+        "question": "面对一团混乱，我今天能恢复哪一点最小的秩序？",
+        "source_text": "Disorder, chaos, ruin, discord, profligacy.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/five-of-pentacles"
+      },
+      "name_en": "Five of Pentacles"
+    },
+    {
+      "id": 69,
+      "suit": "pentacles",
+      "name": "星币六",
+      "image_description": "人物一手拿着天平，一手向跪坐的人分发钱币，六枚星币排列在周围。",
+      "upright": {
+        "keyword": "给予、照应",
+        "fixed_meanings": [
+          {
+            "zh": "赠品、礼物、满足；另一种说法包括关注、警觉、当下是合宜的时机、眼前的繁荣等等",
+            "en": "Presents, gifts, gratification another account says attention, vigilance now is the accepted time, present prosperity, etc"
+          }
+        ],
+        "meaning": "传统牌义关联礼物、给予、关注、满足与当下的物质条件。\n\n给予与接受都涉及需要、能力和边界。可以观察支持如何分配，帮助是否回应了实际需要，以及双方是否保有清楚表达与选择的空间。",
+        "question": "我愿意给予或接受的帮助，怎样才更贴近真实需要？",
+        "source_text": "Presents, gifts, gratification another account says attention, vigilance now is the accepted time, present prosperity, etc.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/six-of-pentacles"
+      },
+      "reversed": {
+        "keyword": "贪求、比较",
+        "fixed_meanings": [
+          {
+            "zh": "欲望",
+            "en": "Desire"
+          },
+          {
+            "zh": "贪心",
+            "en": "Cupidity"
+          },
+          {
+            "zh": "羡慕",
+            "en": "Envy"
+          },
+          {
+            "zh": "嫉妒",
+            "en": "Jealousy"
+          },
+          {
+            "zh": "幻觉、错觉",
+            "en": "Illusion"
+          }
+        ],
+        "meaning": "原书列出欲求、贪心、羡慕和嫉妒，资源分配中可能混入比较与占有。\n\n比较可能让资源的意义从实际用途，转向别人拥有多少。可以把注意力重新放回自己的需要，区分想得到更多的冲动与真正能改善处境的条件。",
+        "question": "我想要的东西，是因为自己需要，还是因为别人已经拥有？",
+        "source_text": "Desire, cupidity, envy, jealousy, illusion.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/six-of-pentacles"
+      },
+      "name_en": "Six of Pentacles"
+    },
+    {
+      "id": 70,
+      "suit": "pentacles",
+      "name": "星币七",
+      "image_description": "人物扶着工具，停下来凝视藤叶间的七枚星币。",
+      "upright": {
+        "keyword": "经营、衡量",
+        "fixed_meanings": [
+          {
+            "zh": "这些读法极为矛盾",
+            "en": "These are exceedingly contradictory"
+          },
+          {
+            "zh": "主要指金钱、经营与交换",
+            "en": "In the main, it is a card of money, business, barter"
+          },
+          {
+            "zh": "但一种读法列出争吵、口角，另一种则列出纯真、机巧与净化",
+            "en": "But one reading gives altercation, quarrels--and another innocence, ingenuity, purgation"
+          }
+        ],
+        "meaning": "原书读法彼此有分歧，主要涉及金钱、经营与交换；图像呈现对已有投入的凝视。\n\n投入之后的停下来衡量，可以帮助人看见成果、代价与仍未明确的目标。不同历史读法无需硬合在一起；可以先选一个实际问题，看看当前投入是否仍在支持它。",
+        "question": "我的持续投入正在带来什么？哪些标准能帮助我判断是否值得继续？",
+        "source_text": "These are exceedingly contradictory; in the main, it is a card of money, business, barter; but one reading gives altercation, quarrels--and another innocence, ingenuity, purgation.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/seven-of-pentacles"
+      },
+      "reversed": {
+        "keyword": "资源焦虑",
+        "fixed_meanings": [
+          {
+            "zh": "关于拟借出款项的焦虑",
+            "en": "Cause for anxiety regarding money which it may be proposed to lend"
+          }
+        ],
+        "meaning": "原书逆位关注与拟借出的钱款有关的焦虑，学习摘要保留资源安排中的不安。\n\n这组词条的范围较具体，不能扩大为所有资源决定都会出问题。作为思考角度，可以关注担忧是否来自条件不清，辨认自己还需要哪些明确的信息和边界。",
+        "question": "一项涉及资源的安排中，我最需要先确认哪一个条件？",
+        "source_text": "Cause for anxiety regarding money which it may be proposed to lend.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/seven-of-pentacles"
+      },
+      "name_en": "Seven of Pentacles"
+    },
+    {
+      "id": 71,
+      "suit": "pentacles",
+      "name": "星币八",
+      "image_description": "工匠坐在凳子上雕刻星币，完成的星币排列在一侧，远处有城镇。",
+      "upright": {
+        "keyword": "练习、工艺",
+        "fixed_meanings": [
+          {
+            "zh": "工作、受雇、委托事务、手艺、工艺与经营方面的技能，也可能仍处于准备阶段",
+            "en": "Work, employment, commission, craftsmanship, skill in craft and business, perhaps in the preparatory stage"
+          }
+        ],
+        "meaning": "传统牌义关联工作、受托事务、工艺与技能，也可处在学习准备阶段。\n\n重复练习能把一次偶然做到的事变成较稳定的能力。可以把关注点放在过程中的具体改进，让完成一小部分与长期积累之间形成可以看见的联系。",
+        "question": "今天我愿意重复练习哪一个小环节，让它比昨天更扎实？",
+        "source_text": "Work, employment, commission, craftsmanship, skill in craft and business, perhaps in the preparatory stage.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/eight-of-pentacles"
+      },
+      "reversed": {
+        "keyword": "虚荣、用巧失当",
+        "fixed_meanings": [
+          {
+            "zh": "落空的野心",
+            "en": "Voided ambition"
+          },
+          {
+            "zh": "虚荣",
+            "en": "Vanity"
+          },
+          {
+            "zh": "贪求",
+            "en": "Cupidity"
+          },
+          {
+            "zh": "苛索",
+            "en": "Exaction"
+          },
+          {
+            "zh": "高利贷",
+            "en": "Usury"
+          },
+          {
+            "zh": "也可能指具备技巧，但机敏的头脑转向算计与阴谋",
+            "en": "It may also signify the possession of skill, in the sense of the ingenious mind turned to cunning and intrigue"
+          }
+        ],
+        "meaning": "原书涉及落空的野心、虚荣、贪求，或把技巧用在不恰当的算计上。\n\n技巧可以服务于作品或工作本身，也可能被用来追逐表面的效果。可以检查自己的力气花在哪里，区分真正提升质量的练习与只是希望显得厉害的动作。",
+        "question": "我正在花的这份功夫，究竟改善了成果，还是只改善了表象？",
+        "source_text": "Voided ambition, vanity, cupidity, exaction, usury. It may also signify the possession of skill, in the sense of the ingenious mind turned to cunning and intrigue.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/eight-of-pentacles"
+      },
+      "name_en": "Eight of Pentacles"
+    },
+    {
+      "id": 72,
+      "suit": "pentacles",
+      "name": "星币九",
+      "image_description": "女子站在丰盛的葡萄园中，一只戴罩的鸟停在手腕，地面有小蜗牛。",
+      "upright": {
+        "keyword": "审慎、成果",
+        "fixed_meanings": [
+          {
+            "zh": "审慎",
+            "en": "Prudence"
+          },
+          {
+            "zh": "安全",
+            "en": "Safety"
+          },
+          {
+            "zh": "成功",
+            "en": "Success"
+          },
+          {
+            "zh": "成就",
+            "en": "Accomplishment"
+          },
+          {
+            "zh": "确定性",
+            "en": "Certitude"
+          },
+          {
+            "zh": "辨识力",
+            "en": "Discernment"
+          }
+        ],
+        "meaning": "传统牌义关联审慎、安全、成功、完成和辨识力，图像呈现已获得的物质条件。\n\n已有成果可以带来安稳，也值得回看它依赖哪些持续的照料与判断。可以允许自己享受已经获得的条件，同时理解自主并不意味着完全不需要支持。",
+        "question": "有哪些成果已经成为我的生活基础？我愿意怎样照料它们？",
+        "source_text": "Prudence, safety, success, accomplishment, certitude, discernment.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/nine-of-pentacles"
+      },
+      "reversed": {
+        "keyword": "失信、计划落空",
+        "fixed_meanings": [
+          {
+            "zh": "欺诈",
+            "en": "Roguery"
+          },
+          {
+            "zh": "欺瞒",
+            "en": "Deception"
+          },
+          {
+            "zh": "落空的计划",
+            "en": "Voided project"
+          },
+          {
+            "zh": "失信",
+            "en": "Bad faith"
+          }
+        ],
+        "meaning": "原书列出欺瞒、不守信及计划落空，成果的可靠性可能需要重新确认。\n\n成果看起来丰盛，并不能代替对其可靠性的了解。可以关注承诺、条件和实际交付是否一致，把信任建立在可看见的事实之上。",
+        "question": "我正在依赖的一项成果或承诺，有哪些可靠的事实基础？",
+        "source_text": "Roguery, deception, voided project, bad faith.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/nine-of-pentacles"
+      },
+      "name_en": "Nine of Pentacles"
+    },
+    {
+      "id": 73,
+      "suit": "pentacles",
+      "name": "星币十",
+      "image_description": "拱门下有成人、孩子和狗，前景坐着老人，十枚星币分布在画面中。",
+      "upright": {
+        "keyword": "家业、积累",
+        "fixed_meanings": [
+          {
+            "zh": "收益",
+            "en": "Gain"
+          },
+          {
+            "zh": "财富",
+            "en": "Riches"
+          },
+          {
+            "zh": "家族事务、档案、血统与家族居所",
+            "en": "Family matters, archives, extraction, the abode of a family"
+          }
+        ],
+        "meaning": "传统牌义关联财富、家族事务、记录与居所，呈现跨时间累积的生活基础。\n\n长期积累不仅是个人所得，也包括被传下来的条件、记录与共同生活的安排。可以观察自己从这些基础中获得了什么，又希望把哪些东西继续传递。",
+        "question": "我从长期积累或共同生活中获得了什么，又希望留下什么？",
+        "source_text": "Gain, riches; family matters, archives, extraction, the abode of a family.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ten-of-pentacles"
+      },
+      "reversed": {
+        "keyword": "变数、损失",
+        "fixed_meanings": [
+          {
+            "zh": "机会、偶然",
+            "en": "Chance"
+          },
+          {
+            "zh": "宿命",
+            "en": "Fatality"
+          },
+          {
+            "zh": "损失",
+            "en": "Loss"
+          },
+          {
+            "zh": "抢夺",
+            "en": "Robbery"
+          },
+          {
+            "zh": "风险游戏",
+            "en": "Games of hazard"
+          },
+          {
+            "zh": "有时指礼物",
+            "en": "Sometimes gift"
+          },
+          {
+            "zh": "嫁妆",
+            "en": "Dowry"
+          },
+          {
+            "zh": "年金",
+            "en": "Pension"
+          }
+        ],
+        "meaning": "原书包含机会、损失、风险游戏，也保留赠与和年金的读法，含义并不单一。\n\n稳定的基础也可能包含变数，历史条目同时保留所得与损失。可以区分哪些支持确实持续存在，哪些只是未经核实的期待，而不把这组词条当成行动建议。",
+        "question": "我认为稳定的某种支持，哪些部分已经确认，哪些仍只是期待？",
+        "source_text": "Chance, fatality, loss, robbery, games of hazard; sometimes gift, dowry, pension.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/ten-of-pentacles"
+      },
+      "name_en": "Ten of Pentacles"
+    },
+    {
+      "id": 74,
+      "suit": "pentacles",
+      "name": "星币侍从",
+      "image_description": "青年站在田野中，双手托起星币，专心地看着它。",
+      "upright": {
+        "keyword": "学习、专注",
+        "fixed_meanings": [
+          {
+            "zh": "用心、学习、学问与思考；另一种读法指消息、口信及传递消息的人",
+            "en": "Application, study, scholarship, reflection another reading says news, messages and the bringer thereof"
+          },
+          {
+            "zh": "也指规则、治理",
+            "en": "Also rule"
+          },
+          {
+            "zh": "管理",
+            "en": "Management"
+          }
+        ],
+        "meaning": "传统牌义关联用功、学习、思考与管理，也可指消息和传递消息的人。\n\n专注让一个想法获得被仔细了解的机会。可以从实际的问题、材料或技能开始，把好奇转成能够重复的学习安排，让进展不必依赖一时的热情。",
+        "question": "我最想认真学懂什么？今天可以从哪一个具体问题开始？",
+        "source_text": "Application, study, scholarship, reflection another reading says news, messages and the bringer thereof; also rule, management.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/page-of-pentacles"
+      },
+      "reversed": {
+        "keyword": "散漫、浪费",
+        "fixed_meanings": [
+          {
+            "zh": "挥霍",
+            "en": "Prodigality"
+          },
+          {
+            "zh": "放纵、分散",
+            "en": "Dissipation"
+          },
+          {
+            "zh": "慷慨",
+            "en": "Liberality"
+          },
+          {
+            "zh": "奢侈",
+            "en": "Luxury"
+          },
+          {
+            "zh": "不利的消息",
+            "en": "Unfavourable news"
+          }
+        ],
+        "meaning": "原书涉及挥霍、分散、奢侈与不利消息，资源与注意力可能没有有效集中。\n\n注意力、时间和资源都需要合适的安排。可以看看自己的分散来自兴趣过多、目标不清，还是已经疲惫，让重新集中有一个现实的起点。",
+        "question": "我最需要收回到一处的资源是什么？它现在分散在哪里？",
+        "source_text": "Prodigality, dissipation, liberality, luxury; unfavourable news.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/page-of-pentacles"
+      },
+      "name_en": "Page of Pentacles"
+    },
+    {
+      "id": 75,
+      "suit": "pentacles",
+      "name": "星币骑士",
+      "image_description": "骑士坐在沉稳站立的马上，手持星币，身后是耕地。",
+      "upright": {
+        "keyword": "负责、实用",
+        "fixed_meanings": [
+          {
+            "zh": "实用性、有用、利益、责任与正直，均属于平常而外在的层面",
+            "en": "Utility, serviceableness, interest, responsibility, rectitude-all on the normal and external plane"
+          }
+        ],
+        "meaning": "传统牌义关联实用、服务、责任与正直，强调平常事务中的可靠执行。\n\n可靠常常体现在普通而重复的事务中，而不是一次显眼的表现。可以关注自己愿意怎样持续兑现承诺，也让任务的节奏符合实际能够维持的条件。",
+        "question": "今天我愿意稳稳完成哪一件平常却重要的事情？",
+        "source_text": "Utility, serviceableness, interest, responsibility, rectitude-all on the normal and external plane.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/knight-of-pentacles"
+      },
+      "reversed": {
+        "keyword": "停滞、疏忽",
+        "fixed_meanings": [
+          {
+            "zh": "惰性、闲散、这类休息状态与停滞",
+            "en": "Inertia, idleness, repose of that kind, stagnation"
+          },
+          {
+            "zh": "也指平静",
+            "en": "Also placidity"
+          },
+          {
+            "zh": "灰心",
+            "en": "Discouragement"
+          },
+          {
+            "zh": "疏忽",
+            "en": "Carelessness"
+          }
+        ],
+        "meaning": "原书列出惰性、停滞、灰心与疏忽，也包含安静不动的状态。\n\n平静、休息与停滞外表上可能相似，差别在于是否仍能回应自己的需要。可以检查原有节奏是在支持生活，还是因为惯性而难以调整。",
+        "question": "我现在的固定节奏，哪些仍有帮助，哪些已经需要松动？",
+        "source_text": "inertia, idleness, repose of that kind, stagnation; also placidity, discouragement, carelessness.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/knight-of-pentacles"
+      },
+      "name_en": "Knight of Pentacles"
+    },
+    {
+      "id": 76,
+      "suit": "pentacles",
+      "name": "星币王后",
+      "image_description": "王后坐在植物环绕的王座上，低头看着膝上的星币，旁边有兔子。",
+      "upright": {
+        "keyword": "慷慨、安稳",
+        "fixed_meanings": [
+          {
+            "zh": "富足",
+            "en": "Opulence"
+          },
+          {
+            "zh": "慷慨",
+            "en": "Generosity"
+          },
+          {
+            "zh": "丰盛、华美",
+            "en": "Magnificence"
+          },
+          {
+            "zh": "安全",
+            "en": "Security"
+          },
+          {
+            "zh": "自由",
+            "en": "Liberty"
+          }
+        ],
+        "meaning": "传统牌义关联富足、慷慨、安全和自由，体现照料现实条件的能力。\n\n照料现实条件可以使安心不只停留在想法里。可以关注食物、空间、节奏与资源如何支持自己，也让给予他人的照顾建立在自身仍有余裕的基础上。",
+        "question": "我可以改善哪一项日常条件，让自己得到更实际的照料？",
+        "source_text": "Opulence, generosity, magnificence, security, liberty.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/queen-of-pentacles"
+      },
+      "reversed": {
+        "keyword": "不信任、担忧",
+        "fixed_meanings": [
+          {
+            "zh": "不利、邪恶",
+            "en": "Evil"
+          },
+          {
+            "zh": "猜疑",
+            "en": "Suspicion"
+          },
+          {
+            "zh": "悬念、未决",
+            "en": "Suspense"
+          },
+          {
+            "zh": "恐惧",
+            "en": "Fear"
+          },
+          {
+            "zh": "不信任",
+            "en": "Mistrust"
+          }
+        ],
+        "meaning": "原书涉及怀疑、悬念、恐惧与不信任，现实条件可能难以带来安稳感。\n\n条件的充足未必会自动带来安稳。可以把具体需要与不断扩大的担心分别看见，辨认哪些照料确实有用，哪些控制只是暂时减轻不安。",
+        "question": "让我安心的一个做法，是否真正回应了需要，还是只暂时压住担心？",
+        "source_text": "Evil, suspicion, suspense, fear, mistrust.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/queen-of-pentacles"
+      },
+      "name_en": "Queen of Pentacles"
+    },
+    {
+      "id": 77,
+      "suit": "pentacles",
+      "name": "星币国王",
+      "image_description": "国王坐在饰有公牛头的王座上，手持星币，周围有葡萄与繁茂植物。",
+      "upright": {
+        "keyword": "才干、成就",
+        "fixed_meanings": [
+          {
+            "zh": "勇气、能使事物实现的才智、经营与一般智力上的能力，有时包括数学天赋及同类成就",
+            "en": "Valour, realizing intelligence, business and normal intellectual aptitude, sometimes mathematical gifts and attainments of this kind"
+          },
+          {
+            "zh": "在这些领域获得成功",
+            "en": "Success in these paths"
+          }
+        ],
+        "meaning": "传统牌义关联勇气、才智、经营与计算方面的能力及相应成就。\n\n把想法落实为稳定成果，需要理解条件、安排资源并持续承担。可以关注自己已经积累的能力如何服务于真实目标，让成就不仅体现为拥有，也体现为可靠的运用。",
+        "question": "我已经积累的哪一种能力，能够更可靠地服务于眼前的目标？",
+        "source_text": "Valour, realizing intelligence, business and normal intellectual aptitude, sometimes mathematical gifts and attainments of this kind; success in these paths.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/king-of-pentacles"
+      },
+      "reversed": {
+        "keyword": "软弱、失当",
+        "fixed_meanings": [
+          {
+            "zh": "恶习",
+            "en": "Vice"
+          },
+          {
+            "zh": "软弱",
+            "en": "Weakness"
+          },
+          {
+            "zh": "丑陋",
+            "en": "Ugliness"
+          },
+          {
+            "zh": "悖逆、偏执",
+            "en": "Perversity"
+          },
+          {
+            "zh": "腐败",
+            "en": "Corruption"
+          },
+          {
+            "zh": "危险",
+            "en": "Peril"
+          }
+        ],
+        "meaning": "原书列出软弱、不正当行为与风险，物质能力或资源可能被不恰当地运用。\n\n资源和能力本身不保证使用方式恰当。可以检查一项追求是否仍与自己的价值相符，是否因为想保住表面的成果，而忽略了已经显现的代价。",
+        "question": "我正在维护的一个成果，是否仍然符合自己愿意坚持的价值？",
+        "source_text": "Vice, weakness, ugliness, perversity, corruption, peril.",
+        "source_url": "https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/king-of-pentacles"
+      },
+      "name_en": "King of Pentacles"
+    }
+  ],
+  "content_version": "email-body-0.2.1"
 }
